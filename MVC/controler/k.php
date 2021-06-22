@@ -7,7 +7,7 @@
   <body>
     <!-- // -->
     <?php
-        $path = 'MVC/view/pages/html/menu_main/menu_tinh.php';
+        $path = 'MVC/view/pages/img/bk7.png';
         //echo realpath($path);
        header("Location:".$path);
      ?>
