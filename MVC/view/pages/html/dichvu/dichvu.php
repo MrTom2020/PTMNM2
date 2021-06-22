@@ -93,7 +93,7 @@
                <h2 class="ml-title">Cách Amazing gói cao cấp cải thiện quản lý tài chính của bạn</h2> 
           <div class="mu-flexbox mu-flex-row" style="justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
           <div class="mu-flexbox-item col-md-12 col-sm-6" style="margin-left: 8px; flex: 0 1 calc(50% - 12px); order: 0;">
-          <div class="ml-media"><div class="ml-media-symbol"><img src="https://qlct2022.herokuapp.com/MVC/view/pages/img/khac/h1.svg" alt="Unlimited items" height="40">
+          <div class="ml-media"><div class="ml-media-symbol"><img src="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/img/khac/h1.svg" alt="Unlimited items" height="40">
         </div>
          <div class="ml-media-body">     
              <h4 class="ml-media-title ml-title-small">Không giới hạn mặt hàng</h4> 
@@ -104,7 +104,7 @@
              <div class="mu-flexbox-item col-md-12 col-sm-6" style="margin-left: 8px; flex: 0 1 calc(50% - 12px); order: 0;">
              <div class="ml-media">
                  <div class="ml-media-symbol">
-                 <img src="https://qlct2022.herokuapp.com/MVC/view/pages/img/khac/h2.svg" alt="Unlock all features" height="40">
+                 <img src="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/img/khac/h2.svg" alt="Unlock all features" height="40">
                 </div>
                   <div class="ml-media-body">
                       <h4 class="ml-media-title ml-title-small">Mở khóa tất cả các tính năng</h4> 
@@ -114,7 +114,7 @@
             </div>
                 <div class="mu-flexbox-item col-md-12 col-sm-3" style="margin-left: 8px; flex: 0 1 calc(50% - 12px); order: 0;">
                     <div class="ml-media">
-                        <div class="ml-media-symbol"><img src="https://qlct2022.herokuapp.com/MVC/view/pages/img/khac/h3.svg" alt="Work on multiple devices" height="40"></div> 
+                        <div class="ml-media-symbol"><img src="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/img/khac/h3.svg" alt="Work on multiple devices" height="40"></div> 
                             <div class="ml-media-body">
                               <h4 class="ml-media-title ml-title-small">Làm việc trên nhiều thiết bị</h4> 
                               <p class="ml-media-describe ml-text-caption">Bạn có thể có nhiều thiết bị và khả năng truy cập dữ liệu của bạn từ bất kỳ thiết bị nào bạn sử dụng, bất kỳ lúc nào bạn muốn, chỉ cách bạn một đầu ngón tay Amazing gói cao cấp.</p>
@@ -122,7 +122,7 @@
                     </div>
                  </div>
                  <div class="mu-flexbox-item col-md-12 col-sm-6" style="margin-left: 8px; flex: 0 1 calc(50% - 12px); order: 0;">
-                    <div class="ml-media"><div class="ml-media-symbol"> <img src="https://qlct2022.herokuapp.com/MVC/view/pages/img/khac/h4.svg" alt="Remove ads" height="40"></div> 
+                    <div class="ml-media"><div class="ml-media-symbol"> <img src="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/img/khac/h4.svg" alt="Remove ads" height="40"></div> 
                          <div class="ml-media-body">
                             <h4 class="ml-media-title ml-title-small">Loại bỏ các quảng cáo</h4>
                             <p class="ml-media-describe ml-text-caption">Quảng cáo thật khó chịu ?  gói cao cấp sẽ xóa hoàn toàn quảng cáo khỏi ứng dụng và bằng cách làm này, bạn sẽ cho chúng tôi thêm một ít cà phê để tiếp tục mang đến nhiều tính năng thú vị hơn cho Amazing.</p>

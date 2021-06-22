@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link id="btcss" href="https://qlct2022.herokuapp.com/MVC/view/pages/css/bootstrap_amazing.css" rel="stylesheet" media="(max-width: 996px)">
-	<link rel="stylesheet" type="text/css" href="https://qlct2022.herokuapp.com/MVC/view/pages/css/amazing.css">
-    <link rel="stylesheet" type="text/css" href="https://qlct2022.herokuapp.com/MVC/view/pages/css/tls.css">
-    <link rel="stylesheet" type="text/css" href="https://qlct2022.herokuapp.com/MVC/view/pages/css/css_tinhlaisuat.css">
+	<link id="btcss" href="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/css/bootstrap_amazing.css" rel="stylesheet" media="(max-width: 996px)">
+	<link rel="stylesheet" type="text/css" href="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/css/amazing.css">
+    <link rel="stylesheet" type="text/css" href="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/css/tls.css">
+    <link rel="stylesheet" type="text/css" href="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/css/css_tinhlaisuat.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 </head>

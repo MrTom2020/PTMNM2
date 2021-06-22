@@ -5,7 +5,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
  <title>Máy tính bỏ túi</title>
- <link rel="stylesheet" type="text/css" href="https://qlct2022.herokuapp.com/MVC/view/pages/css/maytinh.css">
+ <link rel="stylesheet" type="text/css" href="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/css/maytinh.css">
  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
  </head>
  <body>
@@ -44,6 +44,6 @@
 <form  action="../Ajax/checkuse" method="POST">
 <INPUT class="btn btn-primary btn-block mb-4" type="submit" name="qll" VALUE="Quay lại">
 </form>
-<script src="https://qlct2022.herokuapp.com/MVC/view/pages/js/maytinh.js"></script>
+<script src="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/maytinh.js"></script>
  </body>
  </html>

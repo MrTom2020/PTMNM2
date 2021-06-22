@@ -1,7 +1,7 @@
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" style="width:100vw;height:90vh;background-color:#eeeded;">
-      <img src="https://qlct2022.herokuapp.com/MVC/view/pages/img/backgound/cash-book.png"  width="560" height="680" alt="...">
+      <img src="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/img/backgound/cash-book.png"  width="560" height="680" alt="...">
       <div style="color:#333333;margin-top:-70vh;margin-left:40vw;">
         <h3 style="color:red;">Ghi chép các khoản thu chi trở nên dễ dàng hơn</h3>
         <h4>Bạn chỉ tốn vài phút để ghi chép lại chi tiêu hàng ngày của mình, và phân loại vào các mục như là: Thức Ăn, Mua sắm.<br/> hay là thêm các khoản thu nhập như Lương, Quà tặng, v.v...</h4>
