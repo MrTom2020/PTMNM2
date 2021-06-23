@@ -1,4 +1,3 @@
-<?php include_once('MVC/controler/t.php') ?>
 <?php
     class menu_main extends Controller
     {
