@@ -1,4 +1,4 @@
-<div class="container" style="width:100vw;">
+<div class="container">
 <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
 <link rel='stylesheet prefetch' href='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/css/mailbox.css'>
  <div class="mail-box">
