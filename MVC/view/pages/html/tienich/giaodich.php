@@ -5,21 +5,21 @@
 <div class="animated features-ml">
 <img src="https://img.icons8.com/fluent/71/26e07f/calculator.png"/>
 <h3 class="fourthlabel">Sổ Chi</h3>
-<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing calculator là một công cụ tính toán tuyệt vời.">
+<input type="submit" class="form-control"  name="mt" id="useName" value="Một công cụ ghi chép tiền xuất.">
 </div>
 </div>
 <div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
 <div class="animated features-ml">
 <img src="https://img.icons8.com/fluent/71/26e07f/estimate.png"/>
 <h3 class="fourthlabel">Sổ Thu</h3>
-<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing split the money là công cụ chia tiền hữu ích tiền.">
+<input type="submit" class="form-control"  name="mt" id="useName" value="Một công cụ ghi chép tiền vào.">
 </div>
 </div>
 <div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
 <div class="animated features-ml">
 <img src="https://img.icons8.com/fluent/71/26e07f/rupee-exchange.png"/>
 <h3 class="fourthlabel">Sổ đầu tư</h3>
-<input type="submit" class="form-control"  name="cd" id="cd" value="Amazing money conversion là công cụ chuyển đổi dv tiền.">
+<input type="submit" class="form-control"  name="cd" id="cd" value="Một công cụ ghi chép tiền đầu tư.">
 </div>
 </div>
 
@@ -28,14 +28,14 @@
 <div class="animated features-ml">
 <img src="https://img.icons8.com/dotty/71/26e07f/planner.png"/>
 <h3 class="fourthlabel">Sổ kế hoạch</h3>
-<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing plan giúp bạn lập kế hoạch dễ dàng.">
+<input type="submit" class="form-control"  name="mt" id="useName" value="Một công cụ ghi chép kế hoạch.">
 </div>
 </div>
 <div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
 <div class="animated features-ml">
 <img src="https://img.icons8.com/pastel-glyph/71/26e07f/note.png"/>
 <h3 class="fourthlabel">Sổ Nợ</h3>
-<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing loan calculation sẽ giúp bạn ghi nhớ các khoản vay.">
+<input type="submit" class="form-control"  name="mt" id="useName" value="Một công cụ ghi chép tiền nợ">
 </div>
 </div>
 
