@@ -65,7 +65,7 @@
 <div class="animated features-ml">
 <img src="https://img.icons8.com/fluent/72/26e07f/composing-mail.png"/>
 <h3 class="fourthlabel">Amazing mailbox</h3>
-<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing mailbox sẽ giúp bạn gửi mail.">
+<input type="submit" class="form-control"  name="mailbox" id="mailbox" value="Amazing mailbox sẽ giúp bạn gửi mail.">
 </div>
 </div>
 </div>

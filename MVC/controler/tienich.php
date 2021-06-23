@@ -50,6 +50,12 @@
                 "Page"=>"nhac",
             ]);
         }
+        if(isset($_POST["mailbox"]))
+        {
+            $this->view("tienich",[
+                "Page"=>"mailbox",
+            ]);
+        }
     }
 }
     
