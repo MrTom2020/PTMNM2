@@ -2,6 +2,6 @@
         <?php include_once('menu_main/menu.php') ?>
    </nav>
    <section style="height:85vh;">
-     <?php include_once('khac/giaodich.php') ?>
+     <?php include_once('tienich/giaodich.php') ?>
    </section>
    
