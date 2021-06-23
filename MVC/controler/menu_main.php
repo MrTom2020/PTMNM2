@@ -9,7 +9,7 @@
         }
         public function SayHi()
          {
-            $this->view("gioithieu",[
+            $this->view("tintuc",[
                 "Page"=>"gioithieu"
             ]);
       }

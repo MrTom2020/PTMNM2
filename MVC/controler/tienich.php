@@ -8,7 +8,7 @@
         }
     public function SayHi()
     {
-        $this->view("tienich",[
+        $this->view("tintuc",[
             "Page"=>"tienich",
         ]);
     }
@@ -28,13 +28,13 @@
         }
         if(isset($_POST["tlnobandau"]))
         {
-            $this->view("tienich",[
+            $this->view("tintuc",[
                 "Page"=>"lichtranogd",
             ]);
         }
         if(isset($_POST["tlnogiamdan"]))
         {
-            $this->view("tienich",[
+            $this->view("tintuc",[
                 "Page"=>"lichtranogiamdan",
             ]);
         }
@@ -46,13 +46,13 @@
         }
         if(isset($_POST["nhac"]))
         {
-            $this->view("tienich",[
+            $this->view("tintuc",[
                 "Page"=>"nhac",
             ]);
         }
         if(isset($_POST["mailbox"]))
         {
-            $this->view("tienich",[
+            $this->view("tintuc",[
                 "Page"=>"mailbox",
             ]);
         }

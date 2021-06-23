@@ -42,7 +42,7 @@
             }
             if (isset($_POST['qll']))
             {
-                $this->view("tienich",[
+                $this->view("tintuc",[
                     "Page"=>"tienich"
                 ]);
             }
