@@ -59,7 +59,7 @@
             if(isset($_POST['gt7']))
             {
                 $this->view("tintuc",[
-                    "Page"=>"Sukien"
+                    "Page"=>"congdong"
                 ]);
             }
             if(isset($_POST['gt8']))
