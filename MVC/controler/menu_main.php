@@ -29,13 +29,13 @@
             }
             if(isset($_POST['gt2']))
             {
-                $this->view("tintuc",[
+                $this->view("Themtaikhoanthuchi",[
                     "Page"=>"Themtaikhoanquanly"
                 ]);
             }
             if(isset($_POST['gt3']))
             {
-                $this->view("tintuc",[
+                $this->view("Nhapthemkhoanthuchi",[
                     "Page"=>"Nhapthemkhoanthuchi"
                 ]);
             }
