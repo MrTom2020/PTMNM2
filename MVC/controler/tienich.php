@@ -44,6 +44,12 @@
                 "Page"=>"chuyendoitien",
             ]);
         }
+        if(isset($_POST["nhac"]))
+        {
+            $this->view("tienich",[
+                "Page"=>"nhac",
+            ]);
+        }
     }
 }
     
