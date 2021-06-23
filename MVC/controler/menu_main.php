@@ -17,7 +17,7 @@
         {
             if (isset($_POST['gt']))
             {
-                $this->view("main",[
+                $this->view("login",[
                     "Page"=>"gioithieu"
                 ]);
             }
