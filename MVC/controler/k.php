@@ -7,7 +7,7 @@
   <body>
     <!-- // -->
     <?php
-        $path = 'MVC/view/pages/img/bk7.png';
+        $path = 'public/css.php';
         //echo realpath($path);
        header("Location:".$path);
      ?>
