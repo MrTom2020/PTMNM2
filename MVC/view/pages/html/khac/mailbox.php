@@ -1,7 +1,7 @@
 <div class="container">
 <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
 <link rel='stylesheet prefetch' href='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/css/mailbox.css'>
- <div class="mail-box">
+ <div class="mail-box" style="width:100vw;">
                   <aside class="sm-side">
                       <div class="user-head">
                           <a class="inbox-avatar" href="javascript:;">
