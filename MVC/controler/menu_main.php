@@ -41,25 +41,25 @@
             }
             if(isset($_POST['gt4']))
             {
-                $this->view("tintuc",[
+                $this->view("Nangcaptaikhoan",[
                     "Page"=>"Nangcaptaikhoan"
                 ]);
             }
             if(isset($_POST['gt5']))
             {
-                $this->view("tintuc",[
+                $this->view("Baocaokhoanchi",[
                     "Page"=>"Baocaokhoanthuchi"
                 ]);
             }
             if(isset($_POST['gt6']))
             {
-                $this->view("tintucn",[
+                $this->view("Quanlytaikhoan",[
                     "Page"=>"Quanlytaikhoan"
                 ]);
             }
             if(isset($_POST['gt7']))
             {
-                $this->view("tintuc",[
+                $this->view("Sukien",[
                     "Page"=>"Sukien"
                 ]);
             }
@@ -77,13 +77,13 @@
             }
             if(isset($_POST['gt10']))
             {
-                $this->view("tintuc",[
+                $this->view("tienich",[
                     "Page"=>"tienich"
                 ]);
             }
             if(isset($_POST['timkiem']))
             {
-                $this->view("tintuc",[
+                $this->view("Timkiem",[
                     "Page"=>"timkiem"
                 ]);
             }
