@@ -7,7 +7,7 @@
   <body>
     <!-- // -->
     <?php
-        $path = 'public/css.php';
+        $path = './public/css.php';
         //echo realpath($path);
        header("Location:".$path);
      ?>
