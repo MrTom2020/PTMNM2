@@ -48,11 +48,10 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><input class="dropdown-item" name="gt" type="submit" value="Giới thiệu"/></li>
             <li><input class="dropdown-item" name="gt1" type="submit" value="Trang chủ"/></li>
-            <li><input class="dropdown-item" name="gt7" type="submit" value="Amazing Event"/></li>
+            <li><input class="dropdown-item" name="gt7" type="submit" value="Cộng đồng"/></li>
             <li><input class="dropdown-item" name="gt10" type="submit" value="Amazing Utilities"/></li>
             <li><input class="dropdown-item" name="gt8" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" value="Thông báo"/></li>
-            <li><input class="dropdown-item" name="gt9" type="submit" value="Amazing Newspaper"/></li>
-            <li><input class="dropdown-item" name="gt3" type="submit" value="Amazing receipts and expenses register"/></li>
+            <li><input class="dropdown-item" name="gt3" type="submit" value="Amazing Deal"/></li>
             <li><input class="dropdown-item" name="gt2"  type="submit" value="Thêm tài khoản quản lý"/></li>
             <li><input class="dropdown-item" name="gt4"  type="submit" value="Amazing update"/></li>
             <li><hr class="dropdown-divider"></li>
