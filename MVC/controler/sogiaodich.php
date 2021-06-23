@@ -26,7 +26,7 @@
                 "Page"=>"sochi",
             ]);
         }
-        if(isset($_POST["sc"]))
+        if(isset($_POST["sdt"]))
         {
             $this->view("tintuc",[
                 "Page"=>"sodautu",
