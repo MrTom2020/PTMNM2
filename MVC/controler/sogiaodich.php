@@ -20,6 +20,12 @@
                 "Page"=>"sothu",
             ]);
         }
+        if(isset($_POST["sc"]))
+        {
+            $this->view("tintuc",[
+                "Page"=>"sochi",
+            ]);
+        }
     }
 }
     
