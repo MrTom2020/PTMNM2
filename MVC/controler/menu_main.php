@@ -35,7 +35,7 @@
             }
             if(isset($_POST['gt3']))
             {
-                $this->view("tintuc",[
+                $this->view("Nhapthemkhoanthuchi",[
                     "Page"=>"Nhapthemkhoanthuchi"
                 ]);
             }
