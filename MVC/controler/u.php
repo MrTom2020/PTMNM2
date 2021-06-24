@@ -19,7 +19,7 @@ public $servername = "us-cdbr-east-04.cleardb.com";
     $tt = mysqli_query($conn,$sql);
     while($row = mysqli_fetch_array($tt))
     {
-        echo $row[2];
+        echo $row[1];
     }
     ?>
 ?>
