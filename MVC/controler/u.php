@@ -1,4 +1,10 @@
 <?php 
+/*
+public $servername = "us-cdbr-east-04.cleardb.com";
+    public $username = "b3b5c4ce68fd3f";
+    public $databasename = "heroku_59161a489581119";
+    public $password = "00a554";
+*/
     $servername = "us-cdbr-east-04.cleardb.com";
     $username = "b3b5c4ce68fd3f";
     $password = "00a554";
