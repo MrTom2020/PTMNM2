@@ -15,5 +15,11 @@ public $servername = "us-cdbr-east-04.cleardb.com";
     }else{
         echo"kết nối thành công";
     }
+    $sql = "select * from user";
+    $tt = mysqli_query($conn,$sql);
+    while($row = mysqli_fetch_array($tt))
+    {
+        echo $row[2];
+    }
     ?>
 ?>
