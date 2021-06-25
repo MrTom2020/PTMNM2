@@ -15,8 +15,8 @@
        public function checkuse()
        {
             $un =  isset($_POST["un"]) ? $_POST["un"]:0;
-           // $kq = $this->modelcon->t($un);
-            if($t == 0)
+            $kq = $this->modelcon->t($un);
+            if($kq == 0)
             {
                 $this->view("main",[
                              "Page"=>"main"]);
