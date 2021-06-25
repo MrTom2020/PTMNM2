@@ -15,7 +15,13 @@
        public function checkuse()
        {
             $un =  isset($_POST["un"]) ? $_POST["un"]:0;
-            echo $this->modelcon->checkus($un);
+            $kq = $this->modelcon->t($un);
+            if($t == 0)
+            {
+                $this->view("main",[
+                             "Page"=>"main"]);
+            }
+            //echo $this->modelcon->checkus($un);
             // if (isset($_POST['btnLogin']))
             // {
             //     $name = isset($_POST['useName']) ? $_POST['useName']:"";

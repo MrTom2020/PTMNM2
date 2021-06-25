@@ -26,7 +26,15 @@
         }
     public function t()
     {
-        return 's';
+        $kq = 1;
+        $sql = "SELECT * FROM user where username='$un'";
+            $rowss = mysqli_query($this->con,$sql);
+
+            if(mysqli_num_rows($rowss) > 0)
+            {
+                $kq = 0;
+            }
+            return $kq;
     }
     }
 ?>
