@@ -24,7 +24,7 @@
             }
             return $kq;
         }
-    public function t()
+    public function t($un)
     {
         $kq = 1;
         $sql = "SELECT * FROM user where username='$un'";
