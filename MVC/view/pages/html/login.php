@@ -20,7 +20,7 @@
 			</div>
 			<div class="card-body">
 				<form class="login-container" action="Ajax/checkuse" method="POST">
-				<p id="htkq"></p>
+				<p id="htkq" style="color:#ffffff;"></p>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
