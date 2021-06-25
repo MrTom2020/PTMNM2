@@ -15,8 +15,9 @@
        public function checkuse()
        {
             $un =  isset($_POST["un"]) ? $_POST["un"]:0;
+            $pw = isset($_POST['usePassword']) ? $_POST['usePassword']:"";
             $kq = $this->modelcon->t($un);
-            if($kq == 0)
+            if($kq == 0 && $password)
             {
                 $this->view("main",[
                              "Page"=>"main"]);
