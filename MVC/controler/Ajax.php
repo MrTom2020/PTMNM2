@@ -18,7 +18,7 @@
             $us = isset($_POST['useName']) ? $_POST['useName']:"";
             $pw = isset($_POST['usePassword']) ? $_POST['usePassword']:"";
             $kq = $this->modelcon->t($un);
-            if($us && $password)
+            if($us && $password && isset($_POST['btnLogin']))
             {
                 $this->view("main",[
                              "Page"=>"main"]);
