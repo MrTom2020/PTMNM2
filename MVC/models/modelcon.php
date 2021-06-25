@@ -24,10 +24,10 @@
             }
             return $kq;
         }
-    public function t($un)
+    public function t($un,$pw)
     {
         $kq = 1;
-        $sql = "SELECT * FROM user where username='$un'";
+        $sql = "SELECT * FROM user where username='$un' AND password='$pw'";
             $rowss = mysqli_query($this->con,$sql);
 
             if(mysqli_num_rows($rowss) > 0)
