@@ -4,7 +4,7 @@
        public $modelcon;
        public function __construct()
        {
-         // $this->modelcon = $this->model("modelcon");
+          $this->modelcon = $this->model("modelcon");
        }
        function SayHi()
        {

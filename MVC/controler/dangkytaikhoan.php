@@ -4,7 +4,7 @@
         public $a;
         public function __construct()
         {
-           // $this->a = $this->model("modeldktk");
+            $this->a = $this->model("modeldktk");
         }
     public function SayHi()
     {
