@@ -26,10 +26,10 @@
             $cauhoibimat = isset($_POST["cauhoibimat"]) ? $_POST["cauhoibimat"]:"";
             $cautraloi = isset($_POST["cautraloi"]) ? $_POST["cautraloi"]:"";
             $this->a->checkus($hoten, $mk,$ngaysinh,$dc,$email,$cauhoibimat,$sdt,$cautraloi);
-            $this->view("main",[
-                "Page"=>"main"
-            ]);
-           // echo $cautraloi;
+            // $this->view("main",[
+            //     "Page"=>"main"
+            // ]);
+            echo $ngaysinh;
         }
     }
 }
