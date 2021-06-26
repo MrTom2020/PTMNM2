@@ -43,12 +43,12 @@
             //         ]);
             //     }
             // }
-            // if (isset($_POST['signup']))
-            // {
-            //     $this->view("Signup",[
-            //         "Page"=>"formsigup"
-            //     ]);
-            // }
+            if (isset($_POST['signup']))
+            {
+                $this->view("Signup",[
+                    "Page"=>"formsigup"
+                ]);
+            }
             // if (isset($_POST['qll']))
             // {
             //     $this->view("tintuc",[
