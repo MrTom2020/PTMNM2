@@ -29,7 +29,7 @@
             // $this->view("main",[
             //     "Page"=>"main"
             // ]);
-            echo 'sss';
+            echo $cautraloi;
         }
     }
 }
