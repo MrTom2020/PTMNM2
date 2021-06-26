@@ -26,7 +26,7 @@
             $cauhoibimat = isset($_POST["cauhoibimat"]) ? $_POST["cauhoibimat"]:"";
             $cautraloi = isset($_POST["cautraloi"]) ? $_POST["cautraloi"]:"";
            // $kk  = date("Y/m/d",strtotime($ngaysinh));
-            $this->a->checkus($hoten, $ngaysinh,$kk,$dc,$email,$cauhoibimat,$sdt,$cautraloi);
+            $this->a->checkus($hoten, $mk,$ngaysinh,$dc,$email,$cauhoibimat,$sdt,$cautraloi);
             $this->view("main",[
                 "Page"=>"main"
             ]);
