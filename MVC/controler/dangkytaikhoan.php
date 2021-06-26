@@ -29,7 +29,8 @@
             // $this->view("main",[
             //     "Page"=>"main"
             // ]);
-            echo $ngaysinh;
+            $kk  = date("Y/m/d",strtotime($ngaysinh));
+            echo $kk;
         }
     }
 }
