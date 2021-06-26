@@ -52,7 +52,7 @@
             }
             if(isset($_POST['gt6']))
             {
-                $this->view("tintucn",[
+                $this->view("tintuc",[
                     "Page"=>"Quanlytaikhoan"
                 ]);
             }

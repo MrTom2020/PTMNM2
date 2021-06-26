@@ -45,7 +45,7 @@
             // }
             if (isset($_POST['signup']))
             {
-                $this->view("Signup",[
+                $this->view("tintuc",[
                     "Page"=>"formsigup"
                 ]);
             }
