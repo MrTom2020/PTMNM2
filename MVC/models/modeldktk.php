@@ -21,7 +21,6 @@
             if($r)
             {
                 $row = mysqli_fetch_array($r);
-               // $kq = $row[0];
                 if($row[0] == 0)
                 {
                     $kq = "Tên đăng nhập Bạn có thể dùng thông tin đó";
@@ -34,6 +33,31 @@
         }
         else{
             $kq = "Tên đăng nhập";
+        }
+            return $kq;
+        }
+        public function kt2($password)
+        {
+            $kq = "Tên đăng nhập";
+            $sql = "CALL danhsachemail('$password')";
+            if($password)
+            {
+            $r = mysqli_query($this->con,$sql);
+            if($r)
+            {
+                $row = mysqli_fetch_array($r);
+                if($row[0] == 0)
+                {
+                    $kq = "Email Bạn có thể dùng thông tin đó";
+                }
+                else
+                {
+                    $kq = "Email Đã có người dùng thông tin đó";
+                }
+            }
+        }
+        else{
+            $kq = "Email";
         }
             return $kq;
         }
