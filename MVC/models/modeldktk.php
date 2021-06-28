@@ -11,5 +11,21 @@
             }
             return $kq;
         }
+        public function kt($username,$email)
+        {
+            $kq = "Đã có người dùng thông tin đó";
+            $sql = "CALL danhsachus('$username','$email')";
+            $r = mysqli_query($this->con,$sql);
+            if($r)
+            {
+                $row = mysqli_fetch_array($r);
+                if($row != 1)
+                {
+                    $kq = "Bạn có thể dùng thông tin đó";
+                }
+            }
+            return $kq;
+        }
     }
+    
 ?>

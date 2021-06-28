@@ -12,6 +12,13 @@
             "Page"=>"login",
         ]);
     }
+    public function kiemtra()
+    {
+        $un = isset($_POST['un']) ? $_POST['un']:"";
+        $un1 = isset($_POST['un']) ? $_POST['un']:"";
+        $kkk = '123';
+       echo $kq = $this->a->kt($un,$kkk);
+    }
     public function khachdangkytaikhoan()
     {
         if(isset($_POST["dangky"]))
@@ -31,7 +38,6 @@
             $this->view("main",[
                 "Page"=>"main"
             ]);
-
         }
     }
 }

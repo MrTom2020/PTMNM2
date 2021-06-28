@@ -61,5 +61,6 @@
 
   <INPUT class="btn btn-primary btn-block mb-4" TYPE="button" VALUE="Quay lại" onClick="history.go(-1);">
   <button type="submit" name="dangky" class="btn btn-primary btn-block mb-4">Đồng ý</button>
+  <script src="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/signup.js"></script>
 </form>
 </div>
