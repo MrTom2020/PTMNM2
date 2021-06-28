@@ -15,7 +15,7 @@
     public function kiemtra()
     {
         $un = isset($_POST['un']) ? $_POST['un']:"";
-        $kkk = 'tomhumchinvn@gmail.com';
+        $kkk = 'tomhumchinvn@gmail.com1';
        echo $kq = $this->a->kt($un,$kkk);
     }
     public function khachdangkytaikhoan()
