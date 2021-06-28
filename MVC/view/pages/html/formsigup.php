@@ -38,6 +38,12 @@
   <div class="form-outline mb-4">
     <input type="text" name="cauhoibimat"  class="form-control" />
     <label class="form-label" for="form6Example6">Câu hỏi bí mật</label>
+    <select class="form-select" aria-label="Default select example">
+    <option selected value="Bài hát yêu thích của bạn là gì">Bài hát yêu thích của bạn là gì</option>
+    <option value="Chiếc xe bạn thích là gì">Chiếc xe bạn thích là gì</option>
+    <option value="Người bạn ngưỡng mộ là ai">Người bạn ngưỡng mộ là ai</option>
+    <option value="Con vật bạn yêu thích là gì">Con vật bạn yêu thích là gì</option>
+</select>
   </div>
   <div class="form-outline mb-4">
     <textarea class="form-control" name="cautraloi" id="form6Example7" rows="4"></textarea>
