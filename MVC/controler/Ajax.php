@@ -21,6 +21,7 @@
            // echo $kq;
             if($kq != 1 && isset($_POST['btnLogin']))
             {
+                $_SESSION['ten'] = $us;
                 $this->view("main",[
                              "Page"=>"main"]);
             }
