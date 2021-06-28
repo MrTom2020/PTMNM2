@@ -5,9 +5,8 @@
   <div class="row mb-4">
     <div class="col">
       <div class="form-outline">
-      <p id="htkq1" style="color:#333333;"></p>
         <input type="text" name="hoten" id="form6Example1" class="form-control" />
-        <label class="form-label" for="form6Example1">Tên đăng nhập</label>
+        <label class="form-label" for="form6Example1" id="htkq1">Tên đăng nhập</label>
       </div>
     </div>
     <div class="col">
