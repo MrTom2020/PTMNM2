@@ -19,7 +19,7 @@
             if($r)
             {
                 $row = mysqli_fetch_array($r);
-                $kq = $row;
+                $kq = $row[0];
                 // if($row != 1)
                 // {
                 //     $kq = "Bạn có thể dùng thông tin đó";
