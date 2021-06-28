@@ -7,6 +7,6 @@ $(document).ready(function(){
     $("#form6Example5").keyup(function()
     {
         var user = $(this).val();
-        $.post("../dangkytaikhoan/kiemtra",{un1:user},function(data){ $("#htkq2").html(data); });
+        $.post("../dangkytaikhoan/kiemtra2",{un1:user},function(data){ $("#htkq2").html(data); });
     });
 });

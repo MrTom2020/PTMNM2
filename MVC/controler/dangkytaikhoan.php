@@ -15,9 +15,12 @@
     public function kiemtra()
     {
         $un = isset($_POST['un']) ? $_POST['un']:"";
+        echo $kq = $this->a->kt($un);
+    }
+    public function kiemtra2()
+    {
         $un2 = isset($_POST['un1']) ? $_POST['un1']:"";
-       echo $kq = $this->a->kt($un);
-       echo $kq2 = $this->a->kt2($un2);
+        echo $kq2 = $this->a->kt2($un2);
     }
     public function khachdangkytaikhoan()
     {
