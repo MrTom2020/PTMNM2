@@ -19,10 +19,11 @@
             if($r)
             {
                 $row = mysqli_fetch_array($r);
-                if($row != 1)
-                {
-                    $kq = "Bạn có thể dùng thông tin đó";
-                }
+                $kq = $row;
+                // if($row != 1)
+                // {
+                //     $kq = "Bạn có thể dùng thông tin đó";
+                // }
             }
             return $kq;
         }
