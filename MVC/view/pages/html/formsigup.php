@@ -1,7 +1,7 @@
 <div style="width:70vw;margin-top:10vh;margin-left:15vw;">
 <form action="./../dangkytaikhoan/khachdangkytaikhoan" method="POST">
    <h1 class="text-center">Form Đăng Ký</h1>
-   <p id="htkq1" style="color:#ffffff;"></p>
+   <p id="htkq1" style="color:#333333;"></p>
   <div class="row mb-4">
     <div class="col">
       <div class="form-outline">
