@@ -38,7 +38,7 @@
         }
         public function kt2($password)
         {
-            $kq = "Tên đăng nhập";
+            $kq = "Email";
             $sql = "CALL danhsachemail('$password')";
             if($password)
             {
