@@ -30,7 +30,7 @@
             // $this->view("main",[
             //     "Page"=>"main"
             // ]);
-            echo date("Y/m/d");
+            echo date("Y/m/d") . "  " . date("h:i:sa");
         }
     }
 }
