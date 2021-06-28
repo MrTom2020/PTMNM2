@@ -13,7 +13,7 @@
         }
         public function kt($username)
         {
-            $kq = "Tên đăng nhập";
+            $kq = "";
             $sql = "CALL danhsachus('$username')";
             if($username)
             {
