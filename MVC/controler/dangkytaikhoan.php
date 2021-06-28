@@ -25,13 +25,12 @@
             $sdt = isset($_POST["sdt"]) ? $_POST["sdt"]:"";
             $cauhoibimat = isset($_POST["cauhoibimat"]) ? $_POST["cauhoibimat"]:"";
             $cautraloi = isset($_POST["cautraloi"]) ? $_POST["cautraloi"]:"";
-            $ngaytg = new date();
            // $kk  = date("Y/m/d",strtotime($ngaysinh));
             // $this->a->checkus($hoten, $mk,$ngaysinh,$dc,$email,$cauhoibimat,$sdt,$cautraloi);
             // $this->view("main",[
             //     "Page"=>"main"
             // ]);
-            echo $ngaytg;
+            echo date("Y/m/d");
         }
     }
 }
