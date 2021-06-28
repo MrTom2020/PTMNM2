@@ -13,7 +13,7 @@
         }
         public function kt($username,$email)
         {
-            $kq = "Đã có người dùng thông tin đó";
+            $kq = "";
             $sql = "CALL danhsachus('$username','$email')";
             $r = mysqli_query($this->con,$sql);
             if($r)
