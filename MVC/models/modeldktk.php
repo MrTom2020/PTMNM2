@@ -15,6 +15,8 @@
         {
             $kq = "Tên đăng nhập";
             $sql = "CALL danhsachus('$username')";
+            if($username)
+            {
             $r = mysqli_query($this->con,$sql);
             if($r)
             {
@@ -29,6 +31,10 @@
                     $kq = "Tên đăng nhập Đã có người dùng thông tin đó";
                 }
             }
+        }
+        else{
+            $kq = "Tên đăng nhập";
+        }
             return $kq;
         }
     }
