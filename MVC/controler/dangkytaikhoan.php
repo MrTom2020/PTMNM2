@@ -16,7 +16,7 @@
     {
         $un = isset($_POST['un']) ? $_POST['un']:"";
         $un1 = isset($_POST['un']) ? $_POST['un']:"";
-        $kkk = '123';
+        $kkk = '123456789';
        echo $kq = $this->a->kt($un,$kkk);
     }
     public function khachdangkytaikhoan()
