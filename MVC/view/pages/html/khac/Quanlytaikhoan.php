@@ -1,60 +1,73 @@
-<div style="width:70vw;margin-top:10vh;margin-left:15vw;">
-<form action="./../Ajax/checkuse" method="POST">
-   <h1 class="text-center">Form Đăng Ký</h1>
-  <div class="row mb-4">
-    <div class="col">
-      <div class="form-outline">
-        <input type="text" id="form6Example1" class="form-control" />
-        <label class="form-label" for="form6Example1">Tên đăng nhập</label>
-      </div>
-    </div>
-    <div class="col">
-      <div class="form-outline">
-        <input type="text" id="form6Example2" class="form-control" />
-        <label class="form-label" for="form6Example2">Ngày sinh</label>
-      </div>
-    </div>
-  </div>
-  <div class="form-outline mb-4">
-    <input type="text" id="form6Example3" class="form-control" />
-    <label class="form-label" for="form6Example3">Mật khẩu</label>
-  </div>
-  <div class="form-outline mb-4">
-    <input type="text"  class="form-control" />
-    <label class="form-label" for="form6Example3">Xác nhận mật khẩu</label>
-  </div>
-  <div class="form-outline mb-4">
-    <input type="text" id="form6Example4" class="form-control" />
-    <label class="form-label" for="form6Example4">Địa chỉ</label>
-  </div>
-  <div class="form-outline mb-4">
-    <input type="email" id="form6Example5" class="form-control" />
-    <label class="form-label" for="form6Example5">Email</label>
-  </div>
-  <div class="form-outline mb-4">
-    <input type="number" id="form6Example6" class="form-control" />
-    <label class="form-label" for="form6Example6">Số điện thoại</label>
-  </div>
-  <div class="form-outline mb-4">
-    <input type="number"  class="form-control" />
-    <label class="form-label" for="form6Example6">Câu hỏi bí mật</label>
-  </div>
-  <div class="form-outline mb-4">
-    <textarea class="form-control" id="form6Example7" rows="4"></textarea>
-    <label class="form-label" for="form6Example7">Câu trả lời</label>
-  </div>
-  <div class="form-check d-flex justify-content-center mb-4">
-    <input
-      class="form-check-input me-2"
-      type="checkbox"
-      value=""
-      id="form6Example8"
-      checked
-    />
-    <label class="form-check-label" for="form6Example8">Tạo một tài khoản?</label>
-  </div>
-
-  <INPUT class="btn btn-primary btn-block mb-4" TYPE="button" VALUE="Quay lại" onClick="history.go(-1);">
-  <button type="submit" class="btn btn-primary btn-block mb-4">Đồng ý</button>
-</form>
+<form  action="../tienich/ti" method="POST">
+<div class="max-width text-center middle-things">
+<h3 class="text-center text-up green visible-xs-block visible-sm-block"><?php echo isset($_SESSION['ten']) ?  $_SESSION['ten']:"" ?></h3>
+<div class="row">
+<div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn" style="margin-bottom:5vh;">
+<div class="animated features-ml">
+<img src="https://img.icons8.com/fluent/71/26e07f/calculator.png"/>
+<h3 class="fourthlabel">Amazing calculator</h3>
+<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing calculator là một công cụ tính toán tuyệt vời.">
 </div>
+</div>
+<div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
+<div class="animated features-ml">
+<img src="https://img.icons8.com/fluent/71/26e07f/estimate.png"/>
+<h3 class="fourthlabel">Amazing split the money</h3>
+<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing split the money là công cụ chia tiền hữu ích tiền.">
+</div>
+</div>
+<div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
+<div class="animated features-ml">
+<img src="https://img.icons8.com/fluent/71/26e07f/rupee-exchange.png"/>
+<h3 class="fourthlabel">Amazing look up</h3>
+<input type="submit" class="form-control"  name="cd" id="cd" value="Amazing money conversion là công cụ chuyển đổi dv tiền.">
+</div>
+</div>
+
+
+<div class="col-md-4 col-lg-4  col-xs-6 animated fadeIn" style="margin-bottom:5vh;">
+<div class="animated features-ml">
+<img src="https://img.icons8.com/dotty/71/26e07f/planner.png"/>
+<h3 class="fourthlabel">Amazing plan</h3>
+<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing plan giúp bạn lập kế hoạch dễ dàng.">
+</div>
+</div>
+<div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
+<div class="animated features-ml">
+<img src="https://img.icons8.com/pastel-glyph/71/26e07f/note.png"/>
+<h3 class="fourthlabel">Amazing note</h3>
+<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing loan calculation sẽ giúp bạn ghi nhớ các khoản vay.">
+</div>
+</div>
+<div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
+<div class="animated features-ml">
+<img src="https://img.icons8.com/fluent/71/26e07f/growing-money.png"/>
+<h3 class="fourthlabel">Amazing plan money</h3>
+<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing loan calculation sẽ giúp bạn tính các khoản.">
+</div>
+</div>
+
+<div class="col-md-4 col-lg-4  col-xs-6 animated fadeIn" style="margin-bottom:5vh;">
+<div class="animated features-ml">
+<img src="https://img.icons8.com/fluent/71/26e07f/apple-music.png"/>
+<h3 class="fourthlabel">Amazing music</h3>
+<input type="submit" class="form-control"  name="nhac" id="nhac" value="Amazing music sẽ giúp bạn thư giãn.">
+</div>
+</div>
+<div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
+<div class="animated features-ml">
+<img src="https://img.icons8.com/fluent/72/26e07f/microsoft-excel-2019.png"/>
+<h3 class="fourthlabel">Amazing Excel</h3>
+<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing excel sẽ giúp bạn tính toán và xuất file excel.">
+</div>
+</div>
+<div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
+<div class="animated features-ml">
+<img src="https://img.icons8.com/fluent/72/26e07f/composing-mail.png"/>
+<h3 class="fourthlabel">Amazing mailbox</h3>
+<input type="submit" class="form-control"  name="mailbox" id="mailbox" value="Amazing mailbox sẽ giúp bạn gửi mail.">
+</div>
+</div>
+</div>
+</div>
+</form>
