@@ -13,7 +13,7 @@
         }
         public function kt($username)
         {
-            $kq = "";
+            $kq = "Tên đăng nhập";
             $sql = "CALL danhsachus('$username')";
             $r = mysqli_query($this->con,$sql);
             if($r)
@@ -22,11 +22,11 @@
                // $kq = $row[0];
                 if($row[0] == 0)
                 {
-                    $kq = "Bạn có thể dùng thông tin đó";
+                    $kq = "Tên đăng nhập Bạn có thể dùng thông tin đó";
                 }
                 else
                 {
-                    $kq = "Đã có người dùng thông tin đó";
+                    $kq = "Tên đăng nhập Đã có người dùng thông tin đó";
                 }
             }
             return $kq;
