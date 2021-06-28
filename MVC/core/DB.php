@@ -6,6 +6,7 @@ class DB
     public $databasename = "heroku_59161a489581119";
     public $password = "00a554cf";
     public $con;
+    //mysql://b3b5c4ce68fd3f:00a554cf@us-cdbr-east-04.cleardb.com/heroku_59161a489581119?reconnect=true
     function __construct()
     {
         $this->con = mysqli_connect($this->servername,$this->username,$this->password);
