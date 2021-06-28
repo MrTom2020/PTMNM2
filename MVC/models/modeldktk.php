@@ -11,10 +11,10 @@
             }
             return $kq;
         }
-        public function kt($username,$email)
+        public function kt($username)
         {
             $kq = "";
-            $sql = "CALL danhsachus('$username','$email')";
+            $sql = "CALL danhsachus('$username')";
             $r = mysqli_query($this->con,$sql);
             if($r)
             {
