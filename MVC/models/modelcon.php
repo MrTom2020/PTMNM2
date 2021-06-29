@@ -20,7 +20,7 @@
 
             if(mysqli_num_rows($rowss) > 0)
             {
-                $kq = "Đã Có người đặt tên tài khoản";
+                $kq = $rowss[0];
             }
             return $kq;
         }
