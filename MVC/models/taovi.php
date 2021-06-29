@@ -13,10 +13,10 @@
             $kq = $k[0];
         }
         $sql = "CALL taovi('$tenvi','$tien','$kq','$ngaytao','$loai')";
-     //  $rowss = mysqli_query($this->con,$sql);
-        if(mysqli_query($this->con,$sql))
+       $rowss = mysqli_query($this->con,$sql);
+        if($rowss)
         {
-            return $kq;
+            return 1;
         }
             //return $kq;
     }
