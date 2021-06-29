@@ -24,6 +24,7 @@
         {
             $this->view("tienich",[
                 "Page"=>"listwallet",
+                "listvi"=>$this->a->dsvi()
             ]);
         }
     }
