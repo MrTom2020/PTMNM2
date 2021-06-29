@@ -23,9 +23,9 @@
         if(isset($_POST["tv"]))
         {
 
-            // $this->view("tienich",[
-            //     "Page"=>"main"
-            // ]);
+            $this->view("tienich",[
+                "Page"=>"tienich"
+            ]);
         }
     }
     public function taovi11()
