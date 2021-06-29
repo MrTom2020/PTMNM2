@@ -14,7 +14,7 @@
     }
     public function ql()
     {
-        if(isset($_POST["dongy"]))
+        if(isset($_POST["vitien"]))
         {
             $this->view("tienich",[
                 "Page"=>"vi",
