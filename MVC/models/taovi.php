@@ -10,7 +10,7 @@
         {
             $kq = 1;
         }
-            return $kq;
+            return $tenvi . $tien . $ngaytao .$loai;
     }
     }
 ?>
