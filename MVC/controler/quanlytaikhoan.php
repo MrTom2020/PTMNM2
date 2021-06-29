@@ -21,7 +21,7 @@
             ]);
         }
     }
-    public function taovi()
+    public function taovi11()
     {
         if(isset($_POST["tv"]))
         {
