@@ -20,7 +20,7 @@
             $tien = isset($_POST["tienvi"]) ? $_POST["tienvi"]:"";
             $ngaytao = isset($_POST["ngaytao"]) ? $_POST["ngaytao"]:"";
             $loaivi = isset($_POST["loaivi"]) ? $_POST["loaivi"]:"";
-         echo  $loaivi;
+         echo  $this->a->taovi1($tenvi,$tien,$ngaytao,$loaivi);
         }
     }
 }
