@@ -1,7 +1,7 @@
 <?php
     class taovi extends DB
     {
-    public function taovi($tenvi,$tien,$ngaytao,$loai)
+    public function taovi1($tenvi,$tien,$ngaytao,$loai)
     {
         $ten = isset($_SESSION['ten']) ?  $_SESSION['ten']:"";
         $kq = 1;
