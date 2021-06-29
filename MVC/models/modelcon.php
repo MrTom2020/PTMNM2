@@ -32,7 +32,7 @@
 
             if(mysqli_num_rows($rowss) > 0)
             {
-                $kq = 0;
+                $kq = $rowss[0];
             }
             return $kq;
     }

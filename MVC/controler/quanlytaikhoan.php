@@ -4,7 +4,7 @@
         public $a;
         public function __construct()
         {
-            $this->a = $this->model("modelcon");
+            $this->a = $this->model("taovi");
         }
     public function SayHi()
     {
@@ -30,8 +30,10 @@
             $userid = isset($_POST["tenvi"]) ? $_POST["tenvi"]:"";
             $ngaytao = isset($_POST["ngaytao"]) ? $_POST["ngaytao"]:"";
             $loaivi = isset($_POST["loaivi"]) ? $_POST["loaivi"]:"";
-
-            echo $tenvi;
+            $this->a->taovi($tenvi, $tien,$userid,$ngaytao,$loaivi);
+            $this->view("main",[
+                "Page"=>"main"
+            ]);
         }
     }
 }
