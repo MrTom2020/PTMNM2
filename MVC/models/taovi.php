@@ -12,9 +12,9 @@
        // $rowss = mysqli_query($this->con,$sql);
         //if(mysqli_query($this->con,$sql))
         {
-            $kq = $ten1;
+            $kq = $k[0];
         }
-            return $k[0];
+            return $kq;
     }
     }
 ?>
