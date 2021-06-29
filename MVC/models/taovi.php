@@ -11,12 +11,12 @@
         {
            $k = mysqli_fetch_array($resut1);
             $kq = $k[0];
-        }
-        $sql = "CALL taovi('$tenvi','$tien','$kq','$ngaytao','$loai')";
+            $sql = "CALL taovi('$tenvi','$tien','$kq','$ngaytao','$loai')";
        //$rowss = mysqli_query($this->con,$sql);
         if(mysqli_query($this->con,$sql))
         {
             return 1;
+        }
         }
             //return $kq;
     }
