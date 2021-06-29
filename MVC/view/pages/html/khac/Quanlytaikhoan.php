@@ -6,21 +6,21 @@
 <div class="animated features-ml">
 <img src="https://img.icons8.com/ios-filled/50/26e07f/wallet.png"/>
 <h3 class="fourthlabel">Amazing wallet</h3>
-<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing calculator là một công cụ tính toán tuyệt vời.">
+<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing wallet là công cụ tạo ví">
 </div>
 </div>
 <div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
 <div class="animated features-ml">
 <img src="https://img.icons8.com/ios-filled/50/26e07f/wallet.png"/>
 <h3 class="fourthlabel">Amazing list wallet</h3>
-<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing split the money là công cụ chia tiền hữu ích tiền.">
+<input type="submit" class="form-control"  name="mt" id="useName" value="Danh sách ví">
 </div>
 </div>
 <div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
 <div class="animated features-ml">
 <img src="https://img.icons8.com/ios-filled/50/26e07f/wallet.png"/>
 <h3 class="fourthlabel">Amazing member wallet</h3>
-<input type="submit" class="form-control"  name="cd" id="cd" value="Amazing money conversion là công cụ chuyển đổi dv tiền.">
+<input type="submit" class="form-control"  name="cd" id="cd" value="Ví thành viên.">
 </div>
 </div>
 
@@ -29,21 +29,21 @@
 <div class="animated features-ml">
 <img src="https://img.icons8.com/ios-filled/50/26e07f/wallet.png"/>
 <h3 class="fourthlabel">Amazing update wallet</h3>
-<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing plan giúp bạn lập kế hoạch dễ dàng.">
+<input type="submit" class="form-control"  name="mt" id="useName" value="Cập nhật ví.">
 </div>
 </div>
 <div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
 <div class="animated features-ml">
 <img src="https://img.icons8.com/ios-filled/50/26e07f/group-background-selected.png"/>
 <h3 class="fourthlabel">Amazing personal information</h3>
-<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing loan calculation sẽ giúp bạn ghi nhớ các khoản vay.">
+<input type="submit" class="form-control"  name="mt" id="useName" value="Cập nhật thông tin.">
 </div>
 </div>
 <div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
 <div class="animated features-ml">
 <img src="https://img.icons8.com/ios-filled/50/26e07f/group-background-selected.png"/>
 <h3 class="fourthlabel">Amazing delete members</h3>
-<input type="submit" class="form-control"  name="mt" id="useName" value="Amazing loan calculation sẽ giúp bạn tính các khoản.">
+<input type="submit" class="form-control"  name="mt" id="useName" value="Xóa thành viên.">
 </div>
 </div>
 </div>
