@@ -8,9 +8,9 @@
        $sql = "CALL taovi('$tenvi','$tien','$ten1','$ngaytao','$loai')";
         if(mysqli_query($this->con,$sql))
         {
-            $kq = 1;
+           // $kq = 1;
         }
-            return $kq;
+            return $ten1;
     }
     }
 ?>
