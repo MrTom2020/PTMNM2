@@ -6,6 +6,7 @@
       <th scope='col'>First</th>
       <th scope='col'>Last</th>
       <th scope='col'>Handle</th>
+      <th scope='col'>Xóa</th>
     </tr>
      </thead>";
      echo "<tbody>";
@@ -16,6 +17,7 @@
         <td>$i</td>
         <td>$i</td>
         <td>$i</td>
+        <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
         </tr>";
     }
     echo "</tbody>";
