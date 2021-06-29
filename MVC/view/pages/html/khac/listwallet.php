@@ -12,10 +12,10 @@
     for($i = 0;$i < 10;++$i)
     {
         echo " <tr>
-        <th scope='row'>1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
+        <th scope='row'>$i</th>
+        <td>$i</td>
+        <td>$i</td>
+        <td>$i</td>
         </tr>";
     }
     echo "</tbody>";
