@@ -4,13 +4,13 @@
     public function taovi1($tenvi,$tien,$ngaytao,$loai)
     {
         $kq = 0;
-       // $ten1 = isset($_SESSION['ten']) ?  $_SESSION['ten']:"2";
-       // $sql = "CALL taovi('$tenvi','$tien','$ten1','$ngaytao','$loai')";
-        //if(mysqli_query($this->con,$sql))
+       $ten1 = isset($_SESSION['ten']) ?  $_SESSION['ten']:"2";
+       $sql = "CALL taovi('$tenvi','$tien','$ten1','$ngaytao','$loai')";
+        if(mysqli_query($this->con,$sql))
         {
-            //$kq = 1;
+            $kq = 1;
         }
-            return "Tên ví" . "  " . $tenvi . "Tiền ". $tien . "Ngày tạo " . $ngaytao . "Loại " .$loai;
+            return $kq;
     }
     }
 ?>
