@@ -10,7 +10,7 @@
     </div>
     <div class="col">
       <div class="form-outline">
-        <input type="date" name="tienvi" id="tienvi" class="form-control" />
+        <input type="text" name="tienvi" id="tienvi" class="form-control" />
         <label class="form-label" for="tienvi">Tiền</label>
       </div>
     </div>

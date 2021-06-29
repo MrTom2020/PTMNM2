@@ -25,9 +25,13 @@
     {
         if(isset($_POST["vitien"]))
         {
-            $this->view("tienich",[
-                "Page"=>"vi",
-            ]);
+            $tenvi = isset($_POST["tenvi"]) ? $_POST["tenvi"]:"";
+            $tien = isset($_POST["tienvi"]) ? $_POST["tienvi"]:"";
+            $userid = isset($_POST["tenvi"]) ? $_POST["tenvi"]:"";
+            $ngaytao = isset($_POST["ngaytao"]) ? $_POST["ngaytao"]:"";
+            $loaivi = isset($_POST["loaivi"]) ? $_POST["loaivi"]:"";
+
+            echo $tenvi;
         }
     }
 }
