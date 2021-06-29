@@ -10,7 +10,7 @@
        if($resut1)
         {
            $k = mysqli_fetch_array($resut1);
-            $kq = 1;
+            $kq = $k[0];
         }
         //$sql = "CALL taovi('$tenvi','$tien','$k','$ngaytao','$loai')";
        // $rowss = mysqli_query($this->con,$sql);
