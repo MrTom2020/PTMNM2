@@ -24,7 +24,7 @@
         {
 
             $this->view("tienich",[
-                "Page"=>"tienich"
+                "Page"=>"Quanlytaikhoan"
             ]);
         }
     }
