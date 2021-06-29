@@ -29,7 +29,7 @@
         $kq = 1;
         $sql = "SELECT * FROM user where username='$un' AND password='$pw'";
             $rowss = mysqli_query($this->con,$sql);
-
+            $_SESSION['iduu'] = $rowss[0]; 
             if(mysqli_num_rows($rowss) > 0)
             {
                 $kq = 0;
