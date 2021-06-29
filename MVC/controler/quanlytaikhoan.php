@@ -30,7 +30,7 @@
             $ngaytao = isset($_POST["ngaytao"]) ? $_POST["ngaytao"]:"";
             $loaivi = isset($_POST["loaivi"]) ? $_POST["loaivi"]:"";
             $this->a->taovi($tenvi, $tien,$ngaytao,$loaivi);
-            $this->view("main",[
+            $this->view("tienich",[
                 "Page"=>"main"
             ]);
         }
