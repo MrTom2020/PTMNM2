@@ -17,11 +17,12 @@
             $kq = "bạn có thể đặt tên tài khoản";
             $sql = "SELECT * FROM user where username='$un'";
             $rowss = mysqli_query($this->con,$sql);
-            //$row = mysqli_fetch_array($r);
-            if(mysqli_num_rows($rowss) > 0)
-            {
-                $kq = $rowss;
-            }
+            $row = mysqli_fetch_array($rowss);
+            $kq = $rowss;
+            // if(mysqli_num_rows($rowss) > 0)
+            // {
+            //     $kq = $rowss;
+            // }
             return $kq;
         }
     public function t($un,$pw)
