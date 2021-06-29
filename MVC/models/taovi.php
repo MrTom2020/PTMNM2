@@ -6,11 +6,8 @@
         $kq = 0;
        $ten1 = isset($_SESSION['ten']) ?  $_SESSION['ten']:"2";
        $sql = "CALL taovi('$tenvi','$tien','$ten1','$ngaytao','$loai')";
-        if(mysqli_query($this->con,$sql))
-        {
-           // $kq = 1;
-        }
-            return $ten1;
+       mysqli_query($this->con,$sql);
+       return $ten1;
     }
     }
 ?>
