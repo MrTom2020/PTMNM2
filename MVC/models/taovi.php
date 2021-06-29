@@ -3,8 +3,8 @@
     {
     public function taovi1($tenvi,$tien,$ngaytao,$loai)
     {
-        $ten = isset($_SESSION['ten']) ?  $_SESSION['ten']:"";
-        $kq = 1;
+        $ten1 = isset($_SESSION['ten']) ?  $_SESSION['ten']:"2";
+       // $kq = 1;
         //$sql2 = "CALL danhsachnguoidung('$ten')";
         //$resut1 = mysqli_query($conn,$sql2);
         //$k = mysqli_fetch_array($resut1);
@@ -12,7 +12,7 @@
        // $rowss = mysqli_query($this->con,$sql);
         //if(mysqli_query($this->con,$sql))
         {
-            $kq = isset($_SESSION['ten']);
+            $kq = $ten1;
         }
             return $kq;
     }
