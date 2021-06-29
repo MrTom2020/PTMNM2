@@ -1,4 +1,4 @@
-<form  action="../quanlytaikhoab/ql" method="POST">
+<form  action="../quanlytaikhoan/ql" method="POST">
 <div class="max-width text-center middle-things">
 <h3 class="text-center text-up green visible-xs-block visible-sm-block" style="margin-bottom:10vh;">Hi !<?php echo isset($_SESSION['ten']) ?  $_SESSION['ten']:"" ?></h3>
 <div class="row">
