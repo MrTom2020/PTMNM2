@@ -23,7 +23,7 @@
     }
     public function taovi()
     {
-        if(isset($_POST["vitien"]))
+        if(isset($_POST["taovi"]))
         {
             $tenvi = isset($_POST["tenvi"]) ? $_POST["tenvi"]:"";
             $tien = isset($_POST["tienvi"]) ? $_POST["tienvi"]:"";
