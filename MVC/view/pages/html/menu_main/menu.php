@@ -43,7 +43,7 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           <?php echo isset($_SESSION['ten']) ?  $_SESSION['ten']:"Tài khoản" ?>
+           <?php echo isset($_SESSION['ten']) ?  $_SESSION['ten']:"Tài khoản"; echo $_SESSION['iduu']; ?>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><input class="dropdown-item" name="gt" type="submit" value="Giới thiệu"/></li>

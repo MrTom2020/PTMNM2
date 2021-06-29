@@ -18,21 +18,20 @@
             $us = isset($_POST['useName']) ? $_POST['useName']:"";
             $pw = isset($_POST['usePassword']) ? $_POST['usePassword']:"";
             $kq = $this->modelcon->t($us,$pw);
-            echo $kq;
-            // if($kq != 1 && isset($_POST['btnLogin']))
-            // {
-            //     $_SESSION['ten'] = $us;
-            //     $this->view("main",[
-            //                  "Page"=>"main"]);
-            // }
-            // if($kq == 1 && isset($_POST['btnLogin']))
-            // {
-            //     $_SESSION['ten'] = $us;
-            //     $this->view("Admin",[
-            //                     "Page"=>"HomeAdmin",
-            //                     "Page1"=>"index"
-            //                 ]);
-            // }
+            if($kq != 1 && isset($_POST['btnLogin']))
+            {
+                $_SESSION['ten'] = $us;
+                $this->view("main",[
+                             "Page"=>"main"]);
+            }
+            if($kq == 1 && isset($_POST['btnLogin']))
+            {
+                $_SESSION['ten'] = $us;
+                $this->view("Admin",[
+                                "Page"=>"HomeAdmin",
+                                "Page1"=>"index"
+                            ]);
+            }
             //echo $this->modelcon->checkus($un);
             // if (isset($_POST['btnLogin']))
             // {
