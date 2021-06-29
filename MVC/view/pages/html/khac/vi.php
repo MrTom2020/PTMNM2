@@ -16,7 +16,7 @@
     </div>
   </div>
   <div class="form-outline mb-4">
-    <input type="password" name="ngaytao" id="ngaytao" class="form-control" />
+    <input type="date" name="ngaytao" id="ngaytao" class="form-control" />
     <label class="form-label" for="ngaytao">Ngày tạo</label>
   </div>
   <div class="form-outline mb-4">

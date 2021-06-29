@@ -27,7 +27,6 @@
         {
             $tenvi = isset($_POST["tenvi"]) ? $_POST["tenvi"]:"";
             $tien = isset($_POST["tienvi"]) ? $_POST["tienvi"]:"";
-            $userid = isset($_POST["tenvi"]) ? $_POST["tenvi"]:"";
             $ngaytao = isset($_POST["ngaytao"]) ? $_POST["ngaytao"]:"";
             $loaivi = isset($_POST["loaivi"]) ? $_POST["loaivi"]:"";
             $this->a->taovi($tenvi, $tien,$ngaytao,$loaivi);
