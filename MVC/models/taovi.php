@@ -7,13 +7,14 @@
        // $kq = 1;
         $sql2 = "CALL danhsachnguoidung('$ten1')";
         $resut1 = mysqli_query($conn,$sql2);
-        $k = mysqli_fetch_array($resut1);
+        if($resut1)
+        {
+            $k = mysqli_fetch_array($resut1);
+            $kq = $k[0];
+        }
         //$sql = "CALL taovi('$tenvi','$tien','$k','$ngaytao','$loai')";
        // $rowss = mysqli_query($this->con,$sql);
         //if(mysqli_query($this->con,$sql))
-        {
-            $kq = $k[0];
-        }
             return $kq;
     }
     }
