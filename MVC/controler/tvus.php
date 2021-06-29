@@ -21,7 +21,7 @@
             $ngaytao = isset($_POST["ngaytao"]) ? $_POST["ngaytao"]:"";
             $loaivi = isset($_POST["loaivi"]) ? $_POST["loaivi"]:"";
             $this->view("tienich",[
-                "Page"=>"main",
+                "Page"=>"Quanlytaikhoan",
             ]);
         }
     }
