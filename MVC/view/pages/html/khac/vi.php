@@ -23,6 +23,6 @@
     <input type="text" name="loaivi"  class="form-control" />
     <label class="form-label" for="loaivi">Loại ví</label>
   </div>
-  <button type="submit" name="taovi" class="btn btn-primary btn-block mb-4">Đồng ý</button>
+  <button type="submit" name="tv" class="btn btn-primary btn-block mb-4">Đồng ý</button>
 </form>
 </div>
