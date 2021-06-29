@@ -18,7 +18,6 @@
             $us = isset($_POST['useName']) ? $_POST['useName']:"";
             $pw = isset($_POST['usePassword']) ? $_POST['usePassword']:"";
             $kq = $this->modelcon->t($us,$pw);
-            echo $kq;
             if($kq != 1 && isset($_POST['btnLogin']))
             {
                 $_SESSION['ten'] = $us;
