@@ -10,7 +10,7 @@
         {
             //$kq = 1;
         }
-            return $tien;//"Tên ví" . "  " . $tenvi . "Tiền ". $tien . "Ngày tạo " . $ngaytao . "Loại " .$loai;
+            return "Tên ví" . "  " . $tenvi . "Tiền ". $tien . "Ngày tạo " . $ngaytao . "Loại " .$loai;
     }
     }
 ?>
