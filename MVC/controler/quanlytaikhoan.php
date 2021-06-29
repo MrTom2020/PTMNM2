@@ -20,20 +20,24 @@
                 "Page"=>"vi",
             ]);
         }
-    }
-    public function taovi11()
-    {
         if(isset($_POST["tv"]))
         {
-            $tenvi = isset($_POST["tenvi"]) ? $_POST["tenvi"]:"";
-            $tien = isset($_POST["tienvi"]) ? $_POST["tienvi"]:"";
-            $ngaytao = isset($_POST["ngaytao"]) ? $_POST["ngaytao"]:"";
-            $loaivi = isset($_POST["loaivi"]) ? $_POST["loaivi"]:"";
-           echo  $this->a->taovi1($tenvi, $tien,$ngaytao,$loaivi); 
+            taovi11();
             // $this->view("tienich",[
             //     "Page"=>"main"
             // ]);
         }
+    }
+    public function taovi11()
+    {
+            $tenvi = isset($_POST["tenvi"]) ? $_POST["tenvi"]:"";
+            $tien = isset($_POST["tienvi"]) ? $_POST["tienvi"]:"";
+            $ngaytao = isset($_POST["ngaytao"]) ? $_POST["ngaytao"]:"";
+            $loaivi = isset($_POST["loaivi"]) ? $_POST["loaivi"]:"";
+           echo  $loaivi; 
+            // $this->view("tienich",[
+            //     "Page"=>"main"
+            // ]);
     }
 }
     
