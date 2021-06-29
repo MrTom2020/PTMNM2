@@ -21,6 +21,15 @@
             ]);
         }
     }
+    public function taovi()
+    {
+        if(isset($_POST["vitien"]))
+        {
+            $this->view("tienich",[
+                "Page"=>"vi",
+            ]);
+        }
+    }
 }
     
 ?>
