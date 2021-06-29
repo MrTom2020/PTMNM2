@@ -1,5 +1,5 @@
 <div style="width:70vw;margin-top:10vh;margin-left:15vw;">
-<form action="../quanlytaikhoan/ql" method="POST">
+<form action="./../quanlytaikhoan/taovi11" method="POST">
 <h1 class="text-center">Form tạo ví</h1>
   <div class="row mb-4">
     <div class="col">
