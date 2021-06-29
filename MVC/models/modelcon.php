@@ -20,7 +20,7 @@
             //$row = mysqli_fetch_array($r);
             if(mysqli_num_rows($rowss) > 0)
             {
-                $kq = $rowss[0];
+                $kq = 1;
             }
             return $kq;
         }
