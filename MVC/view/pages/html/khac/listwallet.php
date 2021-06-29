@@ -22,6 +22,6 @@
     // }
     // echo "</tbody>";
     // echo "</table>";
-    $dt = isset(data["listvi"]) ? data["listvi"]:"";
+    $dt = isset($data["listvi"]) ? $data["listvi"]:"";
     echo $dt;
  ?>
