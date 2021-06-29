@@ -17,7 +17,6 @@
             $kq = "bạn có thể đặt tên tài khoản";
             $sql = "SELECT * FROM user where username='$un'";
             $rowss = mysqli_query($this->con,$sql);
-
             if(mysqli_num_rows($rowss) > 0)
             {
                 $kq = $rowss[0];
