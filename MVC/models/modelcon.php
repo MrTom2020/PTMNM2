@@ -18,7 +18,7 @@
             $sql = "SELECT * FROM user where username='$un'";
             $rowss = mysqli_query($this->con,$sql);
             $row = mysqli_fetch_array($rowss);
-            $kq = $rowss;
+            $kq = $rowss[1];
             // if(mysqli_num_rows($rowss) > 0)
             // {
             //     $kq = $rowss;
