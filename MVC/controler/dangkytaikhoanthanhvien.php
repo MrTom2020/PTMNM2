@@ -25,7 +25,7 @@
             $sdttv = isset($_POST["sdttv"]) ? $_POST["sdttv"]:"";
             $cauhoibimattv = isset($_POST["cauhoibimattv"]) ? $_POST["cauhoibimattv"]:"";
             $cautraloitv = isset($_POST["cautraloitv"]) ? $_POST["cautraloitv"]:"";
-           echo $this->a->dk($hotentv, $mktv,$ngaysinhtv,$dctv,$emailtv,$cauhoibimattv,$sdttv,$cautraloitv,$ngaytgtv);
+           echo 3;//$this->a->dk($hotentv, $mktv,$ngaysinhtv,$dctv,$emailtv,$cauhoibimattv,$sdttv,$cautraloitv,$ngaytgtv);
         }
     }
 }
