@@ -8,8 +8,8 @@
         }
     public function SayHi()
     {
-        $this->view("tienich",[
-            "Page"=>"tienich",
+        $this->view("tintuc",[
+            "Page"=>"gioithieu"
         ]);
     }
     public function khachdangkytaikhoantv()
