@@ -3,11 +3,11 @@
     $dt = isset($data["listvi"]) ? $data["listvi"]:NULL;
     echo "<thead>
     <tr>
-      <th scope='col'>#</th>
-      <th scope='col'>First</th>
-      <th scope='col'>Last</th>
-      <th scope='col'>Handle</th>
-      <th scope='col'>Handle</th>
+      <th scope='col'>ID</th>
+      <th scope='col'>Tên ví</th>
+      <th scope='col'>Tiền trong ví</th>
+      <th scope='col'>Mã người dùng</th>
+      <th scope='col'>Loại ví</th>
       <th scope='col'>Xóa</th>
     </tr>
      </thead>";
