@@ -1,5 +1,5 @@
 <?php
-    class dangkytaikhoanthanhvien extends DB
+    class dangkytaikhoanthanhvien1 extends DB
     {
         public function dk($hoten, $mk,$ngaysinh,$dc,$email,$cauhoibimat,$sdt,$cautraloi,$ngaytg)
         {
