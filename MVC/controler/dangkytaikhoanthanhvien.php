@@ -9,7 +9,7 @@
     public function SayHi()
     {
         $this->view("tintuc",[
-            "Page"=>"gioithieu"
+            "Page"=>"main"
         ]);
     }
     public function khachdangkytaikhoantv()
