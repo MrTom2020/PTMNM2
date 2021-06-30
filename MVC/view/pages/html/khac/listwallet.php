@@ -14,12 +14,13 @@
      echo "<tbody>";
      while($row = mysqli_fetch_array($dt))
     {
+       $k = date("d/m/Y",strtotime($row[4]));
         echo "<tr>
         <th scope='row'>$row[0]</th>
         <td>$row[1]</td>
         <td>$row[2]</td>
         <td>$row[3]</td>
-        <td>date('d/m/Y',strtotime($row[4]))</td>
+        <td>$k</td>
         <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
         </tr>";
       echo $row[1];
