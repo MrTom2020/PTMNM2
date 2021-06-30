@@ -14,7 +14,8 @@
      echo "<tbody>";
      while($row = mysqli_fetch_array($dt))
     {
-       $k = date("d/m/Y",strtotime($row[4]));
+        $tg = $row[4];
+       $k = date("d/m/Y",strtotime($tg));
         echo "<tr>
         <th scope='row'>$row[0]</th>
         <td>$row[1]</td>
