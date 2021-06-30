@@ -19,7 +19,7 @@
         <td>$row[1]</td>
         <td>$row[2]</td>
         <td>$row[3]</td>
-        <td>$row[4]</td>
+        <td>date('d/m/Y',strtotime($row[4]))</td>
         <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
         </tr>";
       echo $row[1];
