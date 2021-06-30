@@ -22,7 +22,8 @@
     // }
     // echo "</tbody>";
     // echo "</table>";
-    $dt = isset($data["listvi"]) ? $data["listvi"]:"e";
+    $dt = isset($data["listvi"]) ? $data["listvi"]:NULL;
+    //while($row = mysqli_fetch_array($dt))
     if($dt != NULL)
     {
         echo 3;
