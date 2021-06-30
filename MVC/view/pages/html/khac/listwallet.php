@@ -23,5 +23,8 @@
     // echo "</tbody>";
     // echo "</table>";
     $dt = isset($data["listvi"]) ? $data["listvi"]:"e";
-    echo $dt;
+    if($dt != NULL)
+    {
+        echo 3;
+    }
  ?>
