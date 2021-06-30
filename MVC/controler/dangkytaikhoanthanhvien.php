@@ -8,7 +8,7 @@
         }
     public function SayHi()
     {
-        $this->view("tintuc",[
+        $this->view("tienich",[
             "Page"=>"Themtaikhoanquanly"
         ]);
     }
