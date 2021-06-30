@@ -4,12 +4,12 @@
         public $a;
         public function __construct()
         {
-           $this->a = $this->model("modelcon");
+           $this->a = $this->model("dangkytaikhoanthanhvien");
         }
     public function SayHi()
     {
-        $this->view("login",[
-            "Page"=>"login",
+        $this->view("tienich",[
+            "Page"=>"tienich",
         ]);
     }
     public function khachdangkytaikhoantv()
@@ -25,7 +25,7 @@
             $sdttv = isset($_POST["sdttv"]) ? $_POST["sdttv"]:"";
             $cauhoibimattv = isset($_POST["cauhoibimattv"]) ? $_POST["cauhoibimattv"]:"";
             $cautraloitv = isset($_POST["cautraloitv"]) ? $_POST["cautraloitv"]:"";
-           echo $hotentv . "<br/>" . $ngaysinhtv ."<br/>" . $mktv . "<br/>" . $xnmktv . "<br/>" . $dctv . "<br/>" . $emailtv . "<br/>" .$sdttv . "<br/>" . $cauhoibimattv . "<br/>" . $cautraloitv;
+           echo $this->a->dk($hotentv, $mktv,$ngaysinhtv,$dctv,$emailtv,$cauhoibimattv,$sdttv,$cautraloitv,$ngaytgtv);
         }
     }
 }
