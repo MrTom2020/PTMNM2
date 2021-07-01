@@ -20,6 +20,12 @@
             $ngaydt  = isset($_POST["ngaygddt"]) ? $_POST["ngaygddt"]:"";
             $gtdt  = isset($_POST["gtdt"]) ? $_POST["gtdt"]:"";
             $dmdt  = isset($_POST["dmdt"]) ? $_POST["dmdt"]:"";
+            $idvi = isset($_POST["tenvi"]) ? $_POST["tenvi"]:"";
+            $loai = "Khoản chi";
+            $this->a->taochitieu($tenkc,$loai,$idvi,$ngaykc,$gtkc * - 1,$dmkc);
+            $this->view("tintuc",[
+                "Page"=>"sothu",
+            ]);
             echo $tendt . "<br/>".$ngaydt ."<br/>". $gtdt . "<br/>" . $dmdt;
         }
         if(isset($_POST["dykc"]))
@@ -32,7 +38,7 @@
             $loai = "Khoản chi";
             $this->a->taochitieu($tenkc,$loai,$idvi,$ngaykc,$gtkc * - 1,$dmkc);
             $this->view("tintuc",[
-                "Page"=>"sothu",
+                "Page"=>"sochi",
             ]);
         }
         if(isset($_POST["dykt"]))
@@ -41,6 +47,11 @@
             $ngaykt  = isset($_POST["ngaygdkt"]) ? $_POST["ngaygdkt"]:"";
             $gtkt  = isset($_POST["gtkt"]) ? $_POST["gtkt"]:"";
             $dmkt  = isset($_POST["dmkt"]) ? $_POST["dmkt"]:"";
+            $idvi = isset($_POST["tenvi"]) ? $_POST["tenvi"]:"";
+            $loai = "Khoản đầu tư";
+            $this->view("tintuc",[
+                "Page"=>"sodt",
+            ]);
             echo $tenkt . "<br/>".$ngaykt ."<br/>". $gtkt . "<br/>" . $dmkt;
         }
     }

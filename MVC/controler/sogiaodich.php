@@ -18,6 +18,7 @@
         {
             $this->view("tintuc",[
                 "Page"=>"sothu",
+                "listvi"=>$this->a->danhsachvi()
             ]);
         }
         if(isset($_POST["sc"]))
@@ -31,6 +32,7 @@
         {
             $this->view("tintuc",[
                 "Page"=>"sodautu",
+                "listvi"=>$this->a->danhsachvi()
             ]);
         }
     }
