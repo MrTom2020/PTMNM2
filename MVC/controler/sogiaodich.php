@@ -24,6 +24,7 @@
         {
             $this->view("tintuc",[
                 "Page"=>"sochi",
+                "listvi"=>$this->a->danhsachvi()
             ]);
         }
         if(isset($_POST["sdt"]))

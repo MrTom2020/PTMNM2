@@ -1,5 +1,6 @@
 <div style="width:70vw;margin-top:10vh;margin-left:15vw;">
   <form action="./../nhapkhoanthuchi/themkhoanthuchi" method="POST">
+  <?php $dt = isset($data["listvi"]) ? $data["listvi"]:NULL; if($dt != null){ echo '33';}?>
    <h1 class="text-center">Form Nhập khoản chi</h1>
   <div class="row mb-4">
     <div class="col">
