@@ -10,7 +10,7 @@
     </div>
     <div class="col">
       <div class="form-outline">
-        <input type="text" id="form6Example2" name="ngaygdkc" class="form-control" />
+        <input type="date" id="form6Example2" name="ngaygdkc" class="form-control" />
         <label class="form-label" for="form6Example2">Ngày giao dịch</label>
       </div>
     </div>
