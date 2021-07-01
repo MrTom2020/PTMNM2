@@ -17,5 +17,12 @@
        $row = mysqli_query($this->con,$sql);
        return $row;
     }
+    public function dstv()
+    {
+       $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
+       $sql = "SELECT * FROM user where mql='$kk'";
+       $row = mysqli_query($this->con,$sql);
+       return $row;
+    }
     }
 ?>
