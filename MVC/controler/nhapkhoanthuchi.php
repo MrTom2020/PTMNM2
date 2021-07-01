@@ -28,7 +28,8 @@
             $ngaykc  = isset($_POST["ngaygdkc"]) ? $_POST["ngaygdkc"]:"";
             $gtkc  = isset($_POST["gtkc"]) ? $_POST["gtkc"]:"";
             $dmkc  = isset($_POST["dmkc"]) ? $_POST["dmkc"]:"";
-            echo $tenkc . "<br/>".$ngaykc ."<br/>". $gtkc . "<br/>" . $dmkc;
+            $idvi = isset($_POST["tenvi"]) ? $_POST["tenvi"]:"";
+            echo $tenkc . "<br/>".$ngaykc ."<br/>". $gtkc . "<br/>" . $dmkc ."<br/>".$idvi;
         }
         if(isset($_POST["dykt"]))
         {

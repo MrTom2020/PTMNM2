@@ -7,11 +7,11 @@
    echo "<select name='tenvi' class='form-select' aria-label='Default select example'>";
    while($row = mysqli_fetch_array($dt))
    {
-     echo "<option value='Bài hát yêu thích của bạn là gì'>$row[1]</option>";
+     echo "<option value='$row[0]'>$row[1]</option>";
    }
   echo "</select>";
     ?>
-    <label class="form-label" for="form6Example6">Câu hỏi bí mật</label>
+    <label class="form-label" for="form6Example6">Ví</label>
   </div>
   <div class="row mb-4">
     <div class="col">
