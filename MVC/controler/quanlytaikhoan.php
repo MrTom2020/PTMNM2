@@ -27,6 +27,13 @@
                 "listvi"=>$this->a->dsvi()
             ]);
         }
+        if(isset($_POST["danhsachtk"]))
+        {
+            $this->view("tienich",[
+                "Page"=>"danhsachtk",
+                "listvi"=>$this->a->dsvi()
+            ]);
+        }
     }
 }
     

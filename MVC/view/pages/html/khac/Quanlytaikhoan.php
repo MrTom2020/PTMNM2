@@ -42,8 +42,8 @@
 <div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
 <div class="animated features-ml">
 <img src="https://img.icons8.com/ios-filled/50/26e07f/group-background-selected.png"/>
-<h3 class="fourthlabel">Amazing delete members</h3>
-<input type="submit" class="form-control"  name="mt" id="useName" value="Xóa thành viên.">
+<h3 class="fourthlabel">Danh sách tài khoản thành viên</h3>
+<input type="submit" class="form-control"  name="danhsachtk" id="danhsachtk" value="Danh sách thành viên.">
 </div>
 </div>
 </div>
