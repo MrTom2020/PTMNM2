@@ -4,7 +4,7 @@
         public $a;
         public function __construct()
         {
-            $this->a = $this->model("modelcon");
+            $this->a = $this->model("thuvachitieu");
         }
     public function SayHi()
     {
@@ -29,7 +29,9 @@
             $gtkc  = isset($_POST["gtkc"]) ? $_POST["gtkc"]:"";
             $dmkc  = isset($_POST["dmkc"]) ? $_POST["dmkc"]:"";
             $idvi = isset($_POST["tenvi"]) ? $_POST["tenvi"]:"";
-            echo $tenkc . "<br/>".$ngaykc ."<br/>". $gtkc . "<br/>" . $dmkc ."<br/>".$idvi;
+            $loai = "Khoản chi";
+            //taochitieu($ten,$loai,$idvi,$ngaytao,$giatri,$danhmuc)
+            $this->a->taochitieu($tenkc,$loai,$idvi,$ngaykc,$gtkc * - 1,$dmkc);
         }
         if(isset($_POST["dykt"]))
         {
