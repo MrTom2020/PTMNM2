@@ -1,7 +1,18 @@
 <div style="width:70vw;margin-top:10vh;margin-left:15vw;">
   <form action="./../nhapkhoanthuchi/themkhoanthuchi" method="POST">
-  <?php $dt = isset($data["listvi"]) ? $data["listvi"]:NULL; if($dt != null){ echo '33';}?>
+  <?php $dt = isset($data["listvi"]) ? $data["listvi"]:NULL;?>
    <h1 class="text-center">Form Nhập khoản chi</h1>
+   <div class="form-outline mb-4">
+   <?php 
+   echo "<select name='tenvi' class='form-select' aria-label='Default select example'>";
+   while($row = mysqli_fetch_array($dt))
+   {
+     echo "<option value='Bài hát yêu thích của bạn là gì'>$row[1]</option>";
+   }
+  echo "</select>";
+    ?>
+    <label class="form-label" for="form6Example6">Câu hỏi bí mật</label>
+  </div>
   <div class="row mb-4">
     <div class="col">
       <div class="form-outline">
