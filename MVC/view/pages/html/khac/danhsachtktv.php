@@ -4,10 +4,11 @@
     echo "<thead>
     <tr>
       <th scope='col'>ID</th>
-      <th scope='col'>Tên ví</th>
-      <th scope='col'>Tiền trong ví</th>
-      <th scope='col'>Mã người dùng</th>
-      <th scope='col'>Loại ví</th>
+      <th scope='col'>Tên thành viên</th>
+      <th scope='col'>Mật khẩu</th>
+      <th scope='col'>Ngày sinh</th>
+      <th scope='col'>Địa chỉ</th>
+      <th scope='col'>Email</th>
       <th scope='col'>Xóa</th>
     </tr>
      </thead>";
@@ -21,6 +22,8 @@
         <td>$row[1]</td>
         <td>$row[2]</td>
         <td>$row[3]</td>
+        <td>$row[4]</td>
+        <td>$row[5]</td>
         <td>$k</td>
         <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
         </tr>";
