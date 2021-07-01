@@ -30,8 +30,10 @@
             $dmkc  = isset($_POST["dmkc"]) ? $_POST["dmkc"]:"";
             $idvi = isset($_POST["tenvi"]) ? $_POST["tenvi"]:"";
             $loai = "Khoản chi";
-            //taochitieu($ten,$loai,$idvi,$ngaytao,$giatri,$danhmuc)
             $this->a->taochitieu($tenkc,$loai,$idvi,$ngaykc,$gtkc * - 1,$dmkc);
+            $this->view("tintuc",[
+                "Page"=>"sothu",
+            ]);
         }
         if(isset($_POST["dykt"]))
         {
