@@ -30,7 +30,7 @@
         if(isset($_POST["danhsachtk"]))
         {
             $this->view("tienich",[
-                "Page"=>"danhsachtk",
+                "Page"=>"danhsachtktv",
                 "listvi"=>$this->a->dsvi()
             ]);
         }
