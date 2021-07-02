@@ -100,7 +100,6 @@
       <th scope='col'>Tình trạng</th>
       <th scope='col'>Mã quản lý</th>
       <th scope='col'>Loại</th>
-      <th scope='col'>Ngày tham gia</th>
       <th scope='col'>Xóa</th>
     </tr>
      </thead>";
@@ -122,7 +121,6 @@
         <td>$row[9]</td>
         <td>$row[10]</td>
         <td>$row[11]</td>
-        <td>$row[12]</td>
         <td>$k</td>
         <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
         </tr>";
