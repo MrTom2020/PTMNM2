@@ -40,10 +40,7 @@
             if($r)
             {
                 $_SESSION['iduu'] = $r[0];
-            }
-            if(mysqli_num_rows($rowss) > 0)
-            {
-                $kq = 0;
+                $kq = $r[11];
             }
             return $kq;
     }
