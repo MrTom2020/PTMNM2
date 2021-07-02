@@ -89,10 +89,18 @@
     echo "<thead>
     <tr>
       <th scope='col'>ID</th>
-      <th scope='col'>Tên ví</th>
-      <th scope='col'>Tiền trong ví</th>
-      <th scope='col'>Mã người dùng</th>
-      <th scope='col'>Loại ví</th>
+      <th scope='col'>Tên</th>
+      <th scope='col'>Mật khẩu</th>
+      <th scope='col'>Ngày sinh</th>
+      <th scope='col'>Địa chỉ</th>
+      <th scope='col'>Email</th>
+      <th scope='col'>Câu hỏi bí mật</th>
+      <th scope='col'>Câu trả lời</th>
+      <th scope='col'>SDT</th>
+      <th scope='col'>Tình trạng</th>
+      <th scope='col'>Mã quản lý</th>
+      <th scope='col'>Loại</th>
+      <th scope='col'>Ngày tham gia</th>
       <th scope='col'>Xóa</th>
     </tr>
      </thead>";
@@ -106,6 +114,15 @@
         <td>$row[1]</td>
         <td>$row[2]</td>
         <td>$row[3]</td>
+        <td>$row[4]</td>
+        <td>$row[5]</td>
+        <td>$row[6]</td>
+        <td>$row[7]</td>
+        <td>$row[8]</td>
+        <td>$row[9]</td>
+        <td>$row[10]</td>
+        <td>$row[11]</td>
+        <td>$row[12]</td>
         <td>$k</td>
         <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
         </tr>";
