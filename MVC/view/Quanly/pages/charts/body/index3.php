@@ -119,7 +119,7 @@
         <td>$row[9]</td>
         <td>$row[10]</td>
         <td>$row[11]</td>
-        <td type='submit'><input type='submit' name='kp'/></td>
+        <td><input type='submit' name='kp'/></td>
         </tr>";
     }
     echo "</tbody>";
