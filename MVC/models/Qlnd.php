@@ -3,7 +3,7 @@
     {
         public function ds()
          {
-             $sql = "SELECT * FROM user where tinhtrang != 0";
+             $sql = "SELECT * FROM user where tinhtrang != 0 and loai != 5";
              $row = mysqli_query($this->con,$sql);
             return $row;
          }
