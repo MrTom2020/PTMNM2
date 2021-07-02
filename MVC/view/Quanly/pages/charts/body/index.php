@@ -108,14 +108,13 @@
         echo "<tr>
         <th scope='row'>$row[0]</th>
         <td>$row[1]</td>
-        <td>$row[2]</td>
+        <td>$k</td>
         <td>$row[3]</td>
         <td>$row[5]</td>
         <td>$row[6]</td>
         <td>$row[9]</td>
         <td>$row[10]</td>
         <td>$row[11]</td>
-        <td>$k</td>
         <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
         </tr>";
     }
