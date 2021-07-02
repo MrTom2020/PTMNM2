@@ -93,8 +93,6 @@
       <th scope='col'>Mật khẩu</th>
       <th scope='col'>Ngày sinh</th>
       <th scope='col'>Email</th>
-      <th scope='col'>Câu hỏi bí mật</th>
-      <th scope='col'>Câu trả lời</th>
       <th scope='col'>SDT</th>
       <th scope='col'>Tình trạng</th>
       <th scope='col'>Mã quản lý</th>
@@ -114,8 +112,6 @@
         <td>$row[3]</td>
         <td>$row[5]</td>
         <td>$row[6]</td>
-        <td>$row[7]</td>
-        <td>$row[8]</td>
         <td>$row[9]</td>
         <td>$row[10]</td>
         <td>$row[11]</td>
