@@ -9,20 +9,20 @@
          }
          public function dsndbvh()
          {
-             $kq = "Khôi phục thất bại";
              $sql = "SELECT * FROM user where tinhtrang = 0";
              $row = mysqli_query($this->con,$sql);
-            if($row)
-            {
-                $kq = "Khôi phục thành công";
-            }
-            return $kq;
+            return $row;
          }
          public function kpuss($id)
          {
+             $kq = "Khôi phục thất bại";
             $sql = "CALL capnhattinhtrang('$id')";
              $row = mysqli_query($this->con,$sql);
-            return $row;
+             if($row)
+             {
+                $kq = "Khôi phục thành công";
+             }
+            return $kq;
          }
 
     }
