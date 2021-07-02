@@ -101,7 +101,6 @@
       <th scope='col'>Tình trạng</th>
       <th scope='col'>Mã quản lý</th>
       <th scope='col'>Loại</th>
-      <th scope='col'>Xóa</th>
     </tr>
      </thead>";
      echo "<tbody>";
