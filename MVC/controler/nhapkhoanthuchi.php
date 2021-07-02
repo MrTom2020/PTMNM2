@@ -22,7 +22,7 @@
             $dmdt  = isset($_POST["dmdt"]) ? $_POST["dmdt"]:"";
             $idvi = isset($_POST["tenvi"]) ? $_POST["tenvi"]:"";
             $loai = "Khoản chi";
-            $this->a->taochitieu($tenkc,$loai,$idvi,$ngaykc,$gtkc * - 1,$dmkc);
+            $this->a->taochitieu($tenkc,$loai,$idvi,$ngaykc,$gtkc,$dmkc);
             $this->view("tintuc",[
                 "Page"=>"sothu",
             ]);
@@ -49,10 +49,10 @@
             $dmkt  = isset($_POST["dmkt"]) ? $_POST["dmkt"]:"";
             $idvi = isset($_POST["tenvi"]) ? $_POST["tenvi"]:"";
             $loai = "Khoản đầu tư";
+            $this->a->taochitieu($tenkc,$loai,$idvi,$ngaykc,$gtkc * - 1,$dmkc);
             $this->view("tintuc",[
-                "Page"=>"sodt",
+                "Page"=>"sodautu",
             ]);
-            echo $tenkt . "<br/>".$ngaykt ."<br/>". $gtkt . "<br/>" . $dmkt;
         }
     }
 }
