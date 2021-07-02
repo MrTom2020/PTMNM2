@@ -101,7 +101,7 @@
       <th scope='col'>Tình trạng</th>
       <th scope='col'>Mã quản lý</th>
       <th scope='col'>Loại</th>
-      <th scope='col'>Xóa</th>
+      <th scope='col'>Khôi phục</th>
     </tr>
      </thead>";
      echo "<tbody>";
@@ -119,7 +119,7 @@
         <td>$row[9]</td>
         <td>$row[10]</td>
         <td>$row[11]</td>
-        <td><input name='kp' type='submit' style='background:https://img.icons8.com/ios/50/000000/delete--v3.png;'/></td>
+        <td>Khôi phục<input name='kp' type='submit' value='$row[0]'/></td>
         </tr>";
     }
     echo "</tbody>";
