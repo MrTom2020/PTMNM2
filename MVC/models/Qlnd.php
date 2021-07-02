@@ -24,6 +24,17 @@
              }
             return $kq;
          }
+         public function vhuss($id)
+         {
+             $kq = "Vô hiệu thất bại";
+            $sql = "CALL vhnguoidung('$id')";
+             $row = mysqli_query($this->con,$sql);
+             if($row)
+             {
+                $kq = "Vô hiệu thành công";
+             }
+            return $kq;
+         }
 
     }
  ?>
