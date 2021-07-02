@@ -85,7 +85,7 @@
             <h1 class="m-0">Dashboard v2</h1>
             <?php
     echo "<table class='table'>";
-    $dt = isset($data["listvi"]) ? $data["listvi"]:NULL;
+    $dt = isset($data["dsnd"]) ? $data["dsnd"]:NULL;
     echo "<thead>
     <tr>
       <th scope='col'>ID</th>
