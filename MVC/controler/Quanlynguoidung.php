@@ -18,7 +18,7 @@
         if(isset($_POST["kp"]))
         {
             $mand = isset($_POST['kp']) ? $_POST['kp']:"0";
-            echo $mand;
+            echo $this->a->kpuss($mand);
         }
     }
 }
