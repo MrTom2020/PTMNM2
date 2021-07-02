@@ -84,7 +84,7 @@
           <div class="col-sm-6">
             <h1 class="m-0">Dashboard v2</h1>
             <?php
-    echo "<form class='login-container' action='../Quanlynguoidung/kpdlnd' method='POST'>";
+    echo "<form class='login-container' action='../Quanlynguoidung/vohieund' method='POST'>";
     echo "<table class='table' style='width:80vw;'>";
     $dt = isset($data["dsnd"]) ? $data["dsnd"]:NULL;
     echo "<thead>
