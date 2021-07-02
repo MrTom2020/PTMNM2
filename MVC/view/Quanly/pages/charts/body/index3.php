@@ -118,7 +118,7 @@
         <td>$row[9]</td>
         <td>$row[10]</td>
         <td>$row[11]</td>";
-       echo "<td style='z-index: 3;'> <button type='submit' class='btn btn-primary' style='z-index: 5;'>Submit</button></td>";
+       echo "<td> <a href='https://genk.vn/gia-thuyet-loki-ca-tap-3-chi-la-ao-anh-do-loki-tao-ra-de-moi-thong-tin-ve-sylvie-va-tva-20210626115912988.chn'>Submit</a></td>";
        echo "</tr>";
     }
     echo "</tbody>";
