@@ -92,7 +92,6 @@
       <th scope='col'>Tên</th>
       <th scope='col'>Mật khẩu</th>
       <th scope='col'>Ngày sinh</th>
-      <th scope='col'>Địa chỉ</th>
       <th scope='col'>Email</th>
       <th scope='col'>Câu hỏi bí mật</th>
       <th scope='col'>Câu trả lời</th>
@@ -113,7 +112,6 @@
         <td>$row[1]</td>
         <td>$row[2]</td>
         <td>$row[3]</td>
-        <td>$row[4]</td>
         <td>$row[5]</td>
         <td>$row[6]</td>
         <td>$row[7]</td>
