@@ -87,6 +87,7 @@
           <div class="col-sm-6">
             <h1 class="m-0">Dashboard v3</h1>
             <?php
+    echo "<form class='login-container' action='../Quanlynguoidung/kpdlnd' method='POST'>";
     echo "<table class='table' style='width:80vw;'>";
     $dt = isset($data["dsnd"]) ? $data["dsnd"]:NULL;
     echo "<thead>
@@ -119,11 +120,12 @@
         <td>$row[10]</td>
         <td>$row[11]</td>
         <td>$k</td>
-        <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
+        <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png' name='kp' type='submit'/></td>
         </tr>";
     }
     echo "</tbody>";
     echo "</table>";
+    echo "</form>";
  ?>
           </div><!-- /.col -->
           <div class="col-sm-6">
