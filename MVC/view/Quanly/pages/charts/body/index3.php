@@ -119,7 +119,6 @@
         <td>$row[9]</td>
         <td>$row[10]</td>
         <td>$row[11]</td>
-        <td>$k</td>
         <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png' name='kp' type='submit'/></td>
         </tr>";
     }
