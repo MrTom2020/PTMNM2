@@ -36,7 +36,7 @@
             $this->view("Admin",[
                 "Page"=>"HomeAdmin",
                 "Page1"=>"index3",
-                "dsnd"=>$this->modelcon->ds()
+                "dsnd"=>$this->modelcon->dsndbvh()
             ]);
         }
        }

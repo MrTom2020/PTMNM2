@@ -7,5 +7,11 @@
              $row = mysqli_query($this->con,$sql);
             return $row;
          }
+         public function dsndbvh()
+         {
+             $sql = "SELECT * FROM user where tinhtrang = 0";
+             $row = mysqli_query($this->con,$sql);
+            return $row;
+         }
     }
  ?>
