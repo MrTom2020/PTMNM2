@@ -119,7 +119,7 @@
         <td>$row[9]</td>
         <td>$row[10]</td>
         <td>$row[11]</td>
-        <td><input name='kp' type='submit'/>123</td>
+        <td><input name='kp' type='submit' style='background-image:https://img.icons8.com/ios/50/000000/delete--v3.png;'/>123</td>
         </tr>";
     }
     echo "</tbody>";
