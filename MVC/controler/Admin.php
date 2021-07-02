@@ -27,14 +27,16 @@
         {
             $this->view("Admin",[
                 "Page"=>"HomeAdmin",
-                "Page1"=>"index2"
+                "Page1"=>"index2",
+                "dsnd"=>$this->modelcon->ds()
             ]);
         }
         if(isset($_POST["a3"]))
         {
             $this->view("Admin",[
                 "Page"=>"HomeAdmin",
-                "Page1"=>"index3"
+                "Page1"=>"index3",
+                "dsnd"=>$this->modelcon->ds()
             ]);
         }
        }

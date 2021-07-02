@@ -83,6 +83,45 @@
         <div class="row mb-2">
           <div class="col-sm-6">
             <h1 class="m-0">Dashboard v2</h1>
+            <?php
+    echo "<table class='table' style='width:80vw;'>";
+    $dt = isset($data["dsnd"]) ? $data["dsnd"]:NULL;
+    echo "<thead>
+    <tr>
+      <th scope='col'>ID</th>
+      <th scope='col'>Tên</th>
+      <th scope='col'>Mật khẩu</th>
+      <th scope='col'>Ngày sinh</th>
+      <th scope='col'>Email</th>
+      <th scope='col'>SDT</th>
+      <th scope='col'>Tình trạng</th>
+      <th scope='col'>Mã quản lý</th>
+      <th scope='col'>Loại</th>
+      <th scope='col'>Xóa</th>
+    </tr>
+     </thead>";
+     echo "<tbody>";
+     while($row = mysqli_fetch_array($dt))
+    {
+        $tg = $row[3];
+       $k = date("d/m/Y",strtotime($tg));
+        echo "<tr>
+        <th scope='row'>$row[0]</th>
+        <td>$row[1]</td>
+        <td>$row[2]</td>
+        <td>$k</td>
+        <td>$row[5]</td>
+        <td>$row[6]</td>
+        <td>$row[9]</td>
+        <td>$row[10]</td>
+        <td>$row[11]</td>
+        <td>$k</td>
+        <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
+        </tr>";
+    }
+    echo "</tbody>";
+    echo "</table>";
+ ?>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
