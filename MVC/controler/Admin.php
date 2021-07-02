@@ -4,7 +4,7 @@
        public $modelcon;
        public function __construct()
        {
-          $this->modelcon = $this->model("modelcon");
+          $this->modelcon = $this->model("Qlnd");
        }
        function SayHi()
        {
@@ -19,7 +19,8 @@
         {
             $this->view("Admin",[
                 "Page"=>"HomeAdmin",
-                "Page1"=>"index"
+                "Page1"=>"index",
+                "dsnd"=>$this->a->ds()
             ]);
         }
         if(isset($_POST["a2"]))
