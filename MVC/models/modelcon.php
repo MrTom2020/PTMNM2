@@ -31,6 +31,12 @@
             $row = mysqli_query($this->con,$sql);
             return $row;
         }
+        public function ds()
+         {
+             $sql = "SELECT * FROM user";
+             $row = mysqli_query($this->con,$sql);
+            return $row;
+         }
     public function t($un,$pw)
     {
         $kq = 1;

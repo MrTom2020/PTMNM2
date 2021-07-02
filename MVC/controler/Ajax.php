@@ -30,7 +30,8 @@
               //  $_SESSION['ten'] = $us;
                 $this->view("Admin",[
                                 "Page"=>"HomeAdmin",
-                                "Page1"=>"index"
+                                "Page1"=>"index",
+                                "dsnd"=>$this->a->ds()
                             ]);
             }
             //echo $this->modelcon->checkus($un);
