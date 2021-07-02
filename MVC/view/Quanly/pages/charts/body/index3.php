@@ -119,7 +119,7 @@
         <td>$row[9]</td>
         <td>$row[10]</td>
         <td>$row[11]</td>";
-       echo "<td> <button type='submit' class='btn btn-primary'>Submit</button></td>";
+       echo "<td style='z-index: 3;'> <button type='submit' class='btn btn-primary' style='z-index: 5;'>Submit</button></td>";
        echo "</tr>";
     }
     echo "</tbody>";
