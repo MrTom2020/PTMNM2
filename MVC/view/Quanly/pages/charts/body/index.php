@@ -84,7 +84,7 @@
           <div class="col-sm-6">
             <h1 class="m-0">Dashboard v2</h1>
             <?php
-    echo "<table class='table'>";
+    echo "<table class='table' style='width:80vw;'>";
     $dt = isset($data["dsnd"]) ? $data["dsnd"]:NULL;
     echo "<thead>
     <tr>
