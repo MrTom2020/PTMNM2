@@ -17,7 +17,8 @@
     {
         if(isset($_POST["kp"]))
         {
-            echo 'e';
+            $mand = isset($_POST['kp']) ? $_POST['kp']:"0";
+            echo $mand;
         }
     }
 }
