@@ -26,7 +26,7 @@
         if(isset($_POST["vh"]))
         {
             $mand = isset($_POST['vh']) ? $_POST['vh']:"0";
-            echo $this->a->kpuss($mand);
+            echo $this->a->vhuss($mand);
         }
     }
 }
