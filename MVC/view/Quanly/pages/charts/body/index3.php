@@ -87,7 +87,7 @@
           <div class="col-sm-6">
             <h1 class="m-0">Dashboard v3</h1>
             <?php
-    echo "<form class='login-container' action='../Quanlynguoidung/kpdlnd' method='POST' style='margin-top:10vh;'>";
+    echo "<form class='login-container' action='../Quanlynguoidung/kpdlnd' method='POST'>";
     echo "<table class='table' style='width:80vw;'>";
     $dt = isset($data["dsnd"]) ? $data["dsnd"]:NULL;
     echo "<thead>
@@ -101,6 +101,7 @@
       <th scope='col'>Tình trạng</th>
       <th scope='col'>Mã quản lý</th>
       <th scope='col'>Loại</th>
+      <th scope='col'>Xóa</th>
     </tr>
      </thead>";
      echo "<tbody>";
@@ -117,9 +118,9 @@
         <td>$row[8]</td>
         <td>$row[9]</td>
         <td>$row[10]</td>
-        <td>$row[11]</td>";
-       echo "<td> <a href='https://genk.vn/gia-thuyet-loki-ca-tap-3-chi-la-ao-anh-do-loki-tao-ra-de-moi-thong-tin-ve-sylvie-va-tva-20210626115912988.chn'>Submit</a></td>";
-       echo "</tr>";
+        <td>$row[11]</td>
+        <td type='submit'><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
+        </tr>";
     }
     echo "</tbody>";
     echo "</table>";
