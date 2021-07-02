@@ -20,7 +20,7 @@
             $this->view("Admin",[
                 "Page"=>"HomeAdmin",
                 "Page1"=>"index",
-                "dsnd"=>$this->a->ds()
+                "dsnd"=>$this->modelcon->ds()
             ]);
         }
         if(isset($_POST["a2"]))
