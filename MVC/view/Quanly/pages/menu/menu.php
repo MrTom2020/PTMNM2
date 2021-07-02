@@ -47,20 +47,20 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
-               News management
+               Quản lý thông báo
                 <i class="fas fa-angle-left right"></i>
                 <span class="badge badge-info right">6</span>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                <input  id="a7"  name="a7"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Thông báo cá nhân"/>
               </li>
               <li class="nav-item">
-               <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+               <input  id="a8"  name="a8"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Thông báo chung"/>
               </li>
               <li class="nav-item">
-              <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+              <input  id="a9"  name="a9"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Thông báo nhóm"/>
               </li>
             </ul>
           </li>
