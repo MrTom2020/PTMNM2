@@ -74,16 +74,16 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-               <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+               <input  id="btnLogin"  name="a10"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-               <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+               <input  id="btnLogin"  name="a11"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-                 <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                 <input  id="btnLogin"  name="a12"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-                 <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                 <input  id="btnLogin"  name="a13"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
             </ul>
           </li>
@@ -97,13 +97,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                 <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                 <input  id="btnLogin"  name="a14"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-                  <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                  <input  id="btnLogin"  name="a15"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-                <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                <input  id="btnLogin"  name="a16"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
             </ul>
           </li>
@@ -117,16 +117,16 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                <input  id="btnLogin"  name="a17"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-                 <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                 <input  id="btnLogin"  name="a18"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-                 <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                 <input  id="btnLogin"  name="a19"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-                 <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                 <input  id="btnLogin"  name="a20"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
             </ul>
           </li>
@@ -140,34 +140,34 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                 <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                 <input  id="btnLogin"  name="a21"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-                <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                <input  id="btnLogin"  name="a22"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-              <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+              <input  id="btnLogin"  name="a23"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-                <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                <input  id="btnLogin"  name="a24"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
             </ul>
           </li>
           <li class="nav-header">EXAMPLES</li>
           <li class="nav-item">
-            <input  id="btnLogin"  name="a6"  class="nav-link fas fa-calendar-alt" type="submit" style="background-color:#343a40;color:#ffffff;"/>
+            <input  id="btnLogin"  name="a25"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Lịch"/>
           </li>
           <li class="nav-item">
-             <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+             <input  id="btnLogin"  name="a26"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
           </li>
           <li class="nav-item">
-             <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+             <input  id="btnLogin"  name="a27"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
           </li>
           <li class="nav-item">
-            <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+            <input  id="btnLogin"  name="a28"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                <input  id="btnLogin"  name="a29"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
                 <a href="pages/mailbox/compose.html" class="nav-link">
@@ -176,7 +176,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                <input  id="btnLogin"  name="a30"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
             </ul>
           </li>
@@ -190,10 +190,10 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                <input  id="btnLogin"  name="a31"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-              <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+              <input  id="btnLogin"  name="a32"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
                 <a href="pages/examples/e-commerce.html" class="nav-link">
@@ -202,25 +202,25 @@
                 </a>
               </li>
               <li class="nav-item">
-               <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+               <input  id="btnLogin"  name="a33"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-              <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+              <input  id="btnLogin"  name="a34"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-              <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+              <input  id="btnLogin"  name="a35"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-              <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+              <input  id="btnLogin"  name="a36"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-              <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+              <input  id="btnLogin"  name="a37"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-              <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+              <input  id="btnLogin"  name="a38"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-              <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+              <input  id="btnLogin"  name="a39"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
             </ul>
           </li>
@@ -243,16 +243,16 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                   <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                   <input  id="btnLogin"  name="a40"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
                   </li>
                   <li class="nav-item">
-                   <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                   <input  id="btnLogin"  name="a41"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
                   </li>
                   <li class="nav-item">
-                  <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                  <input  id="btnLogin"  name="a42"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
                   </li>
                   <li class="nav-item">
-                  <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                  <input  id="btnLogin"  name="a43"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
                   </li>
                 </ul>
               </li>
@@ -266,42 +266,42 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                    <input  id="btnLogin"  name="a44"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
                   </li>
                   <li class="nav-item">
-                    <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                    <input  id="btnLogin"  name="a45"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
                   </li>
                   <li class="nav-item">
-                    <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                    <input  id="btnLogin"  name="a46"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
                   </li>
                   <li class="nav-item">
-                    <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                    <input  id="btnLogin"  name="a47"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                 <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                 <input  id="btnLogin"  name="a48"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-                <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                <input  id="btnLogin"  name="a49"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-               <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+               <input  id="btnLogin"  name="a50"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-               <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+               <input  id="btnLogin"  name="a51"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-                <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                <input  id="btnLogin"  name="a52"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-               <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+               <input  id="btnLogin"  name="a53"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-                 <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                 <input  id="btnLogin"  name="a54"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-               <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+               <input  id="btnLogin"  name="a55"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
             </ul>
           </li>
@@ -315,16 +315,16 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-               <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+               <input  id="btnLogin"  name="a56"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
               <li class="nav-item">
-                 <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+                 <input  id="btnLogin"  name="a57"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
               </li>
             </ul>
           </li>
           <li class="nav-header">ĐIỀU KHOẢN KHÁC</li>
           <li class="nav-item">
-            <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
+            <input  id="btnLogin"  name="a58"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
           </li>
           <li class="nav-item">
             <a href="https://adminlte.io/docs/3.1/" class="nav-link">
