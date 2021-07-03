@@ -57,5 +57,11 @@
             }
             return $kq;
     }
+    public function thongbaochungus()
+    {
+            $sql2 = "SELECT * FROM thongbao where loai ='2' ";
+            $row2 = mysqli_query($this->con,$sql2);
+            return $row2;
+    }
     }
 ?>

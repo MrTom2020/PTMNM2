@@ -65,7 +65,8 @@
             if(isset($_POST['gt8']))
             {
                 $this->view("tintuc",[
-                    "Page"=>"thongbaochung"
+                    "Page"=>"thongbaochung",
+                    "tbc"=>$this->modelcon->thongbaochungus()
                 ]);
             }
             if(isset($_POST['gt9']))

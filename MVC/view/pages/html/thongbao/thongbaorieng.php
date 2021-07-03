@@ -1,7 +1,6 @@
-yyy
 <?php
   echo '33';
-    $dt = isset($_SESSION['tbcnn']) ? $_SESSION['tbcnn']:NULL;
+    $dt = isset($data['tbc']) ? $data['tbc']:NULL;
     
      while($row = mysqli_fetch_array($dt))
     {
