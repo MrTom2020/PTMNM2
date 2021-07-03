@@ -7,7 +7,7 @@
   <body>
     <!-- // -->
     <?php
-        $path = '../public/css.php';
+        $path = 'MVC/view/pages/css/calendar.css';
         //echo realpath($path);
        header("Location:".$path);
      ?>
