@@ -36,7 +36,7 @@
             $this->view("Admin",[
                 "Page"=>"HomeAdmin",
                 "Page1"=>"index3",
-                "dsnd"=>$this->modelcon->ds()
+                "dsnd"=>$this->modelcon->dsndbvh()
             ]);
         }
         if(isset($_POST["a7"]))
@@ -44,7 +44,7 @@
             $this->view("Admin",[
                 "Page"=>"HomeAdmin",
                 "Page1"=>"thongbaocanhan",
-                "dsnd"=>$this->modelcon->dsndbvh()
+                "dsnd"=>$this->modelcon->ds()
             ]);
         }
         if(isset($_POST["a25"]))
