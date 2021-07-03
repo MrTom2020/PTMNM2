@@ -17,8 +17,9 @@
        {
         if(isset($_POST['gcn']))
         {
+            $maad =isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
             $ma = isset($_POST["ndcg"]) ? $_POST["ndcg"]:"";
-            echo $ma;
+            echo $maad;
         }
        }
     }
