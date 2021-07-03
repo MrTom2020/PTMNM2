@@ -23,8 +23,8 @@
             $noidung = isset($_SESSION['nodungcn']) ? $_SESSION['nodungcn']:"";
             $tieude = isset($_SESSION['ttde']) ? $_SESSION['ttde']:"";
             $ngaydang = date("l") . date("Y/m/d") . date("h:i:sa");
-            echo $this->modelcon->tbcn($ma,$tentacgia,$tieude,$noidung,$ngaydang);
-            echo $maad;
+           // echo $this->modelcon->tbcn($ma,$tentacgia,$tieude,$noidung,$ngaydang);
+            echo $noidung;
         }
        }
        public function guitatca()
