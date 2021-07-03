@@ -195,5 +195,6 @@
 <script src="https://quanlychitieu2030.herokuapp.com/MVC/view/Quanly/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="https://quanlychitieu2030.herokuapp.com/MVC/view/Quanly/dist/js/pages/dashboard.js"></script>
+<script src="https://quanlychitieu2030.herokuapp.com/MVC/view/Quanly/plugins/jquery/calendar.js"></script>
 </body>
 </html>
