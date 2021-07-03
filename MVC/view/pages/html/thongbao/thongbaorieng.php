@@ -1,5 +1,5 @@
 <?php
-  echo '33';
+  echo '<h1>THÔNG BÁO</h1>';
     $dt = isset($data['tbc']) ? $data['tbc']:NULL;
     
      while($row = mysqli_fetch_array($dt))

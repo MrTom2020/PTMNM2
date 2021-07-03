@@ -69,6 +69,13 @@
                     "tbc"=>$this->modelcon->thongbaochungus()
                 ]);
             }
+            if(isset($_POST['gt11']))
+            {
+                $this->view("tintuc",[
+                    "Page"=>"thongbaorieng",
+                    "tbc"=>$this->modelcon->thongbaochungus()
+                ]);
+            }
             if(isset($_POST['gt9']))
             {
                 $this->view("tintuc",[
