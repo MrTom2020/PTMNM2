@@ -4,7 +4,8 @@
    </nav>
    123333
 <div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><?php
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+  <?php
     $dt = isset($_SESSION['tbchung']) ? $_SESSION['tbchung']:NULL;
      while($row = mysqli_fetch_array($dt))
     {
@@ -18,3 +19,4 @@
       echo '123';
     }
  ?></div>
+ </div>
