@@ -27,7 +27,7 @@
             }
             if($kq == 5 && isset($_POST['btnLogin']))
             {
-              //  $_SESSION['ten'] = $us;
+                $_SESSION['ten'] = $us;
                 $this->view("Admin",[
                                 "Page"=>"HomeAdmin",
                                 "Page1"=>"index",
