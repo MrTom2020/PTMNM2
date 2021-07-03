@@ -16,7 +16,7 @@
           <p  style='margin-top:15vh;'>Ngày đăng  <br/> $row[5]</p>
         </div>
       </div>";
-      echo '123';
     }
+    echo '123';
  ?></div>
  </div>
