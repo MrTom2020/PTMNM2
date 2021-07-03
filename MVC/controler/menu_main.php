@@ -73,7 +73,7 @@
             {
                 $this->view("tintuc",[
                     "Page"=>"thongbaorieng",
-                    "tbc"=>$this->modelcon->thongbaochungus()
+                    "tbc"=>$this->modelcon->thongbaoriengus()
                 ]);
             }
             if(isset($_POST['gt9']))
