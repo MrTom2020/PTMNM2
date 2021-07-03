@@ -50,5 +50,12 @@
             }
             return $kq;
     }
+    public function xemtb()
+        {
+            $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
+            $sql = "SELECT * FROM thongbao where Userid='$kk'";
+            $row = mysqli_query($this->con,$sql);
+            return $row;
+        }
     }
 ?>
