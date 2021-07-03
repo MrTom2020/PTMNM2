@@ -639,17 +639,7 @@
         <div class="row">
           <div class="col-md-3">
             <div class="sticky-top mb-3">
-              <div class="card">
-
-                <div class="card-body">
-                  <!-- the events -->
-                  <div id="external-events">
-
-                  </div>
-                </div>
-                <!-- /.card-body -->
-              </div>
-              <!-- /.card -->
+              
 
             </div>
           </div>
