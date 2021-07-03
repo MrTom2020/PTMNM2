@@ -29,10 +29,15 @@
        }
        public function guitatca()
        {
-        if(isset($_POST['gcn']))
+        if(isset($_POST['gchung']))
         {
             $maad =isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
             $ma = isset($_POST["ndcg"]) ? $_POST["ndcg"]:"";
+            $tentacgia = isset($_SESSION['ten']) ? $_SESSION['ten']:"";
+            $noidung = isset($_POST['noidungchung']) ? $_POST['noidungchung']:"";
+            $tieude = isset($_POST['ttdechung']) ? $_POST['ttdechung']:"";
+            $ngaydang = date("l"). "  ". date("Y/m/d"). "   " . date("h:i:sa");
+            echo $this->modelcon->thongbaochung($maad,$tentacgia,$tieude,$noidung,$ngaydang);
             echo $maad;
         }
        }

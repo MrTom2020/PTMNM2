@@ -85,30 +85,20 @@
           <div class="col-sm-6">
             <h1 class="m-0">Dashboard v2</h1>
             <?php
-            echo "<form class='login-container' action='../thongbao/guicanhan' method='POST'>
+            echo "<form class='login-container' action='../thongbao/guichung' method='POST'>
             <div class='mb-3'>
-              <label for='ttde' class='form-label'>Tiêu đề</label>
-              <input type='text' class='form-control' name='ttde' id='ttde' >
+              <label for='ttdechung' class='form-label'>Tiêu đề</label>
+              <input type='text' class='form-control' name='ttdechung' id='ttdechung' >
             </div>
             <div class='mb-3'>
-              <label for='noidungcn' class='form-label'>nội dung</label>
-              <textarea class='form-control' id='nodungcn' name='noidungcn' rows='3'></textarea>
-            </div>
-            <div class='mb-3 form-check'>
-              <label class='form-check-label' for='ndcg'>Gửi cho</label>
+              <label for='noidungchung' class='form-label'>nội dung</label>
+              <textarea class='form-control' id='noidungchung' name='noidungchung' rows='3'></textarea>
             </div>";
-          $dt = isset($data["dsnd"]) ? $data["dsnd"]:NULL;
-          echo "<select class='form-select' name='ndcg' id='ndcg' aria-label='Default select example'>";
-          while($row = mysqli_fetch_array($dt))
-          {
-            echo "<option value='$row[0]'>$row[1]</option>";
-          }
-        echo "</select>";
-        echo "<button type='submit' name='gcn' class='btn btn-primary'>Submit</button>";
+        echo "<button type='submit' name='gchung' class='btn btn-primary'>Submit</button>";
         echo  "</form>";
         ?>
           </div><!-- /.col -->
-         <!-- /.col -->
+        <!-- /.col -->
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
     </div>
