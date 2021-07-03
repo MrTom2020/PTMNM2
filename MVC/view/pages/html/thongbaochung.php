@@ -3,8 +3,6 @@
         <?php include_once('menu_main/menu.php') ?>
    </nav>
    123333
-<div class="tab-content" style="height:80vh;">
-  <div>
   <?php
     $dt = isset($_SESSION['tbchung']) ? $_SESSION['tbchung']:NULL;
      while($row = mysqli_fetch_array($dt))
@@ -18,5 +16,4 @@
       </div>";
     }
     echo '123';
- ?></div>
- </div>
+ ?>
