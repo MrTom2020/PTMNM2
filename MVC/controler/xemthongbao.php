@@ -4,7 +4,7 @@
         public $a;
         public function __construct()
         {
-            $this->a = $this->model("modelcon");
+            $this->a = $this->model("xtb");
         }
     public function SayHi()
     {
@@ -17,7 +17,7 @@
         if(isset($_POST["xoatb"]))
         {
            $ma = isset($_POST["xoatb"]) ? $_POST["xoatb"]:'';
-           echo $ma;
+           echo $this->a->xoatb($ma);
         }
     }
 }
