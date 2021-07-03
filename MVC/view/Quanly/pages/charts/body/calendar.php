@@ -637,12 +637,7 @@
     <section class="content">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-3">
-            <div class="sticky-top mb-3">
-              
-
-            </div>
-          </div>
+         
           <!-- /.col -->
           <div class="col-md-9">
             <div class="card card-primary">
