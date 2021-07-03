@@ -64,8 +64,8 @@
             }
             if(isset($_POST['gt8']))
             {
-                $this->view("main",[
-                    "Page"=>"main"
+                $this->view("tienich",[
+                    "Page"=>"thongbaochung"
                 ]);
             }
             if(isset($_POST['gt9']))
