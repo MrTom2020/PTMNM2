@@ -2,6 +2,7 @@
 <nav>
         <?php include_once('menu_main/menu.php') ?>
    </nav>
+   123333
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><?php
     $dt = isset($_SESSION['tbchung']) ? $_SESSION['tbchung']:NULL;
