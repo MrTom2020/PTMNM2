@@ -43,7 +43,8 @@
         {
             $this->view("Admin",[
                 "Page"=>"HomeAdmin",
-                "Page1"=>"calendar"
+                "Page1"=>"calendar",
+                "dsnd"=>$this->modelcon->dsndbvh()
             ]);
         }
        }
