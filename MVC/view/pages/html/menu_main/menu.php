@@ -18,7 +18,7 @@
     <?php include_once('MVC/view/pages/html/thongbao/thongbaorieng.php'); ?>
   </div>
   <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-  456
+  <?php include_once('MVC/view/pages/html/thongbao/thongbaochung.php'); ?>
   </div>
   <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
   789
