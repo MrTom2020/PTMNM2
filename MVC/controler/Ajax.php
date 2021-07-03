@@ -23,8 +23,7 @@
             {
                 $_SESSION['ten'] = $us;
                 $this->view("main",[
-                             "Page"=>"main",
-                            "thongbaocn"->$this->modelcon->xemtb()]);
+                             "Page"=>"main",]);
             }
             if($kq == 5 && isset($_POST['btnLogin']))
             {
