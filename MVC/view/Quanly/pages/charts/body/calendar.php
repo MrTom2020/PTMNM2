@@ -643,7 +643,9 @@
 
                 <div class="card-body">
                   <!-- the events -->
-                 
+                  <div id="external-events">
+
+                  </div>
                 </div>
                 <!-- /.card-body -->
               </div>
