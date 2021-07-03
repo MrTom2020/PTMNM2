@@ -154,8 +154,8 @@
             </ul>
           </li>
           <li class="nav-header">EXAMPLES</li>
-          <li class="nav-item">
-            <i  id="btnLogin"  name="a6"  class="nav-link fas fa-calendar-alt" type="submit" style="background-color:#343a40;color:#ffffff;" value="Lịch"/>
+          <li class="nav-item fas fa-calendar-alt">
+            <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Lịch"/>
           </li>
           <li class="nav-item">
              <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
