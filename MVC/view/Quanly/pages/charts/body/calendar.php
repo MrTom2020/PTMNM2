@@ -637,8 +637,8 @@
     <section class="content">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-1">
-            <div class="sticky-top mb-1">
+          <div class="col-md-0">
+            <div class="sticky-top mb-0">
               <div class="card">
 
                 <div class="card-body">
@@ -654,7 +654,7 @@
             </div>
           </div>
           <!-- /.col -->
-          <div class="col-md-11">
+          <div class="col-md-12">
             <div class="card card-primary">
               <div class="card-body p-0">
                 <!-- THE CALENDAR -->
