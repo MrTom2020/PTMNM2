@@ -7,6 +7,7 @@
         <div class='card-body'>
           <h5 class='card-title'>$row[3]</h5>
           <p class='card-text'>$row[4]</p>
+          <p>Ngày đăng $row[5]</p>
         </div>
       </div>";
     }
