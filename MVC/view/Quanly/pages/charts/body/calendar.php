@@ -640,13 +640,11 @@
           <div class="col-md-3">
             <div class="sticky-top mb-3">
               <div class="card">
-                <div class="card-header">
-                  <h4 class="card-title">Draggable Events</h4>
-                </div>
+                
                 <div class="card-body">
                   <!-- the events -->
                   <div id="external-events">
-                    
+
                   </div>
                 </div>
                 <!-- /.card-body -->
