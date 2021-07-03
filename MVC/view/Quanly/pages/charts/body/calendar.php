@@ -650,12 +650,7 @@
                 <!-- /.card-body -->
               </div>
               <!-- /.card -->
-              <div class="card">
-
-                <div class="card-body">
-                 
-                </div>
-              </div>
+              
             </div>
           </div>
           <!-- /.col -->
