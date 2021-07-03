@@ -646,12 +646,7 @@
                 <div class="card-body">
                   <!-- the events -->
                   <div id="external-events">
-                    <div class="checkbox">
-                      <label for="drop-remove">
-                        <input type="checkbox" id="drop-remove">
-                        remove after drop
-                      </label>
-                    </div>
+                    
                   </div>
                 </div>
                 <!-- /.card-body -->
