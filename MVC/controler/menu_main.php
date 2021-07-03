@@ -16,10 +16,9 @@
         {
             if (isset($_POST['gt']))
             {
-                // $this->view("tintuc",[
-                //     "Page"=>"gioithieu"
-                // ]);
-                echo '1';
+                $this->view("tintuc",[
+                    "Page"=>"gioithieu"
+                ]);
             }
             if(isset($_POST['gt1']))
             {
