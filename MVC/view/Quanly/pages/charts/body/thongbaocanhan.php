@@ -91,8 +91,8 @@
               <input type='text' class='form-control' name='ttde' id='ttde' >
             </div>
             <div class='mb-3'>
-              <label for='nodungcn' class='form-label'>nội dung</label>
-              <input type='text' style='height:20vh;' class='form-control' id='nodungcn' name='nodungcn' rows='3'></input>
+              <label for='noidungcn' class='form-label'>nội dung</label>
+              <textarea class='form-control' id='nodungcn' name='noidungcn' rows='3'></textarea>
             </div>
             <div class='mb-3 form-check'>
               <label class='form-check-label' for='ndcg'>Gửi cho</label>
