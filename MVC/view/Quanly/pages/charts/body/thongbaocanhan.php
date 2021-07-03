@@ -85,29 +85,27 @@
           <div class="col-sm-6">
             <h1 class="m-0">Dashboard v2</h1>
             <?php
-            echo "<form>
+            echo "<form class='login-container' action='../thongbao/guicanhan' method='POST'>
             <div class='mb-3'>
-              <label for='exampleInputEmail1' class='form-label'>Email address</label>
-              <input type='email' class='form-control' id='exampleInputEmail1' aria-describedby='emailHelp'>
-              <div id='emailHelp' class='form-text'>We'll never share your email with anyone else.</div>
+              <label for='ttde' class='form-label'>Tiêu đề</label>
+              <input type='textl' class='form-control' id='ttde1' >
             </div>
             <div class='mb-3'>
-              <label for='exampleInputPassword1' class='form-label'>Password</label>
-              <input type='password' class='form-control' id='exampleInputPassword1'>
+              <label for='nodungcn' class='form-label'>nội dung</label>
+              <textarea class='form-control' id='nodungcn' rows='3'></textarea>
             </div>
             <div class='mb-3 form-check'>
-              <input type='checkbox' class='form-check-input' id='exampleCheck1'>
-              <label class='form-check-label' for='exampleCheck1'>Check me out</label>
-            </div>
-            <button type='submit' class='btn btn-primary'>Submit</button>
-          </form>";
-            $dt = isset($data["dsnd"]) ? $data["dsnd"]:NULL;
-           echo "<select class='form-select' aria-label='Default select example'>";
-           while($row = mysqli_fetch_array($dt))
-           {
-             echo "<option value='$row[0]'>$row[1]</option>";
-           }
-         echo "</select>";
+              <label class='form-check-label' for='ndcg'>Gửi cho</label>
+            </div>";
+          $dt = isset($data["dsnd"]) ? $data["dsnd"]:NULL;
+          echo "<select class='form-select' name='ndcg' id='ndcg' aria-label='Default select example'>";
+          while($row = mysqli_fetch_array($dt))
+          {
+            echo "<option value='$row[0]'>$row[1]</option>";
+          }
+        echo "</select>";
+        echo "<button type='submit' name='gcn' class='btn btn-primary'>Submit</button>";
+        echo  "</form>";
         ?>
           </div><!-- /.col -->
           <div class="col-sm-6">
