@@ -88,7 +88,7 @@
             echo "<form class='login-container' action='../thongbao/guicanhan' method='POST'>
             <div class='mb-3'>
               <label for='ttde' class='form-label'>Tiêu đề</label>
-              <input type='textl' class='form-control' id='ttde1' >
+              <input type='textl' class='form-control' id='ttde' >
             </div>
             <div class='mb-3'>
               <label for='nodungcn' class='form-label'>nội dung</label>
