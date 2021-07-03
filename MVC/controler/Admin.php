@@ -39,6 +39,13 @@
                 "dsnd"=>$this->modelcon->dsndbvh()
             ]);
         }
+        if(isset($_POST["a25"]))
+        {
+            $this->view("Admin",[
+                "Page"=>"HomeAdmin",
+                "Page1"=>"calendar"
+            ]);
+        }
        }
     }
 ?>
