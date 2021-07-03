@@ -22,7 +22,7 @@
             $tentacgia = isset($_SESSION['ten']) ? $_SESSION['ten']:"";
             $noidung = isset($_POST['noidungcn']) ? $_POST['noidungcn']:"";
             $tieude = isset($_POST['ttde']) ? $_POST['ttde']:"";
-            $ngaydang = date("l") . date("Y/m/d") . date("h:i:sa");
+            $ngaydang = date("l"). "  ". date("Y/m/d"). "   " . date("h:i:sa");
             echo $this->modelcon->tbcn($ma,$tentacgia,$tieude,$noidung,$ngaydang);
             echo $noidung;
         }
