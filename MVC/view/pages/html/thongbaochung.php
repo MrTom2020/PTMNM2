@@ -4,7 +4,7 @@
    </nav>
    123333
 <div class="tab-content" style="height:80vh;">
-  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+  <div>
   <?php
     $dt = isset($_SESSION['tbchung']) ? $_SESSION['tbchung']:NULL;
      while($row = mysqli_fetch_array($dt))
