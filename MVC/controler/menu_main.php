@@ -71,10 +71,11 @@
             }
             if(isset($_POST['gt11']))
             {
-                $this->view("tintuc",[
-                    "Page"=>"thongbaorieng",
-                    "tbc"=>$this->modelcon->thongbaoriengus()
-                ]);
+                // $this->view("tintuc",[
+                //     "Page"=>"thongbaorieng",
+                //     "tbc"=>$this->modelcon->thongbaoriengus()
+                // ]);
+                echo '123';
             }
             if(isset($_POST['gt9']))
             {
