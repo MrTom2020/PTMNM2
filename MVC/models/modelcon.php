@@ -46,16 +46,13 @@
             if($r)
             {
                 $_SESSION['iduu'] = $r[0];
+                $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
+                $sql1 = "SELECT * FROM thongbao where Userid='$kk'";
+                $row1 = mysqli_query($this->con,$sql1);
+                $_SESSION['tbcnn'] = $row1;
                 $kq = $r[11];
             }
             return $kq;
     }
-    public function xemtb()
-        {
-            $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
-            $sql = "SELECT * FROM thongbao where Userid='$kk'";
-            $row = mysqli_query($this->con,$sql);
-            return $row;
-        }
     }
 ?>
