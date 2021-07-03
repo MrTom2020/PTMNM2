@@ -88,11 +88,11 @@
             echo "<form class='login-container' action='../thongbao/guicanhan' method='POST'>
             <div class='mb-3'>
               <label for='ttde' class='form-label'>Tiêu đề</label>
-              <input type='textl' class='form-control' id='ttde' >
+              <input type='textl' class='form-control' name='ttde' id='ttde' >
             </div>
             <div class='mb-3'>
               <label for='nodungcn' class='form-label'>nội dung</label>
-              <textarea class='form-control' id='nodungcn' rows='3'></textarea>
+              <textarea class='form-control' id='nodungcn' name='nodungcn' rows='3'></textarea>
             </div>
             <div class='mb-3 form-check'>
               <label class='form-check-label' for='ndcg'>Gửi cho</label>
