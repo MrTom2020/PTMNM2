@@ -187,7 +187,7 @@
       </div>
 
       <!-- Sidebar Menu -->
-      <?php include_once("../view/Quanly/pages/menu/navbar.php") ?>
+      <?php include_once("MVC/view/Quanly/pages/menu/navbar.php") ?>
       <!-- /.sidebar-menu -->
     </div>
     <!-- /.sidebar -->
