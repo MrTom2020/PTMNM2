@@ -640,7 +640,7 @@
           <div class="col-md-3">
             <div class="sticky-top mb-3">
               <div class="card">
-                
+
                 <div class="card-body">
                   <!-- the events -->
                   <div id="external-events">
@@ -651,9 +651,7 @@
               </div>
               <!-- /.card -->
               <div class="card">
-                <div class="card-header">
-                  <h3 class="card-title">Create Event</h3>
-                </div>
+               
                 <div class="card-body">
                   <div class="btn-group" style="width: 100%; margin-bottom: 10px;">
                     <ul class="fc-color-picker" id="color-chooser">
