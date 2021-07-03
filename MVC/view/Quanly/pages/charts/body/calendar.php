@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="https://quanlychitieu2030.herokuapp.com/MVC/view/Quanly/plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
   <link rel="stylesheet" href="https://quanlychitieu2030.herokuapp.com/MVC/view/Quanly/plugins/summernote/summernote-bs4.min.css">
+  <link rel="stylesheet" href="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/css/calendar.css">
 </head>
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
