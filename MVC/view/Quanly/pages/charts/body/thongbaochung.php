@@ -85,7 +85,7 @@
           <div class="col-sm-6">
             <h1 class="m-0">Dashboard v2</h1>
             <?php
-            echo "<form class='login-container' action='../thongbao/guichung' method='POST'>
+            echo "<form class='login-container' action='../thongbao/guitatca' method='POST'>
             <div class='mb-3'>
               <label for='ttdechung' class='form-label'>Tiêu đề</label>
               <input type='text' class='form-control' name='ttdechung' id='ttdechung' >
