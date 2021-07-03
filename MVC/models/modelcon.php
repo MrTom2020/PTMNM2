@@ -47,7 +47,7 @@
             {
                 $_SESSION['iduu'] = $r[0];
                 $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
-                $sql1 = "SELECT * FROM thongbao where Userid='$kk'";
+                $sql1 = "SELECT * FROM thongbao where Userid='$kk' and loai ='1' and tinhtrang = '1' ";
                 $row1 = mysqli_query($this->con,$sql1);
                 $_SESSION['tbcnn'] = $row1;
                 $kq = $r[11];
