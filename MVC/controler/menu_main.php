@@ -24,7 +24,6 @@
             {
                 $this->view("main",[
                     "Page"=>"main",
-                     "thongbaocn"->$this->modelcon->xemtb()
                 ]);
             }
             if(isset($_POST['gt2']))
