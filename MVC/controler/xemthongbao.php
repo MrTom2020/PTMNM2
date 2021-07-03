@@ -17,7 +17,9 @@
         if(isset($_POST["xoatb"]))
         {
            $ma = isset($_POST["xoatb"]) ? $_POST["xoatb"]:'';
-           echo $this->a->xoatb($ma);
+            $this->a->xoatb($ma);
+            $this->view("tintuc",[
+                "Page"=>"thongbaorieng" ]);
         }
     }
 }
