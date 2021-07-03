@@ -11,7 +11,7 @@
           <p>Ngày đăng  <br/> $row[5]</p>
         </div>
       </div>
-      <input class='dropdown-item' name='xoatb' type='submit' value='Xóa'/>
+      <input class='dropdown-item' name='xoatb' type='submit' value='$row[0]'>Xóa</input>
       </form>";
 
     }

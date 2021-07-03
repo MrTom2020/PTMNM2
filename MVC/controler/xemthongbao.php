@@ -16,7 +16,8 @@
     {
         if(isset($_POST["xoatb"]))
         {
-            echo '123';
+           $ma = isset($_POST["xoatb"]) ? $_POST["xoatb"]:'';
+           echo $ma;
         }
     }
 }
