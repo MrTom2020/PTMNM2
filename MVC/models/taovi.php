@@ -31,5 +31,12 @@
         $row = mysqli_query($this->con,$sql);
         return $row;
     }
+    public function thongtinnguoidung()
+    {
+        $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
+        $sql = "CALL thongtinnguoidung('$kk')";
+        $row = mysqli_query($this->con,$sql);
+        return $row;
+    }
     }
 ?>
