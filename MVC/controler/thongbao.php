@@ -23,8 +23,11 @@
             $noidung = isset($_POST['noidungcn']) ? $_POST['noidungcn']:"";
             $tieude = isset($_POST['ttde']) ? $_POST['ttde']:"";
             $ngaydang = date("l"). "  ". date("Y/m/d"). "   " . date("h:i:sa");
-            echo $this->modelcon->tbcn($ma,$tentacgia,$tieude,$noidung,$ngaydang);
-            echo $noidung;
+            $this->modelcon->tbcn($ma,$tentacgia,$tieude,$noidung,$ngaydang);
+            $this->view("Admin",[
+                "Page"=>"HomeAdmin",
+                "Page1"=>"index"
+            ]);
         }
        }
        public function guitatca()
@@ -37,8 +40,11 @@
             $noidung = isset($_POST['noidungchung']) ? $_POST['noidungchung']:"";
             $tieude = isset($_POST['ttdechung']) ? $_POST['ttdechung']:"";
             $ngaydang = date("l"). "  ". date("Y/m/d"). "   " . date("h:i:sa");
-            echo $this->modelcon->thongbaochung($maad,$tentacgia,$tieude,$noidung,$ngaydang);
-            echo $maad;
+            $this->modelcon->thongbaochung($maad,$tentacgia,$tieude,$noidung,$ngaydang);
+            $this->view("Admin",[
+                "Page"=>"HomeAdmin",
+                "Page1"=>"index"
+            ]);
         }
        }
        public function guitheonhom()

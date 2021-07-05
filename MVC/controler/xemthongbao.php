@@ -19,7 +19,8 @@
            $ma = isset($_POST["xoatb"]) ? $_POST["xoatb"]:'';
             $this->a->xoatb($ma);
             $this->view("tintuc",[
-                "Page"=>"thongbaorieng" ]);
+                "Page"=>"gioithieu"
+            ]);
         }
     }
 }
