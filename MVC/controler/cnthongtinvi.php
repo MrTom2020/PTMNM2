@@ -14,7 +14,7 @@
     }
     public function cnttv()
     {
-        if(isset($_POST["dongy"]))
+        if(isset($_POST["dongycn"]))
         {
             $idvi = isset($_POST['idvicn']) ? $_POST['idvicn']:"";
            $tenvi = isset($_POST['tenvicn']) ? $_POST['tenvicn']:"";
