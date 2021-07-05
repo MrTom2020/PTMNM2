@@ -5,6 +5,23 @@
     <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">khoản chi</button>
   </div>
 </nav>
+<?php $dt = isset($data["listvi"]) ? $data["listvi"]:NULL;
+  $dem = 0;?>
+  <div class="form-outline mb-4">
+   <?php 
+   if($dt != NULL)
+   {
+   echo "<select name='tenvi' class='form-select' aria-label='Default select example'>";
+   while($row = mysqli_fetch_array($dt))
+   {
+     echo "<option value='$row[0]'>$row[1]</option>";
+     $dem +=1;
+   }
+  echo "</select>";
+   }
+    ?>
+     <label class="form-label" for="form6Example6"><?php echo $d = $dem != 0 ? "Ví":"Hiện tại bạn chưa có ví"; ?></label>
+  </div>
 <div class="tab-content" id="nav-tabContent">
   <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
   <div style="width:40vw;margin-top:10vh;margin-left:5vw;">
