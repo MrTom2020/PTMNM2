@@ -3,7 +3,7 @@
 $tt = isset($data['thongtin']) ? $data['thongtin']:"";
 while($row = mysqli_fetch_array($tt))
 {
-    echo '123';
+    echo $row[1];
 }
 echo "<form action='./../dangkytaikhoanthanhvien/khachdangkytaikhoantv' method='POST'>
 <h1 class='text-center'>Form cập nhật thông tin</h1>
