@@ -1,5 +1,10 @@
 <div style="width:70vw;margin-top:10vh;margin-left:15vw;">
 <?php
+$tt = isset($data['thongtin']) ? $data['thongtin']:"";
+while($row = mysqli_fetch_array($tt))
+{
+    echo '123';
+}
 echo "<form action='./../dangkytaikhoanthanhvien/khachdangkytaikhoantv' method='POST'>
 <h1 class='text-center'>Form cập nhật thông tin</h1>
   <div class='row mb-4'>
