@@ -1,6 +1,6 @@
 <div style="width:70vw;margin-top:10vh;margin-left:15vw;">
 <form action="./../nhapkhoanthuchi/themkhoanthuchi" method="POST">
-<?php $dt = isset($data["listvi"]) ? $data["listvi"]:NULL;?>
+<?php $dt = isset($data["listvi"]) ? $data["listvi"]:"Hiện tại bạn chưa có ví";?>
    <h1 class="text-center">Form Nhập khoản đầu tư</h1>
    <div class="form-outline mb-4">
    <?php 
