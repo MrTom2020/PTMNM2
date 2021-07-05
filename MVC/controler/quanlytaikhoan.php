@@ -44,7 +44,7 @@
         if(isset($_POST["capnhatthongtincn"]))
         {
             $this->view("tienich",[
-                "Page"=>"danhsachtktv",
+                "Page"=>"capnhatthongtincanhan",
                 "listvi"=>$this->a->dstv()
             ]);
         }
