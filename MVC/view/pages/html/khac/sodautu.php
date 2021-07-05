@@ -15,7 +15,7 @@ $dem = 0;?>
    }
   echo "</select>";
    }?>
-    <label class="form-label" for="form6Example6">Ví<?php echo $d = $dem == 0 ? "Ví":"Hiện tại bạn chưa có ví"; ?></label>
+    <label class="form-label" for="form6Example6">Ví<?php echo $d = $dem != 0 ? "Ví":"Hiện tại bạn chưa có ví"; ?></label>
   </div>
   <div class="row mb-4">
     <div class="col">
