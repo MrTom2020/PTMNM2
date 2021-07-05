@@ -24,11 +24,11 @@
             $sdtcn = isset($_POST["sdtcn"]) ? $_POST["sdtcn"]:"";
             $cauhoibimatcn = isset($_POST["cauhoibimatcn"]) ? $_POST["cauhoibimatcn"]:"";
             $cautraloicn = isset($_POST["cautraloicn"]) ? $_POST["cautraloicn"]:"";
-            // $this->a->dk($hotentv, $mktv,$ngaysinhtv,$dctv,$emailtv,$cauhoibimattv,$sdttv,$cautraloitv,$ngaytgtv);
-            // $this->view("tienich",[
-            //     "Page"=>"main"
-            // ]);
-            echo $sdtcn;
+            $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
+            $this->a->capnhatthongtinus($ID,$ngaysinhcn,$mkcn,$dccn,$emailcn,$sdtcn,$cauhoibimatcn,$cautraloicn);
+            $this->view("tienich",[
+                "Page"=>"Quanlytaikhoan",
+            ]);
         }
     }
 }
