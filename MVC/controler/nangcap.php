@@ -17,10 +17,10 @@
         if(isset($_POST["dongycn"]))
         {
             $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
-           echo  $this->a->nc($ID);
-            // $this->view("main",[
-            //     "Page"=>"main",
-            // ]);
+            $this->a->nc($ID);
+            $this->view("main",[
+                "Page"=>"main",
+            ]);
         }
     }
 }
