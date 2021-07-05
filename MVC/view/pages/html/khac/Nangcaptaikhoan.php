@@ -53,8 +53,6 @@
     />
     <label class="form-check-label" for="form6Example8">Tạo một tài khoản?</label>
   </div>
-
-  <INPUT class="btn btn-primary btn-block mb-4" TYPE="button" VALUE="Quay lại" onClick="history.go(-1);">
-  <button type="submit" class="btn btn-primary btn-block mb-4">Đồng ý</button>
+  <button type="submit" name="dync" class="btn btn-primary btn-block mb-4">Đồng ý</button>
 </form>
 </div>
