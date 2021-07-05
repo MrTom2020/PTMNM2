@@ -13,7 +13,7 @@
    }
   echo "</select>";
    }
-   else
+   if($dt == NULL)
    {
     echo "<label class='form-label' for='form6Example6'>Hiện tại bạn chưa có ví</label>";
    }
