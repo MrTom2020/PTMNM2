@@ -40,6 +40,15 @@
     <input type="text" name="dmkc"  class="form-control" />
     <label class="form-label" for="form6Example3">Danh mục</label>
   </div>
-  <button type="submit" name="dykc" class="btn btn-primary btn-block mb-4">Đồng ý</button>
+  <?php 
+  if($dem != 0)
+  { 
+    echo "<button type='submit' name='dykc' class='btn btn-primary btn-block mb-4'>Đồng ý</button>";
+  }
+  else
+  {
+    echo "<button type='submit' name='dykc' class='btn btn-primary btn-block mb-4' disabled>Đồng ý</button>";
+  }
+  ?>
 </form>
 </div>

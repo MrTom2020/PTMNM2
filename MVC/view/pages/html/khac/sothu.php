@@ -43,11 +43,11 @@
   <?php 
   if($dem != 0)
   { 
-    echo "<button type='submit' name='dykt' class='btn btn-primary btn-block mb-4'>Đồng ý</button>";
+    echo "<button type='submit' name='dydt' class='btn btn-primary btn-block mb-4'>Đồng ý</button>";
   }
   else
   {
-    echo "<button type='submit' name='dykt' class='btn btn-primary btn-block mb-4' disabled>Đồng ý</button>";
+    echo "<button type='submit' name='dydt' class='btn btn-primary btn-block mb-4' disabled>Đồng ý</button>";
   }
   ?>
 </form>

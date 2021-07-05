@@ -39,6 +39,15 @@ $dem = 0;?>
     <input type="text" name="dmdt"  class="form-control" />
     <label class="form-label" for="form6Example3">Danh mục</label>
   </div>
-  <button type="submit" name="dydt" class="btn btn-primary btn-block mb-4">Đồng ý</button>
+  <?php 
+  if($dem != 0)
+  { 
+    echo "<button type='submit' name='dykt' class='btn btn-primary btn-block mb-4'>Đồng ý</button>";
+  }
+  else
+  {
+    echo "<button type='submit' name='dykt' class='btn btn-primary btn-block mb-4' disabled>Đồng ý</button>";
+  }
+  ?>
 </form>
 </div>
