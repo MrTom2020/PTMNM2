@@ -51,8 +51,7 @@
       id="form6Example8"
       checked
     />
-    <label class="form-check-label" for="form6Example8">Tạo một tài khoản?</label>
+    <input type="submit" name="dync" class="btn btn-primary btn-block mb-4" value="Đồng ý">
   </div>
-  <input type="submit" name="dync" class="btn btn-primary btn-block mb-4" value="Đồng ý">
 </form>
 </div>
