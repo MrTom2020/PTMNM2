@@ -15,11 +15,11 @@ echo "<form action='./../dangkytaikhoanthanhvien/khachdangkytaikhoantv' method='
     </div>
   </div>
   <div class='form-outline mb-4'>
-    <input type='password' name='mkcn' id='form6Example3' class='form-control' value='$row[2]' />
+    <input type='text' name='mkcn' id='form6Example3' class='form-control' value='$row[2]' />
     <label class='form-label' for='form6Example3'>Mật khẩu</label>
   </div>
   <div class='form-outline mb-4'>
-    <input type='password' name='xnmkcn'  class='form-control' value='$row[3]'  />
+    <input type='text' name='xnmkcn'  class='form-control' value='$row[3]'  />
     <label class='form-label' for='form6Example3'>Xác nhận mật khẩu</label>
   </div>
   <div class='form-outline mb-4'>
