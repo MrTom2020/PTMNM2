@@ -14,7 +14,7 @@
     }
     public function nc()
     {
-        if(isset($_POST["dync"]))
+        if(isset($_POST["dongycn"]))
         {
             $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
            echo  $this->a->nc($ID);
