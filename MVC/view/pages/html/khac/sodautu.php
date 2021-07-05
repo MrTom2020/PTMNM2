@@ -1,6 +1,7 @@
 <div style="width:70vw;margin-top:10vh;margin-left:15vw;">
 <form action="./../nhapkhoanthuchi/themkhoanthuchi" method="POST">
-<?php $dt = isset($data["listvi"]) ? $data["listvi"]:NULL;?>
+<?php $dt = isset($data["listvi"]) ? $data["listvi"]:NULL;
+$dem = 0;?>
    <h1 class="text-center">Form Nhập khoản đầu tư</h1>
    <div class="form-outline mb-4">
    <?php 
@@ -10,15 +11,11 @@
    while($row = mysqli_fetch_array($dt))
    {
      echo "<option value='$row[0]'>$row[1]</option>";
+     $dem +=1;
    }
   echo "</select>";
-   }
-   if($dt == NULL)
-   {
-    echo "<label class='form-label' for='form6Example6'>Hiện tại bạn chưa có ví</label>";
-   }
-    ?>
-    <label class="form-label" for="form6Example6">Ví</label>
+   }?>
+    <label class="form-label" for="form6Example6">Ví<?php echo $dem; ?></label>
   </div>
   <div class="row mb-4">
     <div class="col">
