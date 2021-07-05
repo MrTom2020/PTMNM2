@@ -2,7 +2,7 @@
   <form action="./../nhapkhoanthuchi/themkhoanthuchi" method="POST">
   <?php $dt = isset($data["listvi"]) ? $data["listvi"]:NULL;
   $dem = 0;?>
-   <h1 class="text-center">Form Nhập khoản chi</h1>
+   <h1 class="text-center">Form cập nhật ví</h1>
    <div class="form-outline mb-4">
    <?php 
    if($dt != NULL)

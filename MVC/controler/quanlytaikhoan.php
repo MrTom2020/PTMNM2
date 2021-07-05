@@ -38,7 +38,7 @@
         {
             $this->view("tienich",[
                 "Page"=>"capnhatthongtinvi",
-                "listvi"=>$this->a->dstv()
+                "listvi"=>$this->a->danhsachvi()
             ]);
         }
     }
