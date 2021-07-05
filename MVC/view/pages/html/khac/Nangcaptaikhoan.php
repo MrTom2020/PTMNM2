@@ -1,5 +1,5 @@
 <div style="width:70vw;margin-top:10vh;margin-left:15vw;">
-<form action="./../Ajax/checkuse" method="POST">
+<form action="./../nangcap/nc" method="POST">
    <h1 class="text-center">Form Đăng Ký</h1>
   <div class="row mb-4">
     <div class="col">
