@@ -29,7 +29,7 @@
 <div class="animated features-ml">
 <img src="https://img.icons8.com/ios-filled/50/26e07f/wallet.png"/>
 <h3 class="fourthlabel">Amazing update wallet</h3>
-<input type="submit" class="form-control"  name="mt" id="useName" value="Cập nhật ví.">
+<input type="submit" class="form-control"  name="capnhatvi" id="capnhatvi" value="Cập nhật ví.">
 </div>
 </div>
 <div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">

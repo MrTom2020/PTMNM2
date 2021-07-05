@@ -34,6 +34,13 @@
                 "listvi"=>$this->a->dstv()
             ]);
         }
+        if(isset($_POST["capnhatvi"]))
+        {
+            $this->view("tienich",[
+                "Page"=>"danhsachtktv",
+                "listvi"=>$this->a->dstv()
+            ]);
+        }
     }
 }
     
