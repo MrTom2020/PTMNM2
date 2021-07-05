@@ -1,5 +1,5 @@
 <div style="width:70vw;margin-top:10vh;margin-left:15vw;">
-  <form action="./../nhapkhoanthuchi/themkhoanthuchi" method="POST">
+  <form action="./../cnthongtinvi/cnttv" method="POST">
   <?php $dt = isset($data["listvi"]) ? $data["listvi"]:NULL;
   $dem = 0;?>
    <h1 class="text-center">Form cập nhật ví</h1>
@@ -7,7 +7,7 @@
    <?php 
    if($dt != NULL)
    {
-   echo "<select name='tenvi' class='form-select' aria-label='Default select example'>";
+   echo "<select name='idvicn' class='form-select' aria-label='Default select example'>";
    while($row = mysqli_fetch_array($dt))
    {
      echo "<option value='$row[0]'>$row[1]</option>";
@@ -21,24 +21,20 @@
   <div class="row mb-4">
     <div class="col">
       <div class="form-outline">
-        <input type="text" name="tenkhoanchi" id="form6Example1" class="form-control" />
-        <label class="form-label" for="form6Example1">Tên khoản chi</label>
+        <input type="text" name="tenvicn" id="form6Example1" class="form-control" />
+        <label class="form-label" for="form6Example1">Tên ví mới</label>
       </div>
     </div>
     <div class="col">
       <div class="form-outline">
-        <input type="date" id="form6Example2" name="ngaygdkc" class="form-control" />
-        <label class="form-label" for="form6Example2">Ngày giao dịch</label>
+        <input type="text" id="form6Example2" name="tiencn" class="form-control" />
+        <label class="form-label" for="form6Example2">Tiền</label>
       </div>
     </div>
   </div>
   <div class="form-outline mb-4">
-    <input type="text" id="form6Example3" name="gtkc" class="form-control" />
-    <label class="form-label" for="form6Example3">giá trị</label>
-  </div>
-  <div class="form-outline mb-4">
-    <input type="text" name="dmkc"  class="form-control" />
-    <label class="form-label" for="form6Example3">Danh mục</label>
+    <input type="text" name="loaivicn"  class="form-control" />
+    <label class="form-label" for="form6Example3">Loại ví</label>
   </div>
   <?php 
   if($dem != 0)
