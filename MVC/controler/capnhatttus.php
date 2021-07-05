@@ -4,7 +4,7 @@
         public $a;
         public function __construct()
         {
-            $this->a = $this->model("modelcon");
+            $this->a = $this->model("capnhatthongtinus");
         }
     public function SayHi()
     {
@@ -25,7 +25,7 @@
             $cauhoibimatcn = isset($_POST["cauhoibimatcn"]) ? $_POST["cauhoibimatcn"]:"";
             $cautraloicn = isset($_POST["cautraloicn"]) ? $_POST["cautraloicn"]:"";
             $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
-            $this->a->capnhatthongtinus($ID,$ngaysinhcn,$mkcn,$dccn,$emailcn,$sdtcn,$cauhoibimatcn,$cautraloicn);
+            $this->a->cn($ID,$ngaysinhcn,$mkcn,$dccn,$emailcn,$sdtcn,$cauhoibimatcn,$cautraloicn);
             $this->view("tienich",[
                 "Page"=>"Quanlytaikhoan",
             ]);
