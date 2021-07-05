@@ -1,7 +1,7 @@
 <div style="width:70vw;margin-top:10vh;margin-left:15vw;">
 <form action="./../nhapkhoanthuchi/themkhoanthuchi" method="POST">
 <?php $dt = isset($data["listvi"]) ? $data["listvi"]:NULL;
-$dem = 100;?>
+$dem = 0;?>
    <h1 class="text-center">Form Nhập khoản đầu tư</h1>
    <div class="form-outline mb-4">
    <?php 
@@ -15,7 +15,7 @@ $dem = 100;?>
    }
   echo "</select>";
    }?>
-    <label class="form-label" for="form6Example6">Ví<?php echo $dem; ?></label>
+    <label class="form-label" for="form6Example6">Ví<?php $d = $dem == 0 ? "Ví":"Hiện tại bạn chưa có ví"; ?></label>
   </div>
   <div class="row mb-4">
     <div class="col">
