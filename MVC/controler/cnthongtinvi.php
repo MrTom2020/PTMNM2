@@ -20,7 +20,10 @@
            $tenvi = isset($_POST['tenvicn']) ? $_POST['tenvicn']:"";
            $tien = isset($_POST['tiencn']) ? $_POST['tiencn']:"";
            $loaivi = isset($_POST['loaivicn']) ? $_POST['loaivicn']:"";
-           echo $this->a->cn($idvi,$tenvi,$tien,$loaivi);
+           $this->a->cn($idvi,$tenvi,$tien,$loaivi);
+           $this->view("tienich",[
+            "Page"=>"Quanlytaikhoan",
+        ]);
         }
     }
 }
