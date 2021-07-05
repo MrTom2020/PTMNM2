@@ -4,7 +4,7 @@ $tt = isset($data['thongtin']) ? $data['thongtin']:"";
 while($row = mysqli_fetch_array($tt))
 {
     echo $row[2];
-echo "<form action='./../dangkytaikhoanthanhvien/khachdangkytaikhoantv' method='POST'>
+echo "<form action='./../capnhatttus/capnhattt' method='POST'>
 <h1 class='text-center'>Form cập nhật thông tin</h1>
   <div class='row mb-4'>
     <div class='col'>
@@ -27,7 +27,7 @@ echo "<form action='./../dangkytaikhoanthanhvien/khachdangkytaikhoantv' method='
     <label class='form-label' for='form6Example4'>Địa chỉ</label>
   </div>
   <div class='form-outline mb-4'>
-    <input type='email' name='emailtv' id='form6Example5' class='form-control' value='$row[5]'   />
+    <input type='email' name='emailcn' id='form6Example5' class='form-control' value='$row[5]'   />
     <label class='form-label' for='form6Example5'>Email</label>
   </div>
   <div class='form-outline mb-4'>
