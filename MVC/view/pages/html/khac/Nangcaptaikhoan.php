@@ -53,6 +53,6 @@
     />
     <label class="form-check-label" for="form6Example8">Tạo một tài khoản?</label>
   </div>
-  <button type="submit" name="dync" class="btn btn-primary btn-block mb-4">Đồng ý</button>
+  <input type="submit" name="dync" class="btn btn-primary btn-block mb-4" value="Đồng ý">
 </form>
 </div>
