@@ -1,3 +1,4 @@
+<form action="./../nangcap/nc" method="POST">
 <div id="Amazing-app">
     </div> 
             <div>
@@ -148,3 +149,5 @@
 <iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important; pointer-events: none;" aria-hidden="true" tabindex="-1" title="Intercom">
 </iframe>
 <div class="intercom-lightweight-app" aria-live="polite"></div>
+<button type="submit" name="dongycn" class="btn btn-primary btn-block mb-4">Đồng ý</button>
+</form>

@@ -1,5 +1,5 @@
 <div style="width:70vw;margin-top:10vh;margin-left:15vw;">
-<form action="./../nangcap/nc" method="POST">
+<form action="./../Ajax/checkuse" method="POST">
    <h1 class="text-center">Form Đăng Ký</h1>
   <div class="row mb-4">
     <div class="col">
@@ -51,7 +51,9 @@
       id="form6Example8"
       checked
     />
-    <input type="submit" name="dync" class="btn btn-primary btn-block mb-4" value="Đồng ý">
+    <label class="form-check-label" for="form6Example8">Tạo một tài khoản?</label>
   </div>
+  <INPUT class="btn btn-primary btn-block mb-4" TYPE="button" VALUE="Quay lại" onClick="history.go(-1);">
+  <button type="submit" class="btn btn-primary btn-block mb-4">Đồng ý</button>
 </form>
 </div>
