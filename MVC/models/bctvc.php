@@ -6,7 +6,11 @@
             $kq = "A hu hu";
             $sql = "CALL baocaotongquan('$ID')";
             $row = mysqli_query($this->con,$sql);
-            $kq = $row['Ten'];
+            if($row)
+            {
+                $row2 = mysqli_fetch_array($row);
+                $kq = $row2[1];
+            }
             return $kq;
         }
     }
