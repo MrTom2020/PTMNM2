@@ -17,6 +17,9 @@
            // $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
             $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
            echo $this->a->bc($un3);
+           $this->view("tintuc",[
+            "Page"=>"baocaothuchi",
+        ]);
     }
 }
     
