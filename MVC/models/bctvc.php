@@ -9,10 +9,11 @@
             $row = mysqli_query($this->con,$sql);
             if($row)
             {
-                while($row1 = mysqli_fetch_array($row))
-                {
-                    $kq = $row[1];
-                }
+                $kq = "A1111 hu hu";
+                // while($row1 = mysqli_fetch_array($row))
+                // {
+                //     $kq = $row[1];
+                // }
             }
             return $kq;
         }
