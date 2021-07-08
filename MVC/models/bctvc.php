@@ -3,14 +3,13 @@
     {
         public function bc($ID)
         {
-            $kq = "123";
+            $kq = "A hu hu";
             $sql = "CALL baocaotongquan('$ID')";
             $row = mysqli_query($this->con,$sql);
-            $kq = $row;
-            while($row2 = mysqli_fetch_array($row))
-           {
-               $kq = "12345678";
-           }
+            if($row)
+            {
+                $kq = "A hi hi";
+            }
             return $kq;
         }
     }
