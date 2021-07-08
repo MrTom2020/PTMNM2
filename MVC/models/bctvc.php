@@ -4,11 +4,11 @@
         public function bc($ID)
         {
             $kq = "A hu hu";
-            $sql = "CALL baocaotongquan('$ID')";
+            $sql = "CALL baocaotongquan('105')";
             $row = mysqli_query($this->con,$sql);
             if($row)
             {
-                $kq = "A hi hi";
+                $kq = $row[1];
             }
             return $kq;
         }
