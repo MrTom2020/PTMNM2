@@ -11,13 +11,16 @@
    <?php 
    if($dt != NULL)
    {
-   echo "<select name='tenvi' class='form-select' aria-label='Default select example'>";
+    echo "<form action='./../baocaothuvachi/baocaotq' method='POST'>
+    <select name='tenvi' class='form-select' aria-label='Default select example'>";
    while($row = mysqli_fetch_array($dt))
    {
      echo "<option value='$row[0]'>$row[1]</option>";
      $dem +=1;
    }
-  echo "</select>";
+  echo "</select>
+  <button type='submit' name='xembc' class='btn btn-primary btn-block mb-4'>Đồng ý</button>
+  </form>";
    }
     ?>
   </div>

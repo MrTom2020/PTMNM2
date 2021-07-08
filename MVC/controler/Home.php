@@ -12,14 +12,7 @@
             "Page"=>"login",
         ]);
     }
-    public function khachdangnhap()
-    {
-        if(isset($_POST["dongy"]))
-        {
-            $username = $_POST["useName"];
-            $password = $_POST["usePassword"];
-        }
-    }
+   
 }
     
 ?>
