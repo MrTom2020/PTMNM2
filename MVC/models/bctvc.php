@@ -11,7 +11,7 @@
             {
                 while ($row2 = $row -> fetch_row())
                 {
-                    $kq = $row2[0];
+                    $kq ="Tên ". $row2[0]. "giá trị ". $row2[1]. "Ngày tạo ".$row2[2]. "Danh mục ".$row2[3]. "Loại ví ".$row2[4];
                 }
                // $kq = "A1111 hu hu";
                 // while($row1 = mysqli_fetch_array($row))
