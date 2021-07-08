@@ -7,10 +7,7 @@
             $ID = 105;
             $sql = "CALL baocaotongquan('$ID')";
             $row = mysqli_query($this->con,$sql);
-            if($row)
-            {
-                $kq = $row[1];
-            }
+            $kq = $row['Ten'];
             return $kq;
         }
     }
