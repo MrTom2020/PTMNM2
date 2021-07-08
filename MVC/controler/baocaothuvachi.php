@@ -14,11 +14,9 @@
     }
     public function baocaotq()
     {
-        if(isset($_POST["xembc"]))
-        {
-            $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
-           echo $this->a->bc($id);
-        }
+           // $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
+            $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
+           echo $this->a->bc($un3);
     }
 }
     
