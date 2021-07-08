@@ -8,7 +8,7 @@
             $row = mysqli_query($this->con,$sql);
             if($row)
             {
-                $kq = "A hi hi";
+                $kq = $row[1];
             }
             return $kq;
         }
