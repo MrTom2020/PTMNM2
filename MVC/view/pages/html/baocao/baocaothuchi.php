@@ -11,7 +11,7 @@
    <?php 
    if($dt != NULL)
    {
-    echo "<form  method="POST">
+    echo "<form  method='POST'>
     <select name='tenvi' id='tenvi' class='form-select' aria-label='Default select example'>";
    while($row = mysqli_fetch_array($dt))
    {
