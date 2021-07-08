@@ -1,6 +1,8 @@
 $(document).ready(function(){
-    $("#tenvi" ).longclick(function() {
-        alert( "Handler for .click() called." );
+    $("#xembc" ).click(function()
+     {
+         var mavi = $("#tenvi").val();
+        alert(mavi);
       });
    
 });
