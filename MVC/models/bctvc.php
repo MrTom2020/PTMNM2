@@ -11,7 +11,7 @@
             {
                 while ($row2 = $row -> fetch_row())
                 {
-                    $kq = "A1111 hu hu";
+                    $kq = $row2[0];
                 }
                // $kq = "A1111 hu hu";
                 // while($row1 = mysqli_fetch_array($row))
