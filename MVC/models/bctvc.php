@@ -5,7 +5,8 @@
         {
             $kq = "A hu hu";
             $sql = "CALL baocaotongquan('$ID')";
-            if(mysqli_query($this->con,$sql))
+            $row = mysqli_query($this->con,$sql);
+            if($row)
             {
                 $kq = "A hi hi";
             }
