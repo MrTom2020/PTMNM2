@@ -4,7 +4,8 @@
         public function bc($ID)
         {
             $kq = "A hu hu";
-            $sql = "CALL baocaotongquan('105')";
+            $ID = 105;
+            $sql = "CALL baocaotongquan('$ID')";
             $row = mysqli_query($this->con,$sql);
             if($row)
             {
