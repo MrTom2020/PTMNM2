@@ -4,7 +4,7 @@
         public $a;
         public function __construct()
         {
-            $this->a = $this->model("modelcon");
+            $this->a = $this->model("bctvc");
         }
     public function SayHi()
     {
@@ -16,7 +16,8 @@
     {
         if(isset($_POST["xembc"]))
         {
-           echo 'eeee';
+            $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
+           echo $this->a->bc($id);
         }
     }
 }
