@@ -11,7 +11,7 @@
    <?php 
    if($dt != NULL)
    {
-    echo "<form>
+    echo "<form  method="POST">
     <select name='tenvi' id='tenvi' class='form-select' aria-label='Default select example'>";
    while($row = mysqli_fetch_array($dt))
    {
@@ -19,7 +19,7 @@
      $dem +=1;
    }
   echo "</select>
-  <button type='submit' name='xembc' id='xembc' class='btn btn-primary btn-block mb-4'>Đồng ý</button>
+  <button  name='xembc' id='xembc' class='btn btn-primary btn-block mb-4'>Đồng ý</button>
   </form>";
    }
     ?>
