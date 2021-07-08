@@ -8,7 +8,10 @@
             $row = mysqli_query($this->con,$sql);
             if($row)
             {
-                $kq = $row[1];
+                while($row2 = mysqli_fetch_array($row))
+                {
+                    $kq = $row2[1];
+                }
             }
             return $kq;
         }
