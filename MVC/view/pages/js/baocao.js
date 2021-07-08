@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#tenvi" ).click(function() {
+    $("#tenvi" ).ondblclick(function() {
         alert( "Handler for .click() called." );
       });
    
