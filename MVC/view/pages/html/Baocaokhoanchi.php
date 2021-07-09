@@ -5,5 +5,5 @@
      <?php include_once('chart/chart_pie.php') ?>
    </section>
    <section style="width:50vw;float:right;margin-top:-75vh;">
-   <?php include_once('baocao/baocaothuchi.php') ?>
+   <?php include_once('baocao/baocaochi.php') ?>
    </section>
