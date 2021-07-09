@@ -46,24 +46,6 @@
            echo "</tbody>";
            echo "</table>";
           
-             $chart = new CanvasJS.Chart("#chartContainer","
-             {
-        	animationEnabled: true,
-	        title: {
-	    	text: 'Báo cáo ...... tháng ....'
-	        },
-	        subtitles: [{
-	    	text: 'November 2017'
-	        }],
-	        data: [{
-	    	type: 'pie',
-		    yValueFormatString: '#,##0.00\'%\'',
-		    indexLabel: '{label} ({y})',
-	    	dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
-	        }]
-            }");
-            $chart.render();  
-            echo "<div id='chartContainer' style='height: 370px; width: 45%;margin-top:6vh;background:#333333;'></div>";
     }
 }
     
