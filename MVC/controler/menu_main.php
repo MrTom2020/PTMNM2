@@ -47,7 +47,7 @@
             if(isset($_POST['gt5']))
             {
                 $this->view("tintuc",[
-                    "Page"=>"Baocaokhoanthuchi",
+                    "Page"=>"Baocaokhoanchi",
                     "listvi"=>$this->modelcon->danhsachvi()
                 ]);
             }
