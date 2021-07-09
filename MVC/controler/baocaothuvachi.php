@@ -45,9 +45,9 @@
            }
            echo "</tbody>";
            echo "</table>";
-          echo "<script>
-            window.onload = function() {
-            var chart = new CanvasJS.Chart('chartContainer', {
+          
+             $chart = new CanvasJS.Chart("#chartContainer","
+             {
         	animationEnabled: true,
 	        title: {
 	    	text: 'Báo cáo ...... tháng ....'
@@ -61,13 +61,9 @@
 		    indexLabel: '{label} ({y})',
 	    	dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
 	        }]
-            });
-            chart.render();
-            }
-            </script>
-            </head>
-            <div id='chartContainer' style='height: 370px; width: 45%;margin-top:6vh;background:#333333;'></div>
-            <script src='https://canvasjs.com/assets/script/canvasjs.min.js'></script>";
+            }");
+            $chart.render();  
+            echo "<div id='chartContainer' style='height: 370px; width: 45%;margin-top:6vh;background:#333333;'></div>";
     }
 }
     
