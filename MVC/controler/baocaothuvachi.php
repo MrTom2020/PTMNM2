@@ -16,7 +16,6 @@
     {
            // $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
             $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
-            echo $un3;
            $row =  $this->a->bc($un3);
            echo "<table class='table'>";
            echo "<thead>
