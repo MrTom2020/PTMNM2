@@ -2,7 +2,10 @@
         <?php include_once('menu_main/menu.php'); ?>
    </nav>
    <section style="height:80vh;">
-     <?php include_once('chart/chart_pie.php'); ?>
+     <?php 
+       $Page2 = isset($data['Page2']) ? $data['Page2']:"";
+       include_once('chart/'.$Page2.'.php'); 
+     ?>
    </section>
    <section style="width:50vw;float:right;margin-top:-75vh;">
    <?php 

@@ -49,6 +49,7 @@
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaochi",
+                    "Page2"=>"chart_pie",
                     "listvi"=>$this->modelcon->danhsachvi()
                 ]);
             }
