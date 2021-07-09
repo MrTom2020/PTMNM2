@@ -46,7 +46,7 @@
            echo "</tbody>";
            echo "</table>";
            echo "<canvas id='myChart' style='width:100%;max-width:600px'></canvas>";
-          $kk =  bd($un3);
+          $kk =  bd('123');
           echo $kk;
           
     }
