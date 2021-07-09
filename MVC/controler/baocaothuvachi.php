@@ -31,10 +31,10 @@
          echo "<tbody>";
            while ($row2 = $row -> fetch_row())
            {
-            $tg = $row[2];
+            $tg = $row2[2];
             $k = date("d/m/Y",strtotime($tg));
              echo "<tr>
-             <th scope='row'>$row[0]</th>
+             <th scope='row'>$row2[0]</th>
              <td>$row2[1]</td>
              <td>$row2[3]</td>
              <td>$row2[4]</td>
