@@ -22,7 +22,9 @@
             <li><input class="dropdown-item" name="gt2"  type="submit" value="Thêm tài khoản quản lý"/></li>
             <li><input class="dropdown-item" name="gt4"  type="submit" value="Amazing update"/></li>
             <li><hr class="dropdown-divider"></li>
-            <li><input class="dropdown-item" name="gt5" type="submit" value="Báo cáo khoản thu chi"/></li>
+            <li><input class="dropdown-item" name="gt5" type="submit" value="Báo cáo khoản chi"/></li>
+            <li><input class="dropdown-item" name="gt12" type="submit" value="Báo cáo khoản thu"/></li>
+            <li><input class="dropdown-item" name="gt13" type="submit" value="Báo cáo khoản đầu tư"/></li>
             <li><input class="dropdown-item" name="gt6" type="submit" value="Quản lý tài khoản"/></li>
           </ul>
         </li>

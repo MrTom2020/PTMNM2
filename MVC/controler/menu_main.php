@@ -53,6 +53,24 @@
                     "listvi"=>$this->modelcon->danhsachvi()
                 ]);
             }
+            if(isset($_POST['gt12']))
+            {
+                $this->view("tintuc",[
+                    "Page"=>"Baocaokhoanchi",
+                    "Page1"=>"baocaothu",
+                    "Page2"=>"chart_thu",
+                    "listvi"=>$this->modelcon->danhsachvi()
+                ]);
+            }
+            if(isset($_POST['gt13']))
+            {
+                $this->view("tintuc",[
+                    "Page"=>"Baocaokhoanchi",
+                    "Page1"=>"baocaodautu",
+                    "Page2"=>"chart_dt",
+                    "listvi"=>$this->modelcon->danhsachvi()
+                ]);
+            }
             if(isset($_POST['gt6']))
             {
                 $this->view("tintuc",[
