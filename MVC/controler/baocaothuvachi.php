@@ -66,7 +66,7 @@
             }
             </script>
             </head>
-            <div id='chartContainer' style='height: 370px; width: 45%;margin-top:6vh;'></div>
+            <div id='chartContainer' style='height: 370px; width: 45%;margin-top:6vh;background:#333333;'></div>
             <script src='https://canvasjs.com/assets/script/canvasjs.min.js'></script>";
     }
 }
