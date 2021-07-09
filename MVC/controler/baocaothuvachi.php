@@ -22,7 +22,7 @@
            <tr>
               <th scope='col'>Tên ví</th>
               <th scope='col'>Tiền trong ví</th>
-              <th scope='col'>Danh mục/th>
+              <th scope='col'>Danh mục</th>
               <th scope='col'>Loại</th>
               <th scope='col'>Ngày tạo</th>
               <th scope='col'>Xóa</th>
