@@ -16,7 +16,7 @@
     {
            // $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
-           $row =  $this->a->bc($un3);
+        $row =  $this->a->bc($un3);
            $_SESSION['bdtq'] = $this->a->bieudotongquat($un3);
            echo "<table class='table'>";
            echo "<thead>
@@ -45,6 +45,28 @@
            }
            echo "</tbody>";
            echo "</table>";
+          echo "<script>
+            window.onload = function() {
+            var chart = new CanvasJS.Chart('chartContainer', {
+        	animationEnabled: true,
+	        title: {
+	    	text: 'Báo cáo ...... tháng ....'
+	        },
+	        subtitles: [{
+	    	text: 'November 2017'
+	        }],
+	        data: [{
+	    	type: 'pie',
+		    yValueFormatString: '#,##0.00\'%\'',
+		    indexLabel: '{label} ({y})',
+	    	dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
+	        }]
+            });
+            chart.render();
+            }
+            </script>
+            </head>
+            <div id='chartContainer' style='height: 370px; width: 45%;margin-top:6vh;'></div>";
     }
 }
     

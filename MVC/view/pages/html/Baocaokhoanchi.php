@@ -3,8 +3,8 @@
    </nav>
    <section style="height:80vh;">
      <?php 
-       $Page2 = isset($data['Page2']) ? $data['Page2']:"";
-       include_once('chart/'.$Page2.'.php'); 
+      // $Page2 = isset($data['Page2']) ? $data['Page2']:"";
+      // include_once('chart/'.$Page2.'.php'); 
      ?>
    </section>
    <section style="width:50vw;float:right;margin-top:-75vh;">
