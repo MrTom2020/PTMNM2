@@ -38,7 +38,12 @@ chart.render();
 </script>
 </head>
 <body>
-<div id="chartContainer" style="height: 370px; width: 45%;margin-top:6vh;"></div>
+<div id="chartContainer" style="height: 370px; width: 45%;margin-top:6vh;"></div>123
+<?php $k = isset($_SESSION['bdtq']) ? $_SESSION['bdtq']:NULL;
+if($k != NULL)
+{
+	echo '1111111111111111111111111111111111111111111';
+} ?>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </body>
 </html> 

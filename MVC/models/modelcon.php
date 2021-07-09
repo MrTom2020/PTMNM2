@@ -38,10 +38,10 @@
             return $row;
          }
     public function t($un,$pw)
-    {
-        $kq = 1;
-        $sql = "SELECT * FROM user where username='$un' AND password='$pw'";
-            $rowss = mysqli_query($this->con,$sql); 
+        {
+            $kq = 1;
+            $sql = "SELECT * FROM user where username='$un' AND password='$pw'";
+           $rowss = mysqli_query($this->con,$sql); 
             $r =  mysqli_fetch_array($rowss);
             if($r)
             {
@@ -57,19 +57,25 @@
             }
             return $kq;
     }
-    public function thongbaoriengus()
-    {
+        public function thongbaoriengus()
+         {
             $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
             $sql1 = "SELECT * FROM thongbao where Userid='$kk' and loai ='1' and tinhtrang = '1' ";
             $row1 = mysqli_query($this->con,$sql1);
             $_SESSION['tbcnn'] = $row1;
             return $row1;
-    }
-    public function thongbaochungus()
-    {
+        }
+        public function thongbaochungus()
+        {
             $sql2 = "SELECT * FROM thongbao where loai ='2' ";
             $row2 = mysqli_query($this->con,$sql2);
             return $row2;
-    }
+         }
+         public function bieudotongquat($ID)
+        {
+            $sql2 = "CALL bieudotongquan('$ID')";
+            $row2 = mysqli_query($this->con,$sql2);
+            return $row2;
+         }
     }
 ?>

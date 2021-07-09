@@ -46,6 +46,7 @@
             }
             if(isset($_POST['gt5']))
             {
+
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaochi",

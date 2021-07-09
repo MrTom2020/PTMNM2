@@ -17,6 +17,7 @@
            // $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
             $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
            $row =  $this->a->bc($un3);
+           $_SESSION['bdtq'] = $this->a->bieudotongquat();
            echo "<table class='table'>";
            echo "<thead>
            <tr>
