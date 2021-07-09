@@ -45,6 +45,7 @@
            }
            echo "</tbody>";
            echo "</table>";
+           echo "<canvas id='myChart' style='width:100%;max-width:600px'></canvas>";
           
     }
 }
