@@ -46,12 +46,12 @@
            echo "</tbody>";
            echo "</table>";
            echo "<canvas id='myChart' style='width:100%;max-width:600px'></canvas>";
-           bd($un3);
+           echo bd($un3);
           
     }
     function bd($id)
     {
-        echo "aaaaaaa".$id;
+        return "aaaaaaa".$id;
     }
 }
     
