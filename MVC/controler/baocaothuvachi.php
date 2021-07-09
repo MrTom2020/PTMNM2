@@ -17,7 +17,6 @@
            // $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         $row =  $this->a->bc($un3);
-        //bd($un3);
            $_SESSION['bdtq'] = $this->a->bieudotongquat($un3);
            echo "<table class='table'>";
            echo "<thead>
@@ -47,9 +46,10 @@
            echo "</tbody>";
            echo "</table>";
            echo "<canvas id='myChart' style='width:100%;max-width:600px'></canvas>";
+           bd($un3);
           
     }
-    public function bd($id)
+    function bd($id)
     {
         echo "aaaaaaa".$id;
     }
