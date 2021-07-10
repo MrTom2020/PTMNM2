@@ -1,7 +1,12 @@
-<?php
- 
+<?php 
+ $dataa = isset($data['bd']) ? $data['bd']:NULL;
+ $k;
+ while($row = mysqli_fetch_array($dataa))
+ {
+	 $k = $row[1];
+ }
 $dataPoints = array( 
-	array("label"=>"Chrome", "y"=>64.02),
+	array("label"=>"Chrome", "y"=>$k),
 	array("label"=>"Firefox", "y"=>12.55),
 	array("label"=>"IE", "y"=>8.47),
 	array("label"=>"Safari", "y"=>6.08),
@@ -38,13 +43,7 @@ chart.render();
 </script>
 </head>
 <body>
-<?php 
-	$dataa = isset($data['bd']) ? $data['bd']:NULL;
-	while($row = mysqli_fetch_array($dataa))
-	{
-		echo $row[1];
-	}
-?>
+
 <div id="chartContainer" style="height: 370px; width: 45%;margin-top:6vh;"></div>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </body>
