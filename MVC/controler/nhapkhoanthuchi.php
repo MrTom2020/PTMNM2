@@ -49,11 +49,11 @@
             $dmkt  = isset($_POST["dmkt"]) ? $_POST["dmkt"]:"";
             $idvi = isset($_POST["tenvi"]) ? $_POST["tenvi"]:"";
             $loai = "Khoản thu";
-            // $this->a->taochitieu($tenkc,$loai,$idvi,$ngaykc,$gtkc * - 1,$dmkc);
-            // $this->view("tintuc",[
-            //     "Page"=>"sodautu",
-            // ]);
-            echo  $tenkt . "  1  " . $ngaykt  ." 2 ". $gtkt  . "  3  " .$dmkt . "  4  " . $idvi. "  5  ";
+            $this->a->taochitieu($tenkt,$loai,$idvi,$ngaykt,$gtkt * - 1,$dmkt);
+            $this->view("tintuc",[
+                "Page"=>"sodautu",
+                "listvi"=>$this->modelcon->danhsachvi()
+            ]);
         }
     }
 }
