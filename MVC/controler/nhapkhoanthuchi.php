@@ -14,7 +14,7 @@
     }
     public function themkhoanthuchi()
     {
-        if(isset($_POST["dydt"]))
+        if(isset($_POST["dykt"]))
         {
             $tendt = isset($_POST["tenloaidautu"]) ? $_POST["tenloaidautu"]:"";
             $ngaydt  = isset($_POST["ngaygddt"]) ? $_POST["ngaygddt"]:"";
@@ -41,7 +41,7 @@
                 "Page"=>"sochi",
             ]);
         }
-        if(isset($_POST["dykt"]))
+        if(isset($_POST["dydt"]))
         {
             $tenkt = isset($_POST["tenkhoanthu"]) ? $_POST["tenkhoanthu"]:"";
             $ngaykt  = isset($_POST["ngaygdkt"]) ? $_POST["ngaygdkt"]:"";
