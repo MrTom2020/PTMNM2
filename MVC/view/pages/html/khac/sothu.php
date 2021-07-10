@@ -27,7 +27,7 @@
     </div>
     <div class="col">
       <div class="form-outline">
-        <input type="text" name="ngaygdkt" id="form6Example2" class="form-control" />
+        <input type="date" name="ngaygdkt" id="form6Example2" class="form-control" />
         <label class="form-label" for="form6Example2">Ngày giao dịch</label>
       </div>
     </div>
