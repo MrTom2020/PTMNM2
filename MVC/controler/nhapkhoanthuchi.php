@@ -52,7 +52,7 @@
             $this->a->taochitieu($tenkt,$loai,$idvi,$ngaykt,$gtkt,$dmkt);
             $this->view("tintuc",[
                 "Page"=>"sothu",
-                "listvi"=>$this->modelcon->danhsachvi()
+                "listvi"=>$this->a->danhsachvi()
             ]);
         }
     }
