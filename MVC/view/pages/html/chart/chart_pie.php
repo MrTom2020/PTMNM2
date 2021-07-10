@@ -39,6 +39,12 @@ chart.render();
 </head>
 <body>
 <div id="chartContainer" style="height: 370px; width: 45%;margin-top:6vh;"></div>
+<?php  $dataa = isset($_SESSION['tongtien']) ? $_SESSION['tongtien']:NULL;
+	if($dataa != NULL)
+	{
+		echo '11111111111111111111111111111111111111111111111';
+	}
+	?>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </body>
 </html> 
