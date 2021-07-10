@@ -61,6 +61,7 @@
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaothu",
                     "Page2"=>"chart_thu",
+                    "Page3"=>$this->modelcon->tongtien(),
                     "listvi"=>$this->modelcon->danhsachvi()
                 ]);
             }
@@ -70,6 +71,7 @@
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaodautu",
                     "Page2"=>"chart_dt",
+                    "Page3"=>$this->modelcon->tongtien(),
                     "listvi"=>$this->modelcon->danhsachvi()
                 ]);
             }
