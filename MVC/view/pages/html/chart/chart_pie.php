@@ -38,12 +38,6 @@ chart.render();
 </script>
 </head>
 <body>
-<?php  $dataa = isset($_SESSION['tongtien']) ? $_SESSION['tongtien']:NULL;
-	while($row = mysqli_fetch_array($dataa))
-	{
-		echo $row[1];
-	}
-	?>
 <div id="chartContainer" style="height: 370px; width: 45%;margin-top:6vh;"></div>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </body>

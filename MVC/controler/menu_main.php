@@ -51,6 +51,7 @@
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaochi",
                     "Page2"=>"chart_pie",
+                    "Page3"=>$this->modelcon->tongtien(),
                     "listvi"=>$this->modelcon->danhsachvi()
                 ]);
             }
