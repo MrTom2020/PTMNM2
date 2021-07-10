@@ -6,7 +6,7 @@
 	 $k = $row[1];
  }
 $dataPoints = array( 
-	array("label"=>"Chrome", "y"=>$k),
+	array("label"=>"Chrome", "y"=>12222),
 	array("label"=>"Firefox", "y"=>12.55),
 	array("label"=>"IE", "y"=>8.47),
 	array("label"=>"Safari", "y"=>6.08),
