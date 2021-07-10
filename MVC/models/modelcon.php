@@ -58,6 +58,13 @@
         $row = mysqli_query($this->con,$sql);
         return $row;
     }
+    public function tongtienchi()
+    {
+        $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
+        $sql = "CALL tongtienchi($kk)";
+        $row = mysqli_query($this->con,$sql);
+        return $row;
+    }
         public function thongbaoriengus()
          {
             $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
