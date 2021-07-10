@@ -8,7 +8,7 @@
  }
  while($row2 = mysqli_fetch_array($datab))
  {
-	 $k2 = $row[0];
+	 $k2 = $row2[0];
  }
  
 $dataPoints = array( 
