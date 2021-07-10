@@ -14,7 +14,7 @@
       $dataa = isset($_SESSION['bd']) ? $_SESSION['bd']:NULL;
 	while($row = mysqli_fetch_array($dataa))
 	{
-		echo $row[1];
+		echo '111';
 	}
        ?>
    </section>
