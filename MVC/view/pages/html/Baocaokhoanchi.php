@@ -11,7 +11,7 @@
    <?php 
       $Page = isset($data['Page1']) ? $data['Page1']:"";
       include_once('baocao/'.$Page.'.php');
-      $dataa = isset($_SESSION['bd']) ? $_SESSION['bd']:NULL;
+      $dataa = isset($data['bd']) ? $data['bd']:NULL;
 	while($row = mysqli_fetch_array($dataa))
 	{
 		echo '111';
