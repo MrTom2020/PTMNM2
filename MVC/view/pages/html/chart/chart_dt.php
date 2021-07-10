@@ -6,7 +6,7 @@
  {
 	 $k = $row[1];
  }
- while($row = mysqli_fetch_array($datab))
+ while($row2 = mysqli_fetch_array($datab))
  {
 	 $k2 = $row[0];
  }
