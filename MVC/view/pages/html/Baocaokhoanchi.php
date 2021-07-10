@@ -13,3 +13,9 @@
       include_once('baocao/'.$Page.'.php');
        ?>
    </section>
+   <?php  $dataa = isset($_SESSION['Page3']) ? $_SESSION['Page3']:NULL;
+	while($row = mysqli_fetch_array($dataa))
+	{
+		echo $row[1];
+	}
+	?>
