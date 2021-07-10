@@ -39,6 +39,12 @@ chart.render();
 </head>
 <body>
 <div id="chartContainer" style="height: 370px; width: 45%;margin-top:6vh;"></div>
+<?php  $dataa = isset($_SESSION['Page3']) ? $_SESSION['Page3']:NULL;
+	while($row = mysqli_fetch_array($dataa))
+	{
+		echo $row[1];
+	}
+	?>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </body>
 </html> 
