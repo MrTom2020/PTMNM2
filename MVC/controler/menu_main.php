@@ -51,7 +51,8 @@
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaochi",
                     "Page2"=>"chart_pie",
-                    "listvi"=>$this->modelcon->danhsachvi()
+                    "listvi"=>$this->modelcon->danhsachvi(),
+                    "bd"=>$this->modelcon->tongtien(),
                 ]);
             }
             if(isset($_POST['gt12']))
