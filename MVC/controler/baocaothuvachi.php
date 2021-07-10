@@ -47,10 +47,6 @@
            echo "</table>";
           
     }
-    function bd($id)
-    {
-        return "aaaaaaa".$id;
-    }
 }
     
 ?>
