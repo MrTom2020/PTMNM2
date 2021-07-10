@@ -6,6 +6,7 @@
  {
 	 $k = $row[1];
  }
+ $datab = isset($data['ttc']) ? $data['ttc']:NULL;
  while($row2 = mysqli_fetch_array($datab))
  {
 	 $k2 = $row2[0];
