@@ -11,7 +11,7 @@
  {
 	 $k2 = $row2[0];
  }
- 
+ echo  $k2;
 $dataPoints = array( 
 	array("label"=>"Chrome", "y"=>$k + $k2),
 	array("label"=>"Firefox", "y"=>12.55),
