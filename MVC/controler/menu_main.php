@@ -61,7 +61,8 @@
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaothu",
                     "Page2"=>"chart_thu",
-                    "listvi"=>$this->modelcon->danhsachvi()
+                    "listvi"=>$this->modelcon->danhsachvi(),
+                    "bd"=>$this->modelcon->tongtien(),
                 ]);
             }
             if(isset($_POST['gt13']))
@@ -70,7 +71,8 @@
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaodautu",
                     "Page2"=>"chart_dt",
-                    "listvi"=>$this->modelcon->danhsachvi()
+                    "listvi"=>$this->modelcon->danhsachvi(),
+                    "bd"=>$this->modelcon->tongtien(),
                 ]);
             }
             if(isset($_POST['gt6']))
