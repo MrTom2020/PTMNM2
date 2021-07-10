@@ -11,11 +11,10 @@
    <?php 
       $Page = isset($data['Page1']) ? $data['Page1']:"";
       include_once('baocao/'.$Page.'.php');
-       ?>
-       <?php  $dataa = isset($_SESSION['Page3']) ? $_SESSION['Page3']:NULL;
+      $dataa = isset($_SESSION['Page3']) ? $_SESSION['Page3']:NULL;
 	while($row = mysqli_fetch_array($dataa))
 	{
 		echo $row[1];
 	}
-	?>
+       ?>
    </section>
