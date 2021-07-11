@@ -64,7 +64,7 @@
     public function tongtienc($ID)
     {
         $this->con->close();
-        $kq5;
+        $kq5 = "1122";
         $sql5 = "CALL tongtienchi('$ID')";
         $row5 = mysqli_query($this->con,$sql5);
         try
@@ -76,7 +76,7 @@
         }
         catch(Exception $e)
         {
-            $kq5 = 'Message: ' .$e->getMessage();
+           // $kq5 = 'Message: ' .$e->getMessage();
         }
        
         return $kq5;
