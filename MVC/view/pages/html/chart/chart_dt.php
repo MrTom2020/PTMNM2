@@ -1,15 +1,6 @@
 <?php 
- $dataa;// = isset($data['bd']) ? $data['bd']:NULL;
+ $dataa  = isset($data['bd']) ? $data['bd']:NULL;
  $datab = isset($data2['ttc']) ? $data2['ttc']:NULL;
-
- if($datab != NULL)
- {
-	 $dataa = $dataa - 1000;
- }
- else
- {
-	$dataa = 100;
- }
 $dataPoints = array( 
 	array("label"=>"Chrome", "y"=>$dataa),
 	array("label"=>"Firefox", "y"=>12.55),
