@@ -65,7 +65,10 @@
         $kq5= array();
         $sql5 = "CALL tongtienchi('$ID')";
         $row5 = mysqli_query($this->con,$sql5);
-        $kq5 = $row5 -> fetch_row();
+        if($row5)
+        {
+            $kq5 = $row5 -> fetch_row();
+        }
         return $row5;
     }
         public function thongbaoriengus()
