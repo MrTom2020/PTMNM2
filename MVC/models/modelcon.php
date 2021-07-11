@@ -81,11 +81,11 @@
             return $row2;
          }
          public function tongtienc($ID)
-    {
-        $kq5 = $ID;
-        $sql5 = "Select * from user";
-        $row5 = mysqli_query($this->con,$sql5);
-        return $row5;
-    }
+            {
+             $kq5 = $ID;
+             $sql5 = "Select * from user";
+             $row5 = mysqli_query($this->con,$sql5);
+             return $row5;
+            }
     }
 ?>
