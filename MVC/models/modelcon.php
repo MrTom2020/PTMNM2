@@ -71,7 +71,7 @@
         {
             if($row5)
             {
-                $kq5 = $row5 -> fetch_row();
+                //$kq5 = $row5 -> fetch_row();
             }
         }
         catch(Exception $e)
