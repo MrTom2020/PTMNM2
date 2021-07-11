@@ -82,23 +82,22 @@
          }
          public function tongtienc($ID)
             {
-             $kq5;
-             $this->con->close();
-             $sql5 = "SELECT * FROM user";
-             $row5 = mysqli_query($this->con,$sql5);
-             if($row5)
+             $kq;
+             $sql = "SELECT * FROM user";
+             $row = mysqli_query($this->con,$sql);
+             if($row)
              {
-                $r =  mysqli_fetch_array($row5);
+                $r =  mysqli_fetch_array($row);
                 if($r == false)
                 {
-                   $kq5 = "123";
+                   $kq = "123";
                 }
              }
              else
              {
-                 $kq5 = "111111";
+                 $kq = "111111";
              }
-             return $kq5;
+             return $kq;
             }
     }
 ?>
