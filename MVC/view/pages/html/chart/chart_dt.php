@@ -1,6 +1,6 @@
 <?php 
 //$datab = isset($data2['ttc']) ? $data2['ttc']:NULL;
- $dataa  = isset($data['bd']) ? $data['bd']:11;
+ $dataa  = isset($data['bd']) ? $data['bd']:NULL;
 $dataPoints = array( 
 	array("label"=>"Chrome", "y"=>$dataa),
 	array("label"=>"Firefox", "y"=>12.55),
