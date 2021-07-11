@@ -85,6 +85,10 @@
         $kq5 = $ID;
         $sql5 = "CALL tongtienchi('$ID')";
         $row5 = mysqli_query($this->con,$sql5);
+        while($row = $row5->fetch_assoc())
+        {
+            $kq5 = $row[0];
+        }
        
         return $kq5;
     }
