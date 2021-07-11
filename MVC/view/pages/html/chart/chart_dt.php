@@ -1,9 +1,13 @@
 <?php 
+$k = 0;
 $datab = isset($data2['ttc']) ? $data2['ttc']:NULL;
-$kq[0] = $datab -> fetch_row();
+while($row = mysqli_fetch_array($datab))
+{
+	$k = $row[0];
+}
 // $dataa  = isset($data['bd']) ? $data['bd']:NULL;
 $dataPoints = array( 
-	array("label"=>"Chrome", "y"=>$kq[0]),
+	array("label"=>"Chrome", "y"=>$k),
 	array("label"=>"Firefox", "y"=>12.55),
 	array("label"=>"IE", "y"=>8.47),
 	array("label"=>"Safari", "y"=>6.08),
