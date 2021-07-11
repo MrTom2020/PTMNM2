@@ -66,9 +66,9 @@
         $row3 = mysqli_query($this->con,$sql2);
         while($row4 = mysqli_fetch_array($row3))
         {
-            $kq2 = $row4[0];
+            $kq = $row4[0];
         }
-        return $kq + $kq2;
+        return $kq;
     }
     public function tongtienc()
     {
