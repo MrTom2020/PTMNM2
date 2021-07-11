@@ -78,7 +78,7 @@
                     "Page2"=>"chart_dt",
                     "listvi"=>$this->modelcon->danhsachvi(),
                     "bd"=>$this->modelcon->tongtienc($ID),
-                   // "ttc"=>$this->modelcon->tongtien($ID)
+                    "ttc"=>$this->modelcon->tongtien($ID)
                 ]);
             }
             if(isset($_POST['gt6']))
