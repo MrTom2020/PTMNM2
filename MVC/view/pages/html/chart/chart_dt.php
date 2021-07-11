@@ -1,5 +1,10 @@
 <?php 
  $dataa = isset($data['bd']) ? $data['bd']:NULL;
+ $datab = isset($data['ttc']) ? $data['ttc']:NULL;
+ if($datab != NULL)
+ {
+	 $datab = $datab * 1000;
+ }
 $dataPoints = array( 
 	array("label"=>"Chrome", "y"=>$dataa),
 	array("label"=>"Firefox", "y"=>12.55),
