@@ -93,7 +93,7 @@
             }
             else
             {
-                $kq = mysql_error();
+                $kq ='88'.mysql_error();
             }
         }
         catch(Exception $e)
