@@ -85,23 +85,9 @@
         $kq5 = "1122";
         $sql5 = "CALL tongtienchi('$ID')";
         $row5 = mysqli_query($this->con,$sql5);
-        try
-        {
-            if($row5 -> fetch_row())
-            {
-                $kq5 = '77';
-            }
-            else
-            {
-                $kq ='88';
-            }
-        }
-        catch(Exception $e)
-        {
-            $kq5 = 'Message: ' .$e->getMessage();
-        }
+        
        
-        return $kq5;
+        return $row5;
     }
     }
 ?>
