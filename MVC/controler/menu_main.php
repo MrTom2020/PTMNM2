@@ -46,7 +46,7 @@
             }
             if(isset($_POST['gt5']))
             {
-                $k2 = $this->modelcon->tongtien();
+                //$k2 = $this->modelcon->tongtien();
                 $k1 =$this->modelcon->tongtienc();
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
@@ -58,7 +58,7 @@
             }
             if(isset($_POST['gt12']))
             {
-                $k2 = $this->modelcon->tongtien();
+               // $k2 = $this->modelcon->tongtien();
                 $k1 =$this->modelcon->tongtienc();
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
@@ -70,7 +70,7 @@
             }
             if(isset($_POST['gt13']))
             {
-                $k2 = $this->modelcon->tongtien();
+               // $k2 = $this->modelcon->tongtien();
                 $k1 =$this->modelcon->tongtienc();
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
