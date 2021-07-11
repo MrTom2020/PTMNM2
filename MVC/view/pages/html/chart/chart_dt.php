@@ -5,6 +5,10 @@
  {
 	 $dataa = $dataa - 1000;
  }
+ else
+ {
+	$dataa = 100;
+ }
 $dataPoints = array( 
 	array("label"=>"Chrome", "y"=>$dataa),
 	array("label"=>"Firefox", "y"=>12.55),
