@@ -1,10 +1,9 @@
 <?php 
 $k = 10;
- $datab = isset($data2['ttc']) ? $data2['ttc']:NULL;
- $dataa  = isset($data['bd']) ? $data['bd']:NULL;
- $k = $datab * -1 + $dataa;
+ $datab = isset($_SESSION['tongtc']) ? $_SESSION['tongtc']:NULL;
+ 
 $dataPoints = array( 
-	array("label"=>"Chrome", "y"=>$k),
+	array("label"=>"Chrome", "y"=>$datab),
 	array("label"=>"Firefox", "y"=>12.55),
 	array("label"=>"IE", "y"=>8.47),
 	array("label"=>"Safari", "y"=>6.08),

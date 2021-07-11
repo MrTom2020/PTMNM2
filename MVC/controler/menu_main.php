@@ -49,38 +49,35 @@
             if(isset($_POST['gt5']))
             {
                 $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
-                $_SESSION['tongtc'] = 0;//$this->modelcon->tongtienc($ID);
+                $_SESSION['tongtc'] = $this->modelcon->tongtien($ID) + $this->b->tongtienc($ID);
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaochi",
                     "Page2"=>"chart_pie",
                     "listvi"=>$this->modelcon->danhsachvi(),
-                    "bd"=>$this->modelcon->tongtien($ID),
-                ],[ "ttc"=>$this->b->tongtienc($ID)]);
+                ]);
             }
             if(isset($_POST['gt12']))
             {
                 $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
-                $_SESSION['tongtc'] = 0;//$this->modelcon->tongtienc($ID);
+                $_SESSION['tongtc'] = $this->modelcon->tongtien($ID) + $this->b->tongtienc($ID);//$this->modelcon->tongtienc($ID);
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaothu",
                     "Page2"=>"chart_thu",
                     "listvi"=>$this->modelcon->danhsachvi(),
-                    "bd"=>$this->modelcon->tongtien($ID),
-                ],[ "ttc"=>$this->b->tongtienc($ID)]);
+                ]);
             }
             if(isset($_POST['gt13']))
             {
                 $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
-                $_SESSION['tongtc'] = 0;//$this->modelcon->tongtienc($ID);
+                $_SESSION['tongtc'] = $this->modelcon->tongtien($ID) + $this->b->tongtienc($ID);//$this->modelcon->tongtienc($ID);
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaodautu",
                     "Page2"=>"chart_dt",
-                    "bd"=>$this->modelcon->tongtien($ID),
                     "listvi"=>$this->modelcon->danhsachvi(),
-                ],[ "ttc"=>$this->b->tongtienc($ID)]);
+                ]);
             }
             if(isset($_POST['gt6']))
             {
