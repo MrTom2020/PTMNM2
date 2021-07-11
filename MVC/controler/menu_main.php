@@ -47,7 +47,7 @@
             if(isset($_POST['gt5']))
             {
                 $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
-                $_SESSION['tongtc'] = $this->modelcon->tongtienc($ID);
+                $_SESSION['tongtc'] = 0;//$this->modelcon->tongtienc($ID);
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaochi",
@@ -59,7 +59,7 @@
             if(isset($_POST['gt12']))
             {
                 $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
-                $_SESSION['tongtc'] = $this->modelcon->tongtienc($ID);
+                $_SESSION['tongtc'] = 0;//$this->modelcon->tongtienc($ID);
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaothu",
@@ -71,7 +71,7 @@
             if(isset($_POST['gt13']))
             {
                 $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
-                $_SESSION['tongtc'] = $this->modelcon->tongtienc($ID);
+                $_SESSION['tongtc'] = 0;//$this->modelcon->tongtienc($ID);
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaodautu",
