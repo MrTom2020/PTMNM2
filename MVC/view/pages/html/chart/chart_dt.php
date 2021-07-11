@@ -3,7 +3,7 @@ $datab = isset($data2['ttc']) ? $data2['ttc']:NULL;
 $kq[0] = $datab -> fetch_row();
 // $dataa  = isset($data['bd']) ? $data['bd']:NULL;
 $dataPoints = array( 
-	array("label"=>"Chrome", "y"=>$kq),
+	array("label"=>"Chrome", "y"=>$kq[0]),
 	array("label"=>"Firefox", "y"=>12.55),
 	array("label"=>"IE", "y"=>8.47),
 	array("label"=>"Safari", "y"=>6.08),
