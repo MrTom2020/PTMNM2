@@ -82,10 +82,14 @@
          }
          public function tongtienc($ID)
             {
-             $kq5 = array();
+             $kq5;
              $sql5 = "Select * from user";
              $row5 = mysqli_query($this->con,$sql5);
-             return $row5;
+             if($row5 == false)
+             {
+                $kq5 = "123";
+             }
+             return $kq5;
             }
     }
 ?>
