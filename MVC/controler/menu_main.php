@@ -46,36 +46,38 @@
             }
             if(isset($_POST['gt5']))
             {
-
+                $k2 = $this->modelcon->tongtien();
+                $k1 =$this->modelcon->tongtienc();
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaochi",
                     "Page2"=>"chart_pie",
                     "listvi"=>$this->modelcon->danhsachvi(),
-                    "bd"=>$this->modelcon->tongtien(),
-                    "ttc"=>$this->modelcon->tongtienc()
+                    "bd"=>$k1 + $k2
                 ]);
             }
             if(isset($_POST['gt12']))
             {
+                $k2 = $this->modelcon->tongtien();
+                $k1 =$this->modelcon->tongtienc();
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaothu",
                     "Page2"=>"chart_thu",
                     "listvi"=>$this->modelcon->danhsachvi(),
-                    "bd"=>$this->modelcon->tongtien(),
-                    "ttc"=>$this->modelcon->tongtienc()
+                    "bd"=>$k1 + $k2
                 ]);
             }
             if(isset($_POST['gt13']))
             {
+                $k2 = $this->modelcon->tongtien();
+                $k1 =$this->modelcon->tongtienc();
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaodautu",
                     "Page2"=>"chart_dt",
                     "listvi"=>$this->modelcon->danhsachvi(),
-                    "bd"=>$this->modelcon->tongtien(),
-                    "ttc"=>$this->modelcon->tongtienc()
+                    "bd"=>$k1 + $k2
                 ]);
             }
             if(isset($_POST['gt6']))

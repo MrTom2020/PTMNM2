@@ -55,27 +55,26 @@
     {
         $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
         $kq;
-        $kq2;
-        $sql = "CALL tongtientrongvi('$kk')";
+        $sql = "CALL tongtientrongvi($kk)";
+        $sql2 = "CALL tongtienchi($kk)";
         $row = mysqli_query($this->con,$sql);
         while($row2 = mysqli_fetch_array($row))
         {
             $kq = $row2[1];
         }
-        $sql2 = "CALL tongtienchi('$kk')";
-        $row3 = mysqli_query($this->con,$sql2);
-        while($row4 = mysqli_fetch_array($row3))
-        {
-            $kq2 = $row4[0];
-        }
-        return $kq2;
+        return $kq;
     }
     public function tongtienc()
     {
+        $kq;
         $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
         $sql = "CALL tongtienchi($kk)";
         $row = mysqli_query($this->con,$sql);
-        return $row;
+        while($row2 = mysqli_fetch_array($row))
+        {
+            $kq = $row2[1];
+        }
+        return $kq;
     }
         public function thongbaoriengus()
          {
