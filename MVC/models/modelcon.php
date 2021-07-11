@@ -67,7 +67,7 @@
         $row5 = mysqli_query($this->con,$sql5);
         try
         {
-            $kq5 = $row5 -> fetch_row();
+           // $kq5 = $row5 -> fetch_row();
         }
         catch(Exception $e)
         {
