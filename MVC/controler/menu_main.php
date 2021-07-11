@@ -53,7 +53,7 @@
                     "Page2"=>"chart_pie",
                     "listvi"=>$this->modelcon->danhsachvi(),
                     "bd"=>$this->modelcon->tongtienc($ID),
-                    "ttc"=>$this->modelcon->tongtien($ID)
+                   // "ttc"=>$this->modelcon->tongtien($ID)
                 ]);
             }
             if(isset($_POST['gt12']))
@@ -64,8 +64,8 @@
                     "Page1"=>"baocaothu",
                     "Page2"=>"chart_thu",
                     "listvi"=>$this->modelcon->danhsachvi(),
-                    "bd"=>$this->modelcon->tongtienc($ID),
-                    "ttc"=>$this->modelcon->tongtien($ID)
+                    "bd"=>$this->modelcon->tongtien($ID),
+                    //"ttc"=>$this->modelcon->tongtien($ID)
                 ]);
             }
             if(isset($_POST['gt13']))
@@ -78,7 +78,7 @@
                     "Page2"=>"chart_dt",
                     "listvi"=>$this->modelcon->danhsachvi(),
                     "bd"=>$this->modelcon->tongtienc($ID),
-                    "ttc"=>$this->modelcon->tongtien($ID)
+                   // "ttc"=>$this->modelcon->tongtien($ID)
                 ]);
             }
             if(isset($_POST['gt6']))
