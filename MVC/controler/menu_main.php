@@ -53,7 +53,7 @@
                     "Page2"=>"chart_pie",
                     "listvi"=>$this->modelcon->danhsachvi(),
                     "bd"=>$this->modelcon->tongtien(),
-                    "ttc"=>$this->modelcon->tongtienchi()
+                    "ttc"=>$this->modelcon->tongtienc()
                 ]);
             }
             if(isset($_POST['gt12']))
@@ -64,7 +64,7 @@
                     "Page2"=>"chart_thu",
                     "listvi"=>$this->modelcon->danhsachvi(),
                     "bd"=>$this->modelcon->tongtien(),
-                    "ttc"=>$this->modelcon->tongtienchi()
+                    "ttc"=>$this->modelcon->tongtienc()
                 ]);
             }
             if(isset($_POST['gt13']))
