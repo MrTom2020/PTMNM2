@@ -1,10 +1,10 @@
 <?php 
 $k = 10;
  $datab = isset($data2['ttc']) ? $data2['ttc']:NULL;
- if( $datab  == NULL)
+ if( $datab  != NULL)
  {
 	 $k = 10000;
-	 echo $k;
+	 echo $datab;
  }
 // while($row = mysqli_fetch_array($datab))
 // {
