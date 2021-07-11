@@ -57,7 +57,6 @@
         $kq;
         $sql = "CALL tongtientrongvi($kk)";
         $row = mysqli_query($this->con,$sql);
-        $row = mysqli_fetch_array($dataa);
         while($row2 = mysqli_fetch_array($row))
         {
             $kq = $row2[1];
