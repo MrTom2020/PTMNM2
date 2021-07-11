@@ -60,7 +60,7 @@
         {
             $kq = $row2[1];
         }
-        exit();
+        $mysqli -> close();
          $sql2 = "CALL tongtienchi('155')";
          $row3 = mysqli_query($this->con,$sql2);
          $row4[0] = mysqli_fetch_array($row3);
