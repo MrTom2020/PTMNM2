@@ -85,7 +85,7 @@
         $kq5 = "1122";
         $sql5 = "CALL tongtienchi('$ID')";
         $row5 = mysqli_query($this->con,$sql5);
-        while( $row=mysqli_fetch_array($row5) )
+        //while( $row=mysqli_fetch_array($row5) )
         {
             $kq5 = '123';
         }    
