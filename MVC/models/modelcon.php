@@ -60,6 +60,12 @@
         {
             $kq = $row2[1];
         }
+        $sql2 = "CALL tongtienchi('$ID')";
+        $row3 = mysqli_query($this->con,$sql2);
+        while($row4 = mysqli_fetch_array($row3))
+        {
+            $kq = $row4[0] * -1;
+        }
         return $kq;
     }
     public function tongtienc($ID)
