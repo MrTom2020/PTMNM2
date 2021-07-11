@@ -1,10 +1,10 @@
 <?php 
-$k = 0;
-$datab = isset($data2['ttc']) ? $data2['ttc']:NULL;
-while($row = mysqli_fetch_array($datab))
-{
-	$k = $row[0];
-}
+$k = 10;
+// $datab = isset($data2['ttc']) ? $data2['ttc']:NULL;
+// while($row = mysqli_fetch_array($datab))
+// {
+// 	$k = $row[0];
+// }
 // $dataa  = isset($data['bd']) ? $data['bd']:NULL;
 $dataPoints = array( 
 	array("label"=>"Chrome", "y"=>$k),
