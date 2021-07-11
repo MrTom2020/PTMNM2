@@ -48,7 +48,7 @@
             {
                // $k2 = $this->modelcon->tongtien();
                 $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
-                $k1 =$this->modelcon->tongtienc($ID) +  $this->modelcon->tongtien();
+                $k1 =$this->modelcon->tongtienc($ID) +  $this->modelcon->tongtien($ID);
                 $k3 = $k1;
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
@@ -62,7 +62,7 @@
             {
                // $k2 = $this->modelcon->tongtien();
                $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
-               $k1 =$this->modelcon->tongtienc($ID) + $this->modelcon->tongtien();
+               $k1 =$this->modelcon->tongtienc($ID) + $this->modelcon->tongtien($ID);
                $k3 = $k1;
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
@@ -76,7 +76,7 @@
             {
               // $k2 = $this->modelcon->tongtien();
                $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
-               $k1 =$this->modelcon->tongtienc($ID) + $this->modelcon->tongtien();
+               $k1 =$this->modelcon->tongtienc($ID) + $this->modelcon->tongtien($ID);
                 $k3 =  $k1;
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
