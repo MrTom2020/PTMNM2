@@ -62,13 +62,18 @@
     }
     public function tongtienc($ID)
     {
-        $kq5= array();
+        $kq5;
         $sql5 = "CALL tongtienchi('$ID')";
         $row5 = mysqli_query($this->con,$sql5);
-        if($row5)
+        try
         {
             $kq5 = $row5 -> fetch_row();
         }
+        catch(Exception $e)
+        {
+            $row5 = 'Message: ' .$e->getMessage();
+        }
+       
         return $row5;
     }
         public function thongbaoriengus()
