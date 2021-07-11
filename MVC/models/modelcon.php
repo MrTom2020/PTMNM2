@@ -70,9 +70,9 @@
         $row = mysqli_query($this->con,$sql);
         while($row2 = mysqli_fetch_array($row))
         {
-            $kq = $row2[1];
+            $kq = $row2[0] * -1;
         }
-        return $kq * -1;
+        return $kq;
     }
         public function thongbaoriengus()
          {
