@@ -3,7 +3,7 @@
  $datab = isset($data['ttc']) ? $data['ttc']:NULL;
  if($datab != NULL)
  {
-	 $datab = $datab * 1000;
+	 $dataa = $dataa * 1000;
  }
 $dataPoints = array( 
 	array("label"=>"Chrome", "y"=>$dataa),
