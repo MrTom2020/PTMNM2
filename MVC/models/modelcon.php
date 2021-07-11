@@ -72,7 +72,7 @@
         {
             $kq = $row2[1];
         }
-        return $kq;
+        return $kq * -1;
     }
         public function thongbaoriengus()
          {
