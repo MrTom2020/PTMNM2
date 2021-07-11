@@ -59,7 +59,7 @@
         $kq = $row -> fetch_row();
         $sql2 = "CALL tongtienchi('$ID')";
         $row3 = mysqli_query($this->con,$sql2);
-        $kq += $row3 -> fetch_row() * -1;
+        $kq2 = $row3 -> fetch_row();
         // while($row2 = $row -> fetch_row())
         // {
         //     $kq = $row2[1];
