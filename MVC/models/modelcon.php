@@ -53,13 +53,14 @@
     }
     public function tongtien($ID)
     {
-        $kq = 0;
+        $kq = array();
+        $kq2 = array();
        $sql = "CALL tongtientrongvi('$ID')";
         $row = mysqli_query($this->con,$sql);
         $kq = $row -> fetch_row();
         $sql2 = "CALL tongtienchi('$ID')";
         $row3 = mysqli_query($this->con,$sql2);
-        $kq2 = $row3 -> fetch_row();
+        $kq2[0] = $row3 -> fetch_row();
         // while($row2 = $row -> fetch_row())
         // {
         //     $kq = $row2[1];
