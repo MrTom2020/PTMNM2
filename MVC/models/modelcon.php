@@ -83,7 +83,7 @@
          public function tongtienc($ID)
     {
         $kq5 = $ID;
-        $sql5 = "CALL tongtienchi('$ID')";
+        $sql5 = "Select * from user";
         $row5 = mysqli_query($this->con,$sql5);
         while($row = $row5->fetch_assoc())
         {
