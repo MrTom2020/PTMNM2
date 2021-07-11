@@ -87,13 +87,13 @@
         $row5 = mysqli_query($this->con,$sql5);
         try
         {
-            if($row5)
+            if($row5 -> fetch_row())
             {
-                $kq5 = $row5 -> fetch_row();
+                $kq5 = '77';
             }
             else
             {
-                $kq ='88'.mysql_error();
+                $kq ='88';
             }
         }
         catch(Exception $e)
