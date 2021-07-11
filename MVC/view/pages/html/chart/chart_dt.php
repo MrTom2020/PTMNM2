@@ -4,7 +4,10 @@
  $k;$k2;
  $row = mysqli_fetch_array($dataa);
  $k = $row[1];
-
+ while($row = mysqli_fetch_array($dataa))
+ {
+	 $k = $row[1];
+ }
 //  while($row2 = mysqli_fetch_array($datab))
 //  {
 // 	 $k2 = $row2[1];
