@@ -55,13 +55,20 @@
     {
         $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
         $kq;
+        $kq2;
         $sql = "CALL tongtientrongvi($kk)";
+        $sql2 = "CALL tongtienchi($kk)";
         $row = mysqli_query($this->con,$sql);
+        $row3 = mysqli_query($this->con,$sql2);
         while($row2 = mysqli_fetch_array($row))
         {
             $kq = $row2[1];
         }
-        return $kq;
+        while($row4 = mysqli_fetch_array($row3))
+        {
+            $kq2 = $row4[1];
+        }
+        return $kq + $kq2;
     }
     public function tongtienc()
     {
