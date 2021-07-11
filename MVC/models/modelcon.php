@@ -54,7 +54,7 @@
     public function tongtien($ID)
     {
         $kq = array();
-       $sql = "CALL tongtientrongvi('$ID')";
+        $sql = "CALL tongtientrongvi('$ID')";
         $row = mysqli_query($this->con,$sql);
         $kq = $row -> fetch_row();
         return $kq[1];
