@@ -24,7 +24,7 @@
             {
              $kq;
              $r;
-             $sql = "SELECT * FROM user";
+             $sql = "SELECT * FROM user where iduser = '$ID'";
              $row = mysqli_query($this->con,$sql);
              if($row)
              {
@@ -34,7 +34,7 @@
              {
                  $kq = "111111";
              }
-             return $r[0];
+             return $r[1];
             }
     }
  ?>
