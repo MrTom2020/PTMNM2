@@ -1,6 +1,7 @@
 <?php 
- $dataa = isset($data['bd']) ? $data['bd']:NULL;
+ $dataa;// = isset($data['bd']) ? $data['bd']:NULL;
  $datab = isset($data2['ttc']) ? $data2['ttc']:NULL;
+
  if($datab != NULL)
  {
 	 $dataa = $dataa - 1000;
