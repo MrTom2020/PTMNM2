@@ -4,6 +4,7 @@ $k = 10;
  if( $datab  != NULL)
  {
 	 $k = 10000;
+	 echo $k;
  }
 // while($row = mysqli_fetch_array($datab))
 // {
