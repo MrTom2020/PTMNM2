@@ -63,11 +63,10 @@
         }
         return $kq;
     }
-    public function tongtienc()
+    public function tongtienc($ID)
     {
         $kq;
-        $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
-        $sql = "CALL tongtienchi('$kk')";
+        $sql = "CALL tongtienchi('$ID')";
         $row = mysqli_query($this->con,$sql);
         while($row2 = mysqli_fetch_array($row))
         {
