@@ -48,36 +48,39 @@
             {
                 //$k2 = $this->modelcon->tongtien();
                 $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
+                $k1 =$this->modelcon->tongtienc($ID);
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaochi",
                     "Page2"=>"chart_pie",
                     "listvi"=>$this->modelcon->danhsachvi(),
-                    "bd"=>$this->modelcon->tongtienc($ID)
+                    "bd"=>$k1
                 ]);
             }
             if(isset($_POST['gt12']))
             {
                // $k2 = $this->modelcon->tongtien();
                $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
+               $k1 =$this->modelcon->tongtienc($ID);
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaothu",
                     "Page2"=>"chart_thu",
                     "listvi"=>$this->modelcon->danhsachvi(),
-                    "bd"=>$this->modelcon->tongtienc($ID)
+                    "bd"=>$k1
                 ]);
             }
             if(isset($_POST['gt13']))
             {
                // $k2 = $this->modelcon->tongtien();
                $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
+                $k1 =$this->modelcon->tongtienc($ID);
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaodautu",
                     "Page2"=>"chart_dt",
                     "listvi"=>$this->modelcon->danhsachvi(),
-                    "bd"=>$this->modelcon->tongtienc($ID)
+                    "bd"=>$k1
                 ]);
             }
             if(isset($_POST['gt6']))
