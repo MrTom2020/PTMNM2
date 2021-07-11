@@ -56,12 +56,12 @@
         $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
         $kq;
         $kq2;
-        // $sql = "CALL tongtientrongvi($kk)";
-        // $row = mysqli_query($this->con,$sql);
-        // while($row2 = mysqli_fetch_array($row))
-        // {
-        //     $kq = $row2[1];
-        // }
+        $sql = "CALL tongtientrongvi('$kk')";
+        $row = mysqli_query($this->con,$sql);
+        while($row2 = mysqli_fetch_array($row))
+        {
+            $kq = $row2[1];
+        }
         $sql2 = "CALL tongtienchi('$kk')";
         $row3 = mysqli_query($this->con,$sql2);
         while($row4 = mysqli_fetch_array($row3))
