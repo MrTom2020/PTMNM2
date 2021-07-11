@@ -56,14 +56,13 @@
         $kq;
         $sql = "CALL tongtientrongvi('$ID')";
         $row = mysqli_query($this->con,$sql);
-        while($row2 = mysqli_fetch_array($row))
+        while($row2 = $row -> fetch_row())
         {
             $kq = $row2[1];
         }
-        $mysqli -> close();
-         $sql2 = "CALL tongtienchi('155')";
-         $row3 = mysqli_query($this->con,$sql2);
-         $row4[0] = mysqli_fetch_array($row3);
+        //  $sql2 = "CALL tongtienchi('155')";
+        //  $row3 = mysqli_query($this->con,$sql2);
+        //  $row4 = mysqli_fetch_array($row3);
         // while($row4 = mysqli_fetch_array($row3))
         // {
         //     $kq += $row4[0] * -1;
