@@ -55,8 +55,7 @@
     {
         $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
         $kq;
-        $sql = "CALL tongtientrongvi($kk)";
-        $sql2 = "CALL tongtienchi($kk)";
+        $sql = "CALL tongtientrongvi('$kk')";
         $row = mysqli_query($this->con,$sql);
         while($row2 = mysqli_fetch_array($row))
         {
@@ -68,7 +67,7 @@
     {
         $kq;
         $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
-        $sql = "CALL tongtienchi($kk)";
+        $sql = "CALL tongtienchi('$kk')";
         $row = mysqli_query($this->con,$sql);
         while($row2 = mysqli_fetch_array($row))
         {
