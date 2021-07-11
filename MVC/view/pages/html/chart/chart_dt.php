@@ -1,5 +1,5 @@
 <?php 
-$datab = isset($data2['ttc']) ? $data2['ttc']:NULL;
+//$datab = isset($data2['ttc']) ? $data2['ttc']:NULL;
  $dataa  = isset($data['bd']) ? $data['bd']:11;
 $dataPoints = array( 
 	array("label"=>"Chrome", "y"=>$dataa),
