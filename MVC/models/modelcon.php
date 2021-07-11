@@ -63,7 +63,6 @@
     }
     public function tongtienc($ID)
     {
-        $this->con->close();
         $kq5 = "1122";
         $sql5 = "CALL tongtienchi('$ID')";
         $row5 = mysqli_query($this->con,$sql5);
