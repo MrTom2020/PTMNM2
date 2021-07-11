@@ -91,13 +91,17 @@
             {
                 $kq5 = $row5 -> fetch_row();
             }
+            else
+            {
+                $kq = mysql_error();
+            }
         }
         catch(Exception $e)
         {
             $kq5 = 'Message: ' .$e->getMessage();
         }
        
-        return $row5;
+        return $kq5;
     }
     }
 ?>
