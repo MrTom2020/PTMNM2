@@ -77,8 +77,8 @@
                     "Page1"=>"baocaodautu",
                     "Page2"=>"chart_dt",
                     "listvi"=>$this->modelcon->danhsachvi(),
-                    "bd"=>$this->modelcon->tongtienc($ID),
-                ],[ "ttc"=>"123"]);
+                    "bd"=>$this->modelcon->tongtien($ID),
+                ],[ "ttc"=>$this->modelcon->tongtienc($ID)]);
             }
             if(isset($_POST['gt6']))
             {
