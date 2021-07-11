@@ -71,7 +71,7 @@
         // {
         //     $kq += $row4[0] * -1;
         // }
-        return $$row3[0];
+        return $row3[0];
     }
     public function tongtienc($ID)
     {
