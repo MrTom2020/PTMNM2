@@ -2,9 +2,11 @@
     class menu_main extends Controller
     {
         public $modelcon;
+        public $b;
         public function __construct()
         {
           $this->modelcon = $this->model("modelcon");
+          $this->b = $this->model("thuvachitieu");
         }
         public function SayHi()
          {
@@ -54,7 +56,7 @@
                     "Page2"=>"chart_pie",
                     "listvi"=>$this->modelcon->danhsachvi(),
                     "bd"=>$this->modelcon->tongtien($ID),
-                ],[ "ttc"=>$this->modelcon->tongtienc($ID)]);
+                ],[ "ttc"=>$this->b->tongtienc($ID)]);
             }
             if(isset($_POST['gt12']))
             {
@@ -66,7 +68,7 @@
                     "Page2"=>"chart_thu",
                     "listvi"=>$this->modelcon->danhsachvi(),
                     "bd"=>$this->modelcon->tongtien($ID),
-                ],[ "ttc"=>$this->modelcon->tongtienc($ID)]);
+                ],[ "ttc"=>$this->b->tongtienc($ID)]);
             }
             if(isset($_POST['gt13']))
             {
@@ -78,7 +80,7 @@
                     "Page2"=>"chart_dt",
                     "bd"=>$this->modelcon->tongtien($ID),
                     "listvi"=>$this->modelcon->danhsachvi(),
-                ],[ "ttc"=>$this->modelcon->tongtienc($ID)]);
+                ],[ "ttc"=>$this->b->tongtienc($ID)]);
             }
             if(isset($_POST['gt6']))
             {

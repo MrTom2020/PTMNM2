@@ -20,5 +20,21 @@
             $row = mysqli_query($this->con,$sql);
             return $row;
         }
+        public function tongtienc($ID)
+            {
+             $kq;
+             $r;
+             $sql = "SELECT * FROM user";
+             $row = mysqli_query($this->con,$sql);
+             if($row)
+             {
+                $r =  mysqli_fetch_array($row);
+             }
+             else
+             {
+                 $kq = "111111";
+             }
+             return $r[0];
+            }
     }
  ?>
