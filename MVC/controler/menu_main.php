@@ -46,7 +46,7 @@
             }
             if(isset($_POST['gt5']))
             {
-                //$k2 = $this->modelcon->tongtien();
+                $k2 = $this->modelcon->tongtien();
                 $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
                 $k1 =$this->modelcon->tongtienc($ID);
                 $this->view("tintuc",[
@@ -54,12 +54,12 @@
                     "Page1"=>"baocaochi",
                     "Page2"=>"chart_pie",
                     "listvi"=>$this->modelcon->danhsachvi(),
-                    "bd"=>$k1
+                    "bd"=>$k1 + $k2
                 ]);
             }
             if(isset($_POST['gt12']))
             {
-               // $k2 = $this->modelcon->tongtien();
+                $k2 = $this->modelcon->tongtien();
                $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
                $k1 =$this->modelcon->tongtienc($ID);
                 $this->view("tintuc",[
@@ -67,12 +67,12 @@
                     "Page1"=>"baocaothu",
                     "Page2"=>"chart_thu",
                     "listvi"=>$this->modelcon->danhsachvi(),
-                    "bd"=>$k1
+                    "bd"=>$k1 + $k2
                 ]);
             }
             if(isset($_POST['gt13']))
             {
-               // $k2 = $this->modelcon->tongtien();
+               $k2 = $this->modelcon->tongtien();
                $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
                 $k1 =$this->modelcon->tongtienc($ID);
                 $this->view("tintuc",[
@@ -80,7 +80,7 @@
                     "Page1"=>"baocaodautu",
                     "Page2"=>"chart_dt",
                     "listvi"=>$this->modelcon->danhsachvi(),
-                    "bd"=>$k1
+                    "bd"=>$k1 + $k2
                 ]);
             }
             if(isset($_POST['gt6']))
