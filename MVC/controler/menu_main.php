@@ -3,10 +3,12 @@
     {
         public $modelcon;
         public $b;
+        public $a;
         public function __construct()
         {
           $this->modelcon = $this->model("modelcon");
           $this->b = $this->model("tongtienchiu");
+          $this->a = $this->model("dsvi");
         }
         public function SayHi()
          {
@@ -54,7 +56,7 @@
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaochi",
                     "Page2"=>"chart_pie",
-                    "listvi"=>$this->modelcon->danhsachvi(),
+                    "listvi"=>$this->a->danhsachvi(),
                 ]);
             }
             if(isset($_POST['gt12']))
@@ -65,7 +67,7 @@
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaothu",
                     "Page2"=>"chart_thu",
-                    "listvi"=>$this->modelcon->danhsachvi(),
+                    "listvi"=>$this->a->danhsachvi(),
                 ]);
             }
             if(isset($_POST['gt13']))
@@ -76,7 +78,7 @@
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaodautu",
                     "Page2"=>"chart_dt",
-                    "listvi"=>$this->modelcon->danhsachvi(),
+                    "listvi"=>$this->a->danhsachvi(),
                 ]);
             }
             if(isset($_POST['gt6']))

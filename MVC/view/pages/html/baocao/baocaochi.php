@@ -1,5 +1,4 @@
-<?php $dt = isset($data["listvi"]) ? $data["listvi"]:NULL;
-  $dem = 0;?>
+<?php $dt = isset($data["listvi"]) ? $data["listvi"]:NULL;?>
   <div class="form-outline mb-4">
    <?php 
    if($dt != NULL)
