@@ -54,9 +54,15 @@
     public function tongtien()
     {
         $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
+        $kq;
         $sql = "CALL tongtientrongvi($kk)";
         $row = mysqli_query($this->con,$sql);
-        return $row;
+        $row = mysqli_fetch_array($dataa);
+        while($row2 = mysqli_fetch_array($row))
+        {
+            $kq = $row2[1];
+        }
+        return $kq;
     }
     public function tongtienc()
     {
