@@ -60,11 +60,11 @@
         {
             $kq = $row2[1];
         }
-        $sql2 = "CALL tongtienchi('$ID')";
-        $row3 = mysqli_query($this->con,$sql2);
-        while($row4 = mysqli_fetch_array($row3))
+         $sql = "CALL tongtienchi('155')";
+        $row = mysqli_query($this->con,$sql);
+        while($row2 = mysqli_fetch_array($row))
         {
-            $kq += $row4[0] * -1;
+            $kq = $row2[0] * -1;
         }
         return $kq;
     }
