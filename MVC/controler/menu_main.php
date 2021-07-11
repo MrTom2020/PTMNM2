@@ -54,7 +54,7 @@
                     "Page2"=>"chart_pie",
                     "listvi"=>$this->modelcon->danhsachvi(),
                     "bd"=>$this->modelcon->tongtien($ID),
-                ],[ "ttc"=>$this->modelcon->tongtien($ID)]);
+                ],[ "ttc"=>"123"]);
             }
             if(isset($_POST['gt12']))
             {
@@ -66,7 +66,7 @@
                     "Page2"=>"chart_thu",
                     "listvi"=>$this->modelcon->danhsachvi(),
                     "bd"=>$this->modelcon->tongtien($ID),
-                ],[ "ttc"=>$this->modelcon->tongtien($ID)]);
+                ],[ "ttc"=>"123"]);
             }
             if(isset($_POST['gt13']))
             {
@@ -78,7 +78,7 @@
                     "Page2"=>"chart_dt",
                     "listvi"=>$this->modelcon->danhsachvi(),
                     "bd"=>$this->modelcon->tongtien($ID),
-                ],[ "ttc"=>$this->modelcon->tongtien($ID)]);
+                ],[ "ttc"=>"123"]);
             }
             if(isset($_POST['gt6']))
             {
