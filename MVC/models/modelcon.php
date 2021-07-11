@@ -57,6 +57,9 @@
        $sql = "CALL tongtientrongvi('$ID')";
         $row = mysqli_query($this->con,$sql);
         $kq = $row -> fetch_row();
+        $sql2 = "CALL tongtienchi('$ID')";
+        $row3 = mysqli_query($this->con,$sql2);
+        $kq += $row3 -> fetch_row() * -1;
         // while($row2 = $row -> fetch_row())
         // {
         //     $kq = $row2[1];
