@@ -83,21 +83,18 @@
          public function tongtienc($ID)
             {
              $kq;
+             $r;
              $sql = "SELECT * FROM user";
              $row = mysqli_query($this->con,$sql);
              if($row)
              {
                 $r =  mysqli_fetch_array($row);
-                if($r == false)
-                {
-                   $kq = "123";
-                }
              }
              else
              {
                  $kq = "111111";
              }
-             return $ID;
+             return $r[0];
             }
     }
 ?>
