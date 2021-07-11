@@ -61,11 +61,11 @@
     }
     public function tongtienc($ID)
     {
-        $kq= array();
-        $sql = "CALL tongtienchi('$ID')";
-        $row = mysqli_query($this->con,$sql);
-        $kq = $row -> fetch_row();
-        return $kq[0];
+        $kq5= array();
+        $sql5 = "CALL tongtienchi('$ID')";
+        $row5 = mysqli_query($this->con,$sql5);
+        $kq5 = $row5 -> fetch_row();
+        return $kq5[0];
     }
         public function thongbaoriengus()
          {
