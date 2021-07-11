@@ -97,7 +97,7 @@
             $kq5 = 'Message: ' .$e->getMessage();
         }
        
-        return $kq5;
+        return $row5;
     }
     }
 ?>
