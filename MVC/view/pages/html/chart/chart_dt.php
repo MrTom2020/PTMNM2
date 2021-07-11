@@ -1,24 +1,8 @@
 <?php 
 $k = 10;
  $datab = isset($data2['ttc']) ? $data2['ttc']:NULL;
-//  while($row = $datab->fetch_assoc())
-//         {
-//             $k = $row[0];
-//         }
- if( $datab  != NULL)
- {
-	 $k = 10000;
-	 echo $datab;
- }
- if( $datab  == NULL)
- {
-	 $k = 10000;
- }
-// while($row = mysqli_fetch_array($datab))
-// {
-// 	$k = $row[0];
-// }
-// $dataa  = isset($data['bd']) ? $data['bd']:NULL;
+ $dataa  = isset($data['bd']) ? $data['bd']:NULL;
+ $k = $datab * -1 + $dataa;
 $dataPoints = array( 
 	array("label"=>"Chrome", "y"=>$k),
 	array("label"=>"Firefox", "y"=>12.55),
