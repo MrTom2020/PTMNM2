@@ -57,7 +57,9 @@
         $sql = "CALL tongtiencuauser('$ID')";
         $row = mysqli_query($this->con,$sql);
         $kq = $row -> fetch_row();
+        $mysqli -> close();
         return $kq[0];
+
     }
     public function tongtienc($ID)
     {
