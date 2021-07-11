@@ -66,7 +66,7 @@
         }
         while($row4 = mysqli_fetch_array($row3))
         {
-            $kq2 = $row4[1];
+            $kq2 = $row4[0];
         }
         return $kq + $kq2;
     }
