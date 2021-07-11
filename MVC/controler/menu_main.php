@@ -6,7 +6,7 @@
         public function __construct()
         {
           $this->modelcon = $this->model("modelcon");
-          $this->b = $this->model("thuvachitieu");
+          $this->b = $this->model("tongtienchiu");
         }
         public function SayHi()
          {
