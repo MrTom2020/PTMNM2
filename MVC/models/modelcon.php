@@ -56,17 +56,18 @@
         $kq = 0;
        $sql = "CALL tongtientrongvi('$ID')";
         $row = mysqli_query($this->con,$sql);
-        while($row2 = $row -> fetch_row())
-        {
-            $kq = $row2[1];
-        }
-          $sql2 = "CALL tongtienchi('$ID')";
-          $row3 = mysqli_query($this->con,$sql2);
-        while($row4 = $row3 -> fetch_row())
-        {
-            $kq += $row4[0] * -1;
-        }
-        return $kq;
+        $kq = $row -> fetch_row();
+        // while($row2 = $row -> fetch_row())
+        // {
+        //     $kq = $row2[1];
+        // }
+        //   $sql2 = "CALL tongtienchi('$ID')";
+        //   $row3 = mysqli_query($this->con,$sql2);
+        // while($row4 = $row3 -> fetch_row())
+        // {
+        //     $kq += $row4[0] * -1;
+        // }
+        return $kq[1];
     }
     public function tongtienc($ID)
     {
