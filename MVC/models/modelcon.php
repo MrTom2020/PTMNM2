@@ -62,10 +62,10 @@
         }
           $sql2 = "CALL tongtienchi('155')";
           $row3 = mysqli_query($this->con,$sql2);
-        while($row4 = $row3 -> fetch_row())
-        {
-            $kq += $row4[0] * -1;
-        }
+        // while($row4 = $row3 -> fetch_row())
+        // {
+        //     $kq += $row4[0] * -1;
+        // }
         return $kq;
     }
     public function tongtienc($ID)
