@@ -64,8 +64,7 @@
         $kq= array();
         $sql = "CALL tongtienchi('$ID')";
         $row = mysqli_query($this->con,$sql);
-        $kq = $row -> fetch_row();
-        return $kq[0];
+        return $row;
     }
         public function thongbaoriengus()
          {
