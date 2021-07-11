@@ -1,10 +1,10 @@
 <?php 
 $k = 10;
  $datab = isset($data2['ttc']) ? $data2['ttc']:NULL;
- while($row = $datab->fetch_assoc())
-        {
-            $k = $row[0];
-        }
+//  while($row = $datab->fetch_assoc())
+//         {
+//             $k = $row[0];
+//         }
  if( $datab  != NULL)
  {
 	 $k = 10000;
