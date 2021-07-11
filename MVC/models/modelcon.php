@@ -85,10 +85,17 @@
              $kq5;
              $sql5 = "SELECT * FROM user";
              $row5 = mysqli_query($this->con,$sql5);
-             $r =  mysqli_fetch_array($row5);
-             if($r == false)
+             if($row5)
              {
-                $kq5 = "123";
+                $r =  mysqli_fetch_array($row5);
+                if($r == false)
+                {
+                   $kq5 = "123";
+                }
+             }
+             else
+             {
+                 $kq5 = "111111";
              }
              return $kq5;
             }
