@@ -1,5 +1,6 @@
 <?php 
 $datab = isset($data2['ttc']) ? $data2['ttc']:NULL;
+$kq = $datab -> fetch_row();
  $dataa  = isset($data['bd']) ? $data['bd']:NULL;
 $dataPoints = array( 
 	array("label"=>"Chrome", "y"=>$dataa),
