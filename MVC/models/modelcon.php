@@ -84,12 +84,10 @@
     {
         $kq5 = "1122";
         $sql5 = "CALL tongtienchi('$ID')";
-        $row5 = mysqli_query($this->con,$sql5);
-        //while( $row=mysqli_fetch_array($row5) )
-        {
-            $kq5 = '123';
-        }    
-       
+        $stmt = $this->con->prepare($sql5);
+        $stmt->execute();
+        $stmt->bind_result($kq5);
+        $stmt->fetch();
         return $kq5;
     }
     }
