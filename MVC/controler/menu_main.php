@@ -53,7 +53,7 @@
                     "Page1"=>"baocaochi",
                     "Page2"=>"chart_pie",
                     "listvi"=>$this->modelcon->danhsachvi(),
-                    "bd"=>$k1 + $k2
+                    "bd"=>$k1
                 ]);
             }
             if(isset($_POST['gt12']))
@@ -65,7 +65,7 @@
                     "Page1"=>"baocaothu",
                     "Page2"=>"chart_thu",
                     "listvi"=>$this->modelcon->danhsachvi(),
-                    "bd"=>$k1 + $k2
+                    "bd"=>$k1
                 ]);
             }
             if(isset($_POST['gt13']))
@@ -77,7 +77,7 @@
                     "Page1"=>"baocaodautu",
                     "Page2"=>"chart_dt",
                     "listvi"=>$this->modelcon->danhsachvi(),
-                    "bd"=>$k1 + $k2
+                    "bd"=>$k1
                 ]);
             }
             if(isset($_POST['gt6']))
