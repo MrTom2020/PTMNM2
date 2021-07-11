@@ -97,7 +97,7 @@
              {
                  $kq = "111111";
              }
-             return $kq;
+             return $ID;
             }
     }
 ?>
