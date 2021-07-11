@@ -67,14 +67,11 @@
         $row5 = mysqli_query($this->con,$sql5);
         try
         {
-            if($row5)
-            {
-                //$kq5 = $row5 -> fetch_row();
-            }
+            $kq5 = $row5 -> fetch_row();
         }
         catch(Exception $e)
         {
-           // $kq5 = 'Message: ' .$e->getMessage();
+            $kq5 = 'Message: ' .$e->getMessage();
         }
        
         return $kq5;
