@@ -22,19 +22,11 @@
         }
         public function tongtienc($ID)
             {
-             $kq;
-             $r;
-             $sql = "SELECT * FROM user where iduser = '$ID'";
-             $row = mysqli_query($this->con,$sql);
-             if($row)
-             {
-                $r =  mysqli_fetch_array($row);
-             }
-             else
-             {
-                 $kq = "111111";
-             }
-             return $r[1];
+                $kq = array();
+                $sql = "CALL tongtienchi('$ID')";
+                $row = mysqli_query($this->con,$sql);
+                $kq = $row -> fetch_row();
+                return $kq[0];
             }
     }
  ?>
