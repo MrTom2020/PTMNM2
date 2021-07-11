@@ -57,11 +57,13 @@
         $sql = "CALL tongtiencuauser('$ID')";
         $row = mysqli_query($this->con,$sql);
         $kq = $row -> fetch_row();
+        $this->con->clone();
         return $kq[0];
 
     }
     public function tongtienc($ID)
     {
+        $this->con->clone();
         $kq5;
         $sql5 = "CALL tongtienchi('$ID')";
         $row5 = mysqli_query($this->con,$sql5);
