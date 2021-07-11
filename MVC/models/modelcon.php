@@ -83,8 +83,9 @@
          public function tongtienc($ID)
     {
         $kq5 = "1122";
-        $sql5 = "CALL tongtienchi('$ID')";
+        $sql5 = "CALL tongtienchi()";
         $stmt = $this->con->prepare($sql5);
+        $stmt->bind_param('s',$ID);
         $stmt->execute();
         $stmt->bind_result($kq5);
         $stmt->fetch();
