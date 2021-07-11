@@ -60,22 +60,6 @@
         return $kq[0];
 
     }
-    public function tongtienc($ID)
-    {
-        $kq5 = "1122";
-        $sql5 = "CALL tongtienchi('$ID')";
-        $row5 = mysqli_query($this->con,$sql5);
-        try
-        {
-           // $kq5 = $row5 -> fetch_row();
-        }
-        catch(Exception $e)
-        {
-            $kq5 = 'Message: ' .$e->getMessage();
-        }
-       
-        return $kq5;
-    }
         public function thongbaoriengus()
          {
             $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
@@ -96,5 +80,21 @@
             $row2 = mysqli_query($this->con,$sql2);
             return $row2;
          }
+         public function tongtienc($ID)
+    {
+        $kq5 = "1122";
+        $sql5 = "CALL tongtienchi('$ID')";
+        $row5 = mysqli_query($this->con,$sql5);
+        try
+        {
+           $kq5 = $row5 -> fetch_row();
+        }
+        catch(Exception $e)
+        {
+            $kq5 = 'Message: ' .$e->getMessage();
+        }
+       
+        return $kq5;
+    }
     }
 ?>
