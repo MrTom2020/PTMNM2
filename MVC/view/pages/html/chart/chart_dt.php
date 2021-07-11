@@ -6,6 +6,10 @@
  {
 	 $k = $row[1];
  }
+ while($row2 = mysqli_fetch_array($datab))
+ {
+	 $k2 = $row2[1];
+ }
 $dataPoints = array( 
 	array("label"=>"Chrome", "y"=>$k),
 	array("label"=>"Firefox", "y"=>12.55),
