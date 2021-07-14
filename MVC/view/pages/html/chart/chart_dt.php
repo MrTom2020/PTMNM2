@@ -2,7 +2,7 @@
 $k = 10;
  $datab = isset($_SESSION['tongtc']) ? $_SESSION['tongtc']:NULL;
  $datac = isset($data["listienchi"]) ? $data["listienchi"]:NULL;
-  $dataPoints2 = array();
+  $dataPoints = array();
  if($datac)
  {
 	while($row = mysqli_fetch_array($datac))
