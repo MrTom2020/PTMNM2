@@ -11,6 +11,10 @@ $k = 10;
 		$array_push($dataPoints,["label"=>$row[1],"y"=>$kq]);
 	}
  }
+ else
+ {
+	 echo '1234';
+ }
 // $dataPoints = array( 
 // 	array("label"=>"Chrome", "y"=>$datab),
 // 	array("label"=>"Firefox", "y"=>12.55),
