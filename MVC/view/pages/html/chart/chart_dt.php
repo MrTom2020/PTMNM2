@@ -19,7 +19,7 @@ $k = 10;
 // 	array("label"=>"Edge", "y"=>4.29),
 // 	array("label"=>"Others", "y"=>4.59)
 // )
-//$dataPoints = array($dataPoints2);
+$dataPoints = array();
  
 ?>
 <!DOCTYPE HTML>
