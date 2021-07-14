@@ -34,7 +34,7 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		text: "Báo cáo tổng quát"
 	},
 	subtitles: [{
-		text: "Tổng tiền trong các ví : '$datab' "
+		text: "Tổng tiền  : "<?php echo $datab; ?>
 	}],
 	data: [{
 		type: "pie",
