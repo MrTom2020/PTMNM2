@@ -1,10 +1,10 @@
 <?php
-    class danhsachtienthu extends DB
+    class danhsachtiendautu extends DB
     {
-        public function dstdt()
+        public function dstthu()
         {
             $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
-            $sql = "Call danhsachtienthucuavi('$kk')";
+            $sql = "Call danhsachtiendautucuavi('$kk')";
             $row = mysqli_query($this->con,$sql);
             return $row;
         }
