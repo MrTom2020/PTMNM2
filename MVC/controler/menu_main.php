@@ -81,7 +81,7 @@
                 $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
                 $_SESSION['listienchi'] = $this->c->dstchi();
                 $_SESSION['listienthu'] = $this->d->dstthu();
-                $_SESSION['listiendt'] = $this->e->dstdt();
+               // $_SESSION['listiendt'] = $this->e->dstdt();
                 $_SESSION['tongtc'] = $this->modelcon->tongtien($ID) + $this->b->tongtienc($ID);//$this->modelcon->tongtienc($ID);
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
