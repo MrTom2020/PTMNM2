@@ -75,13 +75,13 @@
             if(isset($_POST['gt13']))
             {
                 $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
+                $_SESSION['listienchi'] = $this->c->dstchi();
                 $_SESSION['tongtc'] = $this->modelcon->tongtien($ID) + $this->b->tongtienc($ID);//$this->modelcon->tongtienc($ID);
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaodautu",
                     "Page2"=>"chart_dt",
                     "listvi"=>$this->a->danhsachvi(),
-                    "listienchi"=>$this->c->dstchi()
                 ]);
             }
             if(isset($_POST['gt6']))

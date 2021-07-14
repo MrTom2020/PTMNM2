@@ -1,7 +1,7 @@
 <?php 
 $k = 10;
  $datab = isset($_SESSION['tongtc']) ? $_SESSION['tongtc']:NULL;
- $datac = isset($data["listienchi"]) ? $data["listienchi"]:NULL;
+ $datac = isset($_SESSION["listienchi"]) ? $_SESSION["listienchi"]:NULL;
   $dataPoints = array();
  if($datac)
  {
