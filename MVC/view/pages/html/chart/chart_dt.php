@@ -2,7 +2,7 @@
 $k = 10;
  $datab = isset($_SESSION['tongtc']) ? $_SESSION['tongtc']:NULL;
  $datac = isset($data["listienchi"]) ? $data["listienchi"]:NULL;
- $dataPoints = array("label"=>"Firefox", "y"=>1);
+ $dataPoints = array(array("label"=>"Firefox", "y"=>1));
 //  $dataPoints2 = array();
 //  if($datac)
 //  {
