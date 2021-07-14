@@ -8,7 +8,7 @@ $k = 10;
 	while($row = mysqli_fetch_array($datac))
 	{
 		$kq = ($row[2]/ $datab) * 100;
-		$array_push($dataPoints2,["label"=>$row[1],"y"=>$kq]);
+		$array_push($dataPoints,array(["label"=>$row[1],"y"=>$kq]));
 	}
  }
 // $dataPoints = array( 
@@ -19,7 +19,7 @@ $k = 10;
 // 	array("label"=>"Edge", "y"=>4.29),
 // 	array("label"=>"Others", "y"=>4.59)
 // )
-$dataPoints = array($dataPoints2);
+//$dataPoints = array($dataPoints2);
  
 ?>
 <!DOCTYPE HTML>
