@@ -15,7 +15,6 @@
     public function baocaotq()
     {
            // $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
-          $tc = isset($_SESSION['listienchi']) ? $_SESSION['listienchi']:1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         $row =  $this->a->bc($un3);
            $_SESSION['bdtq'] = $this->a->bieudotongquat($un3);
@@ -34,13 +33,12 @@
            while ($row2 = $row -> fetch_row())
            {
             $tg = $row2[2];
-            $t = ($row2[1] / $tc) * 100;
             $k = date("d/m/Y",strtotime($tg));
              echo "<tr>
              <th scope='row'>$row2[0]</th>
              <td>$row2[1]</td>
              <td>$row2[4]</td>
-             <td>$t</td>
+             <td>1</td>
              <td>$k</td>
              <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
              </tr>";
