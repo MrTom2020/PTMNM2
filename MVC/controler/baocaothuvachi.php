@@ -15,7 +15,6 @@
     public function baocaotq()
     {
            // $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
-          $k =isset($_SESSION['listienthu']) ? $_SESSION['listienthu']:1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         $row =  $this->a->bc($un3);
            $_SESSION['bdtq'] = $this->a->bieudotongquat($un3);
@@ -35,7 +34,6 @@
            {
             $tg = $row2[2];
             $chiem = $row2[6] < 0 ? $row2[6] * -1:$row2[6];
-            $chiem = $chiem + $k;
             $k = date("d/m/Y",strtotime($tg));
              echo "<tr>
              <th scope='row'>$row2[0]</th>
