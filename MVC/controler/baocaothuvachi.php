@@ -21,7 +21,7 @@
            echo "<table class='table'>";
            echo "<thead>
            <tr>
-              <th scope='col'>Tên ví</th>
+              <th scope='col'>Tên khoản chi</th>
               <th scope='col'>Tiền giao dịch</th>
               <th scope='col'>Loại</th>
               <th scope='col'>Chiếm</th>
