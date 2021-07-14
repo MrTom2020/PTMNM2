@@ -2,17 +2,15 @@
 $k = 10;
  $datab = isset($_SESSION['tongtc']) ? $_SESSION['tongtc']:NULL;
  $datac = isset($data["listienchi"]) ? $data["listienchi"]:NULL;
- $dataPoints = array(array("label"=>"Firefox", "y"=>1));
-//  $dataPoints2 = array();
-//  if($datac)
-//  {
-// 	while($row = mysqli_fetch_array($datac))
-// 	{
-// 		// $kq = ($row[2]/ $datab) * 100;
-// 		// $array_push($dataPoints2,["label"=>$row[1],"y"=>$kq]);
-// 		 echo $row[1];
-// 	}
-//  }
+  $dataPoints2 = array();
+ if($datac)
+ {
+	while($row = mysqli_fetch_array($datac))
+	{
+		$kq = ($row[2]/ $datab) * 100;
+		$array_push($dataPoints2,["label"=>$row[1],"y"=>$kq]);
+	}
+ }
 // $dataPoints = array( 
 // 	array("label"=>"Chrome", "y"=>$datab),
 // 	array("label"=>"Firefox", "y"=>12.55),
@@ -21,6 +19,7 @@ $k = 10;
 // 	array("label"=>"Edge", "y"=>4.29),
 // 	array("label"=>"Others", "y"=>4.59)
 // )
+$dataPoints = array($dataPoints2);
  
 ?>
 <!DOCTYPE HTML>
