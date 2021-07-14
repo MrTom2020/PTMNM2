@@ -16,6 +16,7 @@ $k = 10;
  {
 	 echo '1234';
  }
+ echo $dataPoints;
 // $dataPoints = array( 
 // 	array("label"=>"Chrome", "y"=>$datab),
 // 	array("label"=>"Firefox", "y"=>12.55),
