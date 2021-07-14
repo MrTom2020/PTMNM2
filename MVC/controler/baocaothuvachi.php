@@ -39,7 +39,7 @@
              <th scope='row'>$row2[0]</th>
              <td>$row2[1]</td>
              <td>$row2[4]</td>
-             <td>$row2[6]</td>
+             <td>$chiem</td>
              <td>$k</td>
              <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
              </tr>";
