@@ -3,7 +3,7 @@ $k = 10;
  $datab = isset($_SESSION['tongtc']) ? $_SESSION['tongtc']:NULL;
  $datac = isset($_SESSION["listienchi"]) ? $_SESSION["listienchi"]:NULL;
  $datat = isset($_SESSION["listienthu"]) ? $_SESSION["listienthu"]:NULL;
- $datadt = isset($_SESSION["listiendt"]) ? $_SESSION["listiendt"]:NULL;
+ //$datadt = isset($_SESSION["listiendt"]) ? $_SESSION["listiendt"]:NULL;
  $tongtc = 0;
  $tongtt = 0;
  $tongdt = 0;
@@ -21,13 +21,13 @@ $k = 10;
 		$tongtt +=$row[2];
 	}
  }
- if($datadt)
- {
-	while($row = mysqli_fetch_array($datadt))
-	{
-		$tongdt +=$row[2];
-	}
- }
+//  if($datadt)
+//  {
+// 	while($row = mysqli_fetch_array($datadt))
+// 	{
+// 		$tongdt +=$row[2];
+// 	}
+//  }
 $ptdt = 0;// ($tongdt/$datab) * 100 * -1;
 $ptc = ($tongtc/$datab) * 100 * -1;
 $ptt = ($tongtt/$datab) * 100;
