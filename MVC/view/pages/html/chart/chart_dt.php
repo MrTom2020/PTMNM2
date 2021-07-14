@@ -28,7 +28,7 @@ $k = 10;
 		$tongdt +=$row[2];
 	}
  }
-$ptdt = ($tongdt/$datab) * 100 * -1;
+$ptdt = 0;// ($tongdt/$datab) * 100 * -1;
 $ptc = ($tongtc/$datab) * 100 * -1;
 $ptt = ($tongtt/$datab) * 100;
 $pcl = 100 - $ptc - $ptt - $ptdt;
