@@ -3,20 +3,17 @@ $k = 10;
  $datab = isset($_SESSION['tongtc']) ? $_SESSION['tongtc']:NULL;
  $datac = isset($data["listienchi"]) ? $data["listienchi"]:NULL;
  $dataPoints = array();
+ $dataPoints2 = array();
  if($datac)
  {
 	while($row = mysqli_fetch_array($datac))
 	{
 		$kq = ($row[2]/ $datab) * 100;
-		$array_push($dataPoints,["label"=>$row[1],"y"=>$kq]);
+		$array_push($dataPoints2,["label"=>$row[1],"y"=>$kq]);
 		echo $row[1];
 	}
  }
- else
- {
-	 echo '1234';
- }
- echo $dataPoints;
+ $dataPoints = $dataPoints2;
 // $dataPoints = array( 
 // 	array("label"=>"Chrome", "y"=>$datab),
 // 	array("label"=>"Firefox", "y"=>12.55),
