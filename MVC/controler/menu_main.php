@@ -10,7 +10,7 @@
         public function __construct()
         {
           $this->modelcon = $this->model("modelcon");
-          $this->e = $this->model("danhsachtiendautu"); 
+        //  $this->e = $this->model("danhsachtiendautu"); 
           $this->d = $this->model("danhsachtienthu");   
           $this->c = $this->model("danhsachtienchicuavi");
           $this->b = $this->model("tongtienchiu");
