@@ -33,7 +33,7 @@
            while ($row2 = $row -> fetch_row())
            {
             $tg = $row2[2];
-            $chiem = $row2[5] > 0 ? $row2[5] * -1:$row2[5];
+            $chiem = $row2[5] < 0 ? $row2[5] * -1:$row2[5];
             $k = date("d/m/Y",strtotime($tg));
              echo "<tr>
              <th scope='row'>$row2[0]</th>
