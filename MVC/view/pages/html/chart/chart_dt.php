@@ -31,10 +31,10 @@ window.onload = function() {
 var chart = new CanvasJS.Chart("chartContainer", {
 	animationEnabled: true,
 	title: {
-		text: "Báo cáo ...... tháng ...."
+		text: "Báo cáo tổng quát"
 	},
 	subtitles: [{
-		text: "November 2017"
+		text: "Tổng tiền trong các ví : ".$datab
 	}],
 	data: [{
 		type: "pie",
