@@ -2,12 +2,14 @@
     class menu_main extends Controller
     {
         public $modelcon;
+        public $d;
         public $c;
         public $b;
         public $a;
         public function __construct()
         {
           $this->modelcon = $this->model("modelcon");
+          $this->d = $this->model("danhsachtienthu");   
           $this->c = $this->model("danhsachtienchicuavi");
           $this->b = $this->model("tongtienchiu");
           $this->a = $this->model("dsvi");
@@ -76,6 +78,7 @@
             {
                 $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
                 $_SESSION['listienchi'] = $this->c->dstchi();
+                $_SESSION['listienthu'] = $this->d->dstthu();
                 $_SESSION['tongtc'] = $this->modelcon->tongtien($ID) + $this->b->tongtienc($ID);//$this->modelcon->tongtienc($ID);
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",

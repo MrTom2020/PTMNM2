@@ -2,7 +2,9 @@
 $k = 10;
  $datab = isset($_SESSION['tongtc']) ? $_SESSION['tongtc']:NULL;
  $datac = isset($_SESSION["listienchi"]) ? $_SESSION["listienchi"]:NULL;
+ $datat = isset($_SESSION["listienthu"]) ? $_SESSION["listienthu"]:NULL;
  $tongtc = 0;
+ $tongtt = 0;
  if($datac)
  {
 	while($row = mysqli_fetch_array($datac))
@@ -10,14 +12,20 @@ $k = 10;
 		$tongtc +=$row[2];
 	}
  }
+ if($datat)
+ {
+	while($row = mysqli_fetch_array($datat))
+	{
+		$tongtt +=$row[2];
+	}
+ }
 $ptc = ($tongtc/$datab) * 100 * -1;
+$ptt = ($tongtt/$datab) * 100;
+$pcl = 100 - $ptc - $ptt;
 $dataPoints = array( 
-	array("label"=>"Tổng tiền chi", "y"=>$ptc),
-	array("label"=>"Firefox", "y"=>12.55),
-	array("label"=>"IE", "y"=>8.47),
-	array("label"=>"Safari", "y"=>6.08),
-	array("label"=>"Edge", "y"=>4.29),
-	array("label"=>"Others", "y"=>4.59)
+	array("label"=>"Phần trăm tiền chi", "y"=>$ptc),
+	array("label"=>"Phần trăm tiền thu", "y"=>$ptt),
+	array("label"=>"Còn lại", "y"=>$pcl)
 )
  
 ?>
