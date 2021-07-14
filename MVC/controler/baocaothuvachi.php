@@ -22,7 +22,7 @@
            echo "<thead>
            <tr>
               <th scope='col'>Tên ví</th>
-              <th scope='col'>Tiền trong ví</th>
+              <th scope='col'>Tiền giao dịch</th>
               <th scope='col'>Loại</th>
               <th scope='col'>Chiếm</th>
               <th scope='col'>Ngày tạo</th>
@@ -39,7 +39,7 @@
              <th scope='row'>$row2[0]</th>
              <td>$row2[1]</td>
              <td>$row2[4]</td>
-             <td>$row2[5]</td>
+             <td>$row2[4]</td>
              <td>$k</td>
              <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
              </tr>";
