@@ -2,11 +2,13 @@
     class menu_main extends Controller
     {
         public $modelcon;
+        public $c;
         public $b;
         public $a;
         public function __construct()
         {
           $this->modelcon = $this->model("modelcon");
+          $this->c = $this->model("danhsachtienchicuavi");
           $this->b = $this->model("tongtienchiu");
           $this->a = $this->model("dsvi");
         }
@@ -79,6 +81,7 @@
                     "Page1"=>"baocaodautu",
                     "Page2"=>"chart_dt",
                     "listvi"=>$this->a->danhsachvi(),
+                    "listienchi"=>$this->c->dstchi($ID)
                 ]);
             }
             if(isset($_POST['gt6']))

@@ -1,15 +1,24 @@
 <?php 
 $k = 10;
  $datab = isset($_SESSION['tongtc']) ? $_SESSION['tongtc']:NULL;
- 
-$dataPoints = array( 
-	array("label"=>"Chrome", "y"=>$datab),
-	array("label"=>"Firefox", "y"=>12.55),
-	array("label"=>"IE", "y"=>8.47),
-	array("label"=>"Safari", "y"=>6.08),
-	array("label"=>"Edge", "y"=>4.29),
-	array("label"=>"Others", "y"=>4.59)
-)
+ $datac = isset($data["listienchi"]) ? $data["listienchi"]:NULL;
+ $dataPoints = array();
+ if($datac)
+ {
+	while($row = mysqli_fetch_array($datac))
+	{
+		$kq = ($row[2]/ $datab) * 100;
+		$array_push($dataPoints,["label"=>$row[1],"y"=>$kq]);
+	}
+ }
+// $dataPoints = array( 
+// 	array("label"=>"Chrome", "y"=>$datab),
+// 	array("label"=>"Firefox", "y"=>12.55),
+// 	array("label"=>"IE", "y"=>8.47),
+// 	array("label"=>"Safari", "y"=>6.08),
+// 	array("label"=>"Edge", "y"=>4.29),
+// 	array("label"=>"Others", "y"=>4.59)
+// )
  
 ?>
 <!DOCTYPE HTML>
