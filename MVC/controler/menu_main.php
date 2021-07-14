@@ -81,7 +81,7 @@
                     "Page1"=>"baocaodautu",
                     "Page2"=>"chart_dt",
                     "listvi"=>$this->a->danhsachvi(),
-                    "listienchi"=>$this->c->dstchi($ID)
+                    "listienchi"=>$this->c->dstchi()
                 ]);
             }
             if(isset($_POST['gt6']))
