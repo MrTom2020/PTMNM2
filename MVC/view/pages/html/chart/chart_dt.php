@@ -12,7 +12,7 @@ $k = 10;
  }
 $ptc = ($tongtc/$datab) * 100 * -1;
 $dataPoints = array( 
-	array("label"=>"Chrome", "y"=>$ptc),
+	array("label"=>"Tổng tiền chi", "y"=>$ptc),
 	array("label"=>"Firefox", "y"=>12.55),
 	array("label"=>"IE", "y"=>8.47),
 	array("label"=>"Safari", "y"=>6.08),
