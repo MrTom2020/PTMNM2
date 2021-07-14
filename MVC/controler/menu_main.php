@@ -2,7 +2,7 @@
     class menu_main extends Controller
     {
         public $modelcon;
-        public $e;
+      //  public $e;
         public $d;
         public $c;
         public $b;
