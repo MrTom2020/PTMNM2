@@ -2,24 +2,23 @@
 $k = 10;
  $datab = isset($_SESSION['tongtc']) ? $_SESSION['tongtc']:NULL;
  $datac = isset($_SESSION["listienchi"]) ? $_SESSION["listienchi"]:NULL;
-  $dataPoints = array();
+ $tongtc = 0;
  if($datac)
  {
 	while($row = mysqli_fetch_array($datac))
 	{
-		//$kq = ($row[2]/ $datab) * 100;
-		$array_push($dataPoints,array("label"=>$row[1],"y"=>$row[2]));
+		$tongtc +=$row[2];
 	}
  }
-// $dataPoints = array( 
-// 	array("label"=>"Chrome", "y"=>$datab),
-// 	array("label"=>"Firefox", "y"=>12.55),
-// 	array("label"=>"IE", "y"=>8.47),
-// 	array("label"=>"Safari", "y"=>6.08),
-// 	array("label"=>"Edge", "y"=>4.29),
-// 	array("label"=>"Others", "y"=>4.59)
-// )
-$dataPoints = array();
+
+$dataPoints = array( 
+	array("label"=>"Chrome", "y"=>$datab),
+	array("label"=>"Firefox", "y"=>12.55),
+	array("label"=>"IE", "y"=>8.47),
+	array("label"=>"Safari", "y"=>6.08),
+	array("label"=>"Edge", "y"=>4.29),
+	array("label"=>"Others", "y"=>4.59)
+)
  
 ?>
 <!DOCTYPE HTML>
