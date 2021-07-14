@@ -1,7 +1,7 @@
 <?php
     class danhsachtienthu extends DB
     {
-        public function dstdt()
+        public function dstthu()
         {
             $kk = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
             $sql = "Call danhsachtienthucuavi('$kk')";
