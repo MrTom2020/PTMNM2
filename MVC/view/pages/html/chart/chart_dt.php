@@ -13,7 +13,6 @@ $k = 10;
 		 echo $row[1];
 	}
  }
- $dataPoints = $dataPoints2;
 // $dataPoints = array( 
 // 	array("label"=>"Chrome", "y"=>$datab),
 // 	array("label"=>"Firefox", "y"=>12.55),
