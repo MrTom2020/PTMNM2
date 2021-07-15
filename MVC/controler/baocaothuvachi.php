@@ -17,7 +17,7 @@
     public function SayHi()
     {
         $this->view("tintuc",[
-            "Page"=>"baocaothuchi",
+            "Page"=>"Baocaokhoanchi",
         ]);
     }
     public function baocaotq()
