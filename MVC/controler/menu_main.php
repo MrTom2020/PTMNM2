@@ -72,7 +72,7 @@
                 $this->view("tintuc",[
                     "Page"=>"Baocaokhoanchi",
                     "Page1"=>"baocaothu",
-                    "Page2"=>"chart_thu",
+                    "Page2"=>"test",
                     "listvi"=>$this->a->danhsachvi(),
                 ]);
             }
