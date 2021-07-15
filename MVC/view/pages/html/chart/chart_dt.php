@@ -25,13 +25,14 @@ $k = 10;
 		array_push($dataPoints,array("label"=>$row[1], "y"=>$pt));
 	}
  }
-//  if($datadt)
-//  {
-// 	while($row = mysqli_fetch_array($datadt))
-// 	{
-// 		$tongdt +=$row[2];
-// 	}
-//  }
+ if($datadt)
+ {
+	while($row = mysqli_fetch_array($datadt))
+	{
+		$pt = ($row[2]/$datab) * 100;
+		array_push($dataPoints,array("label"=>$row[1], "y"=>$pt));
+	}
+ }
 // $ptdt = ($tongdt/$datab) * 100 * -1;
 // $ptc = ($tongtc/$datab) * 100 * -1;
 // $ptt = ($tongtt/$datab) * 100;
