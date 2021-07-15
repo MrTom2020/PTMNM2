@@ -28,7 +28,7 @@
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         // $tientv = ($this->d->ttchi($un3) * -1);
         //$pt = ($tientv/$tongtien) * 100;
-        echo $un3;
+        echo $this->d->ttchi($un3);
         $row =  $this->a->bc($un3);
            $_SESSION['bdtq'] = $this->a->bieudotongquat($un3);
            echo "<table class='table'>";
