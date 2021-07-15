@@ -14,7 +14,7 @@ $k = 10;
 	{
 		$gt = $row[2] < 0 ? $row[2] * -1:$row[2];
 		$pt = ($gt/$datab) * 100;
-		array_push($dataPoints,array("label"=>$row[1], "y"=>$gt));
+		array_push($dataPoints,array("label"=>$row[1], "y"=>$pt));
 	}
  }
 //  if($datat)
