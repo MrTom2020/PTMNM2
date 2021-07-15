@@ -1,16 +1,17 @@
 <?php
  
-$dataPoints = array( 
-	array("label"=>"Chrome", "y"=>64.02),
-	array("label"=>"Firefox", "y"=>120.55),
-	array("label"=>"IE", "y"=>8.47),
-	array("label"=>"Safari", "y"=>6.08),
-	array("label"=>"Edge", "y"=>4.29),
-	array("label"=>"Others", "y"=>4.59)
-);
+// $dataPoints = array( 
+// 	array("label"=>"Chrome", "y"=>64.02),
+// 	array("label"=>"Firefox", "y"=>120.55),
+// 	array("label"=>"IE", "y"=>8.47),
+// 	array("label"=>"Safari", "y"=>6.08),
+// 	array("label"=>"Edge", "y"=>4.29),
+// 	array("label"=>"Others", "y"=>4.59)
+// );
+$dataPoints = array( );
  for($k = 0; $k < 100;$k++)
  {
-    echo $k;
+    array_push($dataPoints,array("label"=>"Chrome", "y"=>64.02));
  }
 ?>
 <!DOCTYPE HTML>
