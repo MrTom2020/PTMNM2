@@ -11,7 +11,7 @@
 $dataPoints = array( );
  for($k = 0; $k < 100;$k++)
  {
-    array_push($dataPoints,array("label"=>"Chrome", "y"=>64.02));
+    array_push($dataPoints,array("label"=>"Chrome", "y"=>$k));
  }
 ?>
 <!DOCTYPE HTML>
