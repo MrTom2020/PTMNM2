@@ -46,7 +46,27 @@
            }
            echo "</tbody>";
            echo "</table>";
-          
+          echo "<script>
+          window.onload = function() {
+          var chart = new CanvasJS.Chart('chartContainer', {
+              animationEnabled: true,
+              title: {
+                  text: 'Báo cáo tổng quát'
+              },
+              subtitles: [{
+                  text: 'Tổng tiền trong các ví :<?php echo $datab; ?> '
+              }],
+              data: [{
+                  type: 'pie',
+                  yValueFormatString: '#,##0.00\'%\'',
+                  indexLabel: '{label} ({y})',
+                  dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
+              }]
+          });
+          chart.render();
+           
+          }
+          </script>";
     }
 }
     
