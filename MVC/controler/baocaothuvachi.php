@@ -2,9 +2,13 @@
     class baocaothuvachi extends Controller
     {
         public $a;
+        public $modelcon ;
+        public $b;
         public function __construct()
         {
             $this->a = $this->model("bctvc");
+            $this->modelcon = $this->model("modelcon");
+            $this->b = $this->model("tongtienchiu");
         }
     public function SayHi()
     {
@@ -15,6 +19,8 @@
     public function baocaotq()
     {
            // $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
+        $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
+        $tongtien = $this->modelcon->tongtien($ID) + $this->b->tongtienc($ID);
         $dataPoints = array( );
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         $row =  $this->a->bc($un3);
@@ -47,34 +53,6 @@
            }
            echo "</tbody>";
            echo "</table>";
-           for($i = 0;$i < 10;$i++)
-           {
-             array_push($dataPoints,array("label"=>"123", "y"=>$i));
-           }
-          echo "<script>
-          window.onload = function() {
-          var chart = new CanvasJS.Chart('chartContainer2', {
-              animationEnabled: true,
-              title: {
-                  text: 'Báo cáo tổng quát'
-              },
-              subtitles: [{
-                  text: 'Tổng tiền trong các ví :<?php echo $datab; ?> '
-              }],
-              data: [{
-                  type: 'pie',
-                  yValueFormatString: '#,##0.00\'%\'',
-                  indexLabel: '{label} ({y})',
-                  dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
-              }]
-          });
-          chart.render();
-           
-          }
-          </script>";
-          echo "<div id='chartContainer2' style='height: 370px; width: 45%;margin-top:6vh;'>
-
-          </div>";
     }
 }
     
