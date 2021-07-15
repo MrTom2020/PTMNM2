@@ -80,7 +80,7 @@
                     "Page1"=>"baocaothu",
                     "Page2"=>"test",
                     "listvi"=>$this->a->danhsachvi(),
-                    "Tongtien"=>$tong
+                    "Tongtien"=>$this->modelcon->tongtien($ID) + $this->b->tongtienc($ID)
                 ]);
             }
             if(isset($_POST['gt13']))
