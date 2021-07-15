@@ -72,8 +72,7 @@
            
           }
           </script>";
-          echo "<div id='chartContainer' style='height: 370px; width: 45%;margin-top:6vh;'></div>
-          <script src='https://canvasjs.com/assets/script/canvasjs.min.js'></script>";
+          echo "<div id='chartContainer' style='height: 370px; width: 45%;margin-top:6vh;'></div>";
     }
 }
     
