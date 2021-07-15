@@ -7,37 +7,38 @@ $k = 10;
  $tongtc = 0;
  $tongtt = 0;
  $tongdt = 0;
+ $dataPoints = array( );
  if($datac)
  {
 	while($row = mysqli_fetch_array($datac))
 	{
-		$tongtc +=$row[2];
+		array_push($dataPoints,array("label"=>$row[1], "y"=>$row[2]));
 	}
  }
- if($datat)
- {
-	while($row = mysqli_fetch_array($datat))
-	{
-		$tongtt +=$row[2];
-	}
- }
- if($datadt)
- {
-	while($row = mysqli_fetch_array($datadt))
-	{
-		$tongdt +=$row[2];
-	}
- }
-$ptdt = ($tongdt/$datab) * 100 * -1;
-$ptc = ($tongtc/$datab) * 100 * -1;
-$ptt = ($tongtt/$datab) * 100;
-$pcl = 100 - $ptc - $ptt - $ptdt;
-$dataPoints = array( 
-	array("label"=>"Phần trăm tiền chi", "y"=>$ptc),
-	array("label"=>"Phần trăm tiền thu", "y"=>$ptt),
-	array("label"=>"Phần trăm tiền đầu tư", "y"=>$ptdt),
-	array("label"=>"Còn lại", "y"=>$pcl)
-)
+//  if($datat)
+//  {
+// 	while($row = mysqli_fetch_array($datat))
+// 	{
+// 		$tongtt +=$row[2];
+// 	}
+//  }
+//  if($datadt)
+//  {
+// 	while($row = mysqli_fetch_array($datadt))
+// 	{
+// 		$tongdt +=$row[2];
+// 	}
+//  }
+// $ptdt = ($tongdt/$datab) * 100 * -1;
+// $ptc = ($tongtc/$datab) * 100 * -1;
+// $ptt = ($tongtt/$datab) * 100;
+// $pcl = 100 - $ptc - $ptt - $ptdt;
+// $dataPoints = array( 
+// 	array("label"=>"Phần trăm tiền chi", "y"=>$ptc),
+// 	array("label"=>"Phần trăm tiền thu", "y"=>$ptt),
+// 	array("label"=>"Phần trăm tiền đầu tư", "y"=>$ptdt),
+// 	array("label"=>"Còn lại", "y"=>$pcl)
+// )
  
 ?>
 <!DOCTYPE HTML>
