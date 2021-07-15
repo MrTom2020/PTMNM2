@@ -2,17 +2,17 @@
     class baocaothuvachi extends Controller
     {
         public $a;
-      //  public $modelcon ;
-      //  public $b;
-      //  public $c;
-       // public $d;
+       public $modelcon ;
+       public $b;
+       public $c;
+       public $d;
         public function __construct()
         {
-           // $this->d = $this->model("tongtienchicua1vi");
-           // $this->c = $this->model("tientrongvi");
+           $this->d = $this->model("tongtienchicua1vi");
+           $this->c = $this->model("tientrongvi");
             $this->a = $this->model("bctvc");
-          //  $this->modelcon = $this->model("modelcon");
-          //  $this->b = $this->model("tongtienchiu");
+           $this->modelcon = $this->model("modelcon");
+           $this->b = $this->model("tongtienchiu");
         }
     public function SayHi()
     {
