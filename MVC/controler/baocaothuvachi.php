@@ -3,7 +3,7 @@
     {
         public $a;
        public $modelcon ;
-       public $b;
+       public $tongtienchi;
        public $c;
        public $d;
         public function __construct()
@@ -12,7 +12,7 @@
            $this->c = $this->model("tientrongvi");
             $this->a = $this->model("bctvc");
            $this->modelcon = $this->model("modelcon");
-           $this->b = $this->model("tongtienchiu");
+           $this->tongtienchi = $this->model("tongtienchiu");
         }
     public function SayHi()
     {
@@ -28,7 +28,7 @@
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         // $tientv = ($this->d->ttchi($un3) * -1);
         //$pt = ($tientv/$tongtien) * 100;
-        echo  $this->b->tongtienc($ID);;
+        echo  $this->tongtienchi->tongtienc($ID);;
         $row =  $this->a->bc($un3);
            $_SESSION['bdtq'] = $this->a->bieudotongquat($un3);
            echo "<table class='table'>";
