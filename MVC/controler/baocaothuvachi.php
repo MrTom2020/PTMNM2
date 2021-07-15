@@ -22,6 +22,8 @@
     }
     public function baocaotq()
     {
+        try
+        {
            // $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
         $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
         $tongtien = $this->modelcon->tongtien($ID);
@@ -63,6 +65,11 @@
            </tr>";
            echo "</tbody>";
            echo "</table>";
+        }
+        catch(Exception $e)
+        {
+            echo '123';
+        }
     }
 }
     
