@@ -4,9 +4,8 @@ $k = 10;
  $datac = isset($_SESSION["listienchi"]) ? $_SESSION["listienchi"]:NULL;
  $datat = isset($_SESSION["listienthu"]) ? $_SESSION["listienthu"]:NULL;
  $datadt = isset($_SESSION["listiendt"]) ? $_SESSION["listiendt"]:NULL;
- $tongtc = 0;
- $tongtt = 0;
- $tongdt = 0;
+ $ptcl = 100;
+ $kq = 0;
  $dataPoints = array( );
  if($datac)
  {
@@ -14,6 +13,7 @@ $k = 10;
 	{
 		$gt = $row[2] < 0 ? $row[2] * -1:$row[2];
 		$pt = ($gt/$datab) * 100;
+		$kq += $pt;
 		array_push($dataPoints,array("label"=>$row[1], "y"=>$pt));
 	}
  }
@@ -22,28 +22,12 @@ $k = 10;
 	while($row = mysqli_fetch_array($datat))
 	{
 		$pt = ($row[2]/$datab) * 100;
+		$kq += $pt;
 		array_push($dataPoints,array("label"=>$row[1], "y"=>$pt));
 	}
  }
- if($datadt)
- {
-	while($row = mysqli_fetch_array($datadt))
-	{
-		$pt = ($row[2]/$datab) * 100;
-		array_push($dataPoints,array("label"=>$row[1], "y"=>$pt));
-	}
- }
-// $ptdt = ($tongdt/$datab) * 100 * -1;
-// $ptc = ($tongtc/$datab) * 100 * -1;
-// $ptt = ($tongtt/$datab) * 100;
-// $pcl = 100 - $ptc - $ptt - $ptdt;
-// $dataPoints = array( 
-// 	array("label"=>"Phần trăm tiền chi", "y"=>$ptc),
-// 	array("label"=>"Phần trăm tiền thu", "y"=>$ptt),
-// 	array("label"=>"Phần trăm tiền đầu tư", "y"=>$ptdt),
-// 	array("label"=>"Còn lại", "y"=>$pcl)
-// )
- 
+ 	$ptcl = $ptcl - $pt;
+ 	array_push($dataPoints,array("label"=>"Còn lại", "y"=>$ptcl));
 ?>
 <!DOCTYPE HTML>
 <html>
