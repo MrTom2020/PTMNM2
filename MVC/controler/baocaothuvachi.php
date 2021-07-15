@@ -26,8 +26,8 @@
         $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
         $tongtien = $this->modelcon->tongtien($ID) + $this->b->tongtienc($ID);
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
-       // $tientv = $this->c->ttv($un3) + ($this->d->ttchi($un3) * -1);
-        $pt = 100;//($tientv/$tongtien) * 100;
+        $tientv = $this->c->ttv($un3) + ($this->d->ttchi($un3) * -1);
+        $pt = ($tientv/$tongtien) * 100;
         $row =  $this->a->bc($un3);
            $_SESSION['bdtq'] = $this->a->bieudotongquat($un3);
            echo "<table class='table'>";
