@@ -12,7 +12,8 @@ $k = 10;
  {
 	while($row = mysqli_fetch_array($datac))
 	{
-		array_push($dataPoints,array("label"=>$row[1], "y"=>$row[2]));
+		$gt = $row[2] < 0 ? $row[2] * -1:$row[2];
+		array_push($dataPoints,array("label"=>$row[1], "y"=>$gt));
 	}
  }
 //  if($datat)
