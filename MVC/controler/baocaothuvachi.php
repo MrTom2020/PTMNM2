@@ -46,13 +46,14 @@
            while ($row2 = $row -> fetch_row())
            {
             $tg = $row2[2];
+            $kkk = $this->d->ttchi($row2[7]);
             $chiem = $row2[6] < 0 ? $row2[6] * -1:$row2[6];
             $k = date("d/m/Y",strtotime($tg));
              echo "<tr>
              <th scope='row'>$row2[0]</th>
              <td>$row2[1]</td>
              <td>$row2[4]</td>
-             <td>$this->d->ttchi($row2[7])</td>
+             <td>$kkk</td>
              <td>$k</td>
              <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
              </tr>";
