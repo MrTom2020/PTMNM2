@@ -1,6 +1,6 @@
 <?php 
 $k = 10;
- $datab = isset($_SESSION['tongtc']) ? $_SESSION['tongtc']:NULL;
+ $datab = isset($data['Tongtien']) ? $data['Tongtien']:NULL;
  $datac = isset($_SESSION["listienchi"]) ? $_SESSION["listienchi"]:NULL;
  $datat = isset($_SESSION["listienthu"]) ? $_SESSION["listienthu"]:NULL;
  $datadt = isset($_SESSION["listiendt"]) ? $_SESSION["listiendt"]:NULL;
