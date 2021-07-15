@@ -25,7 +25,7 @@
            // $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
         $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
         $tongtien = $this->modelcon->tongtien($ID);
-        $tienchi = $this->b->tongtienc($ID);
+        $tienchi = $this->tongtienchi->tongtienc($ID);
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         // $tientv = ($this->d->ttchi($un3) * -1);
         //$pt = ($tientv/$tongtien) * 100;
