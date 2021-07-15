@@ -2,17 +2,17 @@
     class baocaothuvachi extends Controller
     {
         public $a;
-        public $modelcon ;
-        public $b;
-        public $c;
-        public $d;
+      //  public $modelcon ;
+      //  public $b;
+      //  public $c;
+       // public $d;
         public function __construct()
         {
-            $this->d = $this->model("tongtienchicua1vi");
-            $this->c = $this->model("tientrongvi");
+           // $this->d = $this->model("tongtienchicua1vi");
+           // $this->c = $this->model("tientrongvi");
             $this->a = $this->model("bctvc");
-            $this->modelcon = $this->model("modelcon");
-            $this->b = $this->model("tongtienchiu");
+          //  $this->modelcon = $this->model("modelcon");
+          //  $this->b = $this->model("tongtienchiu");
         }
     public function SayHi()
     {
@@ -23,12 +23,12 @@
     public function baocaotq()
     {
            // $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
-        $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
+       // $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
        // $tongtien = $this->modelcon->tongtien($ID) + $this->b->tongtienc($ID);
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         // $tientv = ($this->d->ttchi($un3) * -1);
         //$pt = ($tientv/$tongtien) * 100;
-        echo $this->modelcon->tongtien($ID);
+        //echo $this->modelcon->tongtien($ID);
         $row =  $this->a->bc($un3);
            $_SESSION['bdtq'] = $this->a->bieudotongquat($un3);
            echo "<table class='table'>";
