@@ -61,7 +61,7 @@
              </tr>";
            }
            echo "<tr>
-           <td colspan='4'>Ví có tiền 12 chiếm $tientv % </td>
+           <td colspan='4'>Ví có tiền 12 chiếm  % </td>
            </tr>";
            echo "</tbody>";
            echo "</table>";
