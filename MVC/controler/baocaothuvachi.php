@@ -14,6 +14,10 @@
     }
     public function baocaotq()
     {
+        for($i = 0;$i < 10;$i++)
+           {
+             array_push($dataPoints,array("label"=>"123", "y"=>$i));
+           }
            // $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
         $dataPoints = array( );
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
@@ -47,10 +51,6 @@
            }
            echo "</tbody>";
            echo "</table>";
-           for($i = 0;$i < 10;$i++)
-           {
-             array_push($dataPoints,array("label"=>"123", "y"=>$i));
-           }
           echo "<script>
           window.onload = function() {
           var chart = new CanvasJS.Chart('chartContainer', {
