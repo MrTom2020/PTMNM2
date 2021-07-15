@@ -23,7 +23,7 @@
     public function baocaotq()
     {
            // $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
-       // $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
+        $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
        // $tongtien = $this->modelcon->tongtien($ID) + $this->b->tongtienc($ID);
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         // $tientv = ($this->d->ttchi($un3) * -1);
