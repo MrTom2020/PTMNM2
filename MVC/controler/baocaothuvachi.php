@@ -27,6 +27,10 @@
         $tongtien = $this->modelcon->tongtien($ID) + $this->b->tongtienc($ID);
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
          $tientv = ($this->d->ttchi($un3) * -1);
+         if(isset($tientv))
+         {
+             echo '123';
+         }
         //$pt = ($tientv/$tongtien) * 100;
         echo $tientv;
         $row =  $this->a->bc($un3);
