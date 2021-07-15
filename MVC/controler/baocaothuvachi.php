@@ -53,7 +53,7 @@
            }
           echo "<script>
           window.onload = function() {
-          var chart = new CanvasJS.Chart('chartContainer', {
+          var chart = new CanvasJS.Chart('chartContainer2', {
               animationEnabled: true,
               title: {
                   text: 'Báo cáo tổng quát'
@@ -72,7 +72,9 @@
            
           }
           </script>";
-          echo "<div id='chartContainer' style='height: 370px; width: 45%;margin-top:6vh;'>111111111111111111</div>";
+          echo "<div id='chartContainer2' style='height: 370px; width: 45%;margin-top:6vh;'>
+
+          </div>";
     }
 }
     
