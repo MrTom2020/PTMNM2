@@ -28,7 +28,7 @@
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         // $tientv = ($this->d->ttchi($un3) * -1);
         //$pt = ($tientv/$tongtien) * 100;
-       // echo  $this->d->ttchi($un3);
+        echo  $this->d->ttchi(115);
         $row =  $this->a->bc($un3);
            $_SESSION['bdtq'] = $this->a->bieudotongquat($un3);
            echo "<table class='table'>";
@@ -46,7 +46,6 @@
            while ($row2 = $row -> fetch_row())
            {
             $tg = $row2[2];
-            $kkk = $this->d->ttchi($row2[7]);
             $chiem = $row2[6] < 0 ? $row2[6] * -1:$row2[6];
             $k = date("d/m/Y",strtotime($tg));
              echo "<tr>
