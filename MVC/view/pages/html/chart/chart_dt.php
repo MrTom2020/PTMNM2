@@ -17,13 +17,14 @@ $k = 10;
 		array_push($dataPoints,array("label"=>$row[1], "y"=>$pt));
 	}
  }
-//  if($datat)
-//  {
-// 	while($row = mysqli_fetch_array($datat))
-// 	{
-// 		$tongtt +=$row[2];
-// 	}
-//  }
+ if($datat)
+ {
+	while($row = mysqli_fetch_array($datat))
+	{
+		$pt = ($row[2]/$datab) * 100;
+		array_push($dataPoints,array("label"=>$row[1], "y"=>$pt));
+	}
+ }
 //  if($datadt)
 //  {
 // 	while($row = mysqli_fetch_array($datadt))
