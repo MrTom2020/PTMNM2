@@ -50,7 +50,7 @@
            {
             $tg = $row2[2];
             $chiem = $row2[6] < 0 ? $row2[6] * -1:$row2[6];
-            $kq = ($row2[1]/($tongtien + $tienchi) * 100);
+            $kq = ($row2[1]/($tongtien + $tienchi) * 100 * -1);
             $k = date("d/m/Y",strtotime($tg));
              echo "<tr>
              <th scope='row'>$row2[0]</th>
