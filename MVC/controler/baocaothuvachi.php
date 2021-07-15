@@ -27,11 +27,11 @@
            // $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
         $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
         $tongtien = $this->modelcon->tongtien($ID);
-        $tienchi = $this->tongtienchi->tongtienc($ID);
+        $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         // $tientv = ($this->d->ttchi($un3) * -1);
         //$pt = ($tientv/$tongtien) * 100;
-         echo $tienchi; //$this->d->ttchi(115);
+         //echo $tienchi; //$this->d->ttchi(115);
         $row =  $this->a->bc($un3);
            $_SESSION['bdtq'] = $this->a->bieudotongquat($un3);
            echo "<table class='table'>";
@@ -50,12 +50,13 @@
            {
             $tg = $row2[2];
             $chiem = $row2[6] < 0 ? $row2[6] * -1:$row2[6];
+            $kq = ($row2[1]/($tongtien + $tienchi) * 100);
             $k = date("d/m/Y",strtotime($tg));
              echo "<tr>
              <th scope='row'>$row2[0]</th>
              <td>$row2[1]</td>
              <td>$row2[4]</td>
-             <td>$kkk</td>
+             <td>$kq</td>
              <td>$k</td>
              <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
              </tr>";
