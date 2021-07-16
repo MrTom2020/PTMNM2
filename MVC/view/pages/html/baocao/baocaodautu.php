@@ -24,5 +24,5 @@
   <p id="hi"></p>
 <form method="POST" enctype="multipart/form-data">
   <input type="file" name="file">
-  <button type="submit" name="btnguifile"></button>
+  <button type="submit" name="btnguifile">124</button>
 </form>
