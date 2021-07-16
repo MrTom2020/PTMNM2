@@ -12,6 +12,14 @@
             "Page"=>"main",
         ]);
     }
+    public function senddata()
+    {
+        if(isset($_POST["btnguifile"]))
+        {
+            $k = isset($_POST["file"]) ? $_POST["file"]:"";
+            echo $k;
+        }
+    }
     
    
 }
