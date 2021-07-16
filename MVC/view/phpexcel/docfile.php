@@ -1,6 +1,6 @@
 <?php
 //  Include thư viện PHPExcel_IOFactory vào
-include 'Classes/PHPExcel/IOFactory.php';
+//include 'Classes/PHPExcel/IOFactory.php';
 
 $inputFileName = 'product.xlsx';
 
