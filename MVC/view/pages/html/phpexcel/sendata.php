@@ -1,4 +1,4 @@
-<script src="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/sendata.js"/>
+<script src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/jquery.table2excel.min.js"/>
 <div class="page-content page-container" id="page-content">
     <div class="padding">
         <div class="row container d-flex justify-content-center">
