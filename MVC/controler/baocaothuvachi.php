@@ -8,9 +8,7 @@
        public $d;
         public function __construct()
         {
-           $this->d = $this->model("tongtienchicua1vi");
-           $this->c = $this->model("tientrongvi");
-            $this->a = $this->model("bctvc");
+           $this->a = $this->model("bctvc");
            $this->modelcon = $this->model("modelcon");
            $this->tongtienchi = $this->model("tongtienchiu");
         }
@@ -24,14 +22,10 @@
     {
         try
         {
-           // $id = isset($_POST['tenvi']) ? $_POST['tenvi']:"";
         $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
         $tongtien = $this->modelcon->tongtien($ID);
         $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
-        // $tientv = ($this->d->ttchi($un3) * -1);
-        //$pt = ($tientv/$tongtien) * 100;
-         //echo $tienchi; //$this->d->ttchi(115);
         $row =  $this->a->bc($un3);
            $_SESSION['bdtq'] = $this->a->bieudotongquat($un3);
            echo "<table class='table'>";
