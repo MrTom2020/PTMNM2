@@ -1,3 +1,9 @@
+<script>
+function myFunction() {
+  alert("Hello! I am an alert box!");
+}
+</script>
+
 <div class="page-content page-container" id="page-content">
     <div class="padding">
         <div class="row container d-flex justify-content-center">
@@ -9,7 +15,7 @@
                                 <h4 class="card-title">Basic Table</h4>
                                 <p class="card-description"> Basic table with card </p>
                             </div>
-                            <div class="col-md-4 text-right"> <button id="exporttable" class="btn btn-primary">Export</button> </div>
+                            <div class="col-md-4 text-right"> <button onclick="myFunction()" id="exporttable" class="btn btn-primary">Export</button> </div>
                         </div>
                         <div class="table-responsive">
                             <table id="htmltable" class="table">
