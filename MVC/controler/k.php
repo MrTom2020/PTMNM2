@@ -7,7 +7,7 @@
   <body>
     <!-- // -->
     <?php
-        $path = 'MVC/view/phpexcel/sendata.php';
+        $path = 'MVC/view/pages/js/sendata.js';
         //echo realpath($path);
        header("Location:".$path);
      ?>
