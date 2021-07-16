@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#exporttable").click(function(e){
+    $("#exporttable").click(function(){
     var table = $("#htmltable");
     if(table && table.length){
     $(table).table2excel({
