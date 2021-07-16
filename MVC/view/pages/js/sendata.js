@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function() {
     $("#exporttable").click(function(e){
     var table = $("#htmltable");
     if(table && table.length){
