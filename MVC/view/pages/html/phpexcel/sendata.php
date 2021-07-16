@@ -63,4 +63,4 @@ function exportTableToExcel(tableID, filename = ''){
     echo "</tbody>
     </table>";
 ?>
-<button onclick="exportTableToExcel('htmltable')">Export Table Data To Excel File</button>
+<button onclick="exportTableToExcel('htmltable')">Xuất ra file excel</button>
