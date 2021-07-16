@@ -7,7 +7,7 @@
   <body>
     <!-- // -->
     <?php
-        $path = 'MVC/phpexcel/Classes/PHPExcel.php';
+        $path = 'MVC/view/phpexcel/docfile.php';
         //echo realpath($path);
        header("Location:".$path);
      ?>
