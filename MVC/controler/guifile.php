@@ -16,7 +16,7 @@
     {
         if(isset($_POST["btnguifile"]))
         {
-            $k = isset($_POST["file"]) ? $_POST["file"]:"";
+            $k = $_FILES['file']['tmp_name'];;
             echo $k;
         }
     }

@@ -1,11 +1,5 @@
 <?php $dt = isset($data["listvi"]) ? $data["listvi"]:NULL;
   $dem = 0;?>
-  <?php
-      if(isset($_POST["btnguifile"])) 
-      {
-        $file = $_FILES['file']['tmp_name'];
-      }
-  ?>
   <div class="form-outline mb-4">
    <?php 
    if($dt != NULL)
