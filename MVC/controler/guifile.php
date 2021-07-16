@@ -8,15 +8,15 @@
         }
     public function SayHi()
     {
-        $this->view("tintuc",[
-            "Page"=>"main",
+        $this->view("sendata",[
+            "Page"=>"sendata",
         ]);
     }
     public function senddata()
     {
         if(isset($_POST["btnguifile"]))
         {
-            $this->view("tintuc",[
+            $this->view("sendata",[
                 "Page"=>"sendata",
             ]);
         }
