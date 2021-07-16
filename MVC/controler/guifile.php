@@ -1,10 +1,10 @@
 <?php
     class guifile extends Controller
     {
-        public $a;
+        public $gf;
         public function __construct()
         {
-            $this->a = $this->model("modelcon");
+            $this->gf = $this->model("xuatfile");
         }
     public function SayHi()
     {
@@ -16,8 +16,10 @@
     {
         if(isset($_POST["btnguifile"]))
         {
+            $ID = isset($_SESSION['iduu']) ? $_SESSION['iduu']:"";
             $this->view("sendata",[
                 "Page"=>"sendata",
+                "gui"=>$this->gf->xf($ID)
             ]);
         }
     }
