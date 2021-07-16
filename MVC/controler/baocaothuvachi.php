@@ -61,9 +61,6 @@
              <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
              </tr>";
            }
-           echo "<tr>
-           <td colspan='4'>Ví có tiền 12 chiếm  % </td>
-           </tr>";
            echo "</tbody>";
            echo "</table>";
         }
