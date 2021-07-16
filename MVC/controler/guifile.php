@@ -16,12 +16,9 @@
     {
         if(isset($_POST["btnguifile"]))
         {
-            $myfile = fopen('2.txt','w+');
-            $content = 'Đây là nội dung file 2 + 1';
-            fwrite($myfile, $content);
-            fclose($myfile);
-            $content = file_get_contents('2.txt');
-            echo $content;
+            $this->view("tintuc",[
+                "Page"=>"sendata",
+            ]);
         }
     }
     
