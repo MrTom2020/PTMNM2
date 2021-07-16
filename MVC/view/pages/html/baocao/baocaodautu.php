@@ -22,7 +22,7 @@
     ?>
   </div>
   <p id="hi"></p>
-<form method="POST" action="../menu_main/chuyentrang" enctype="multipart/form-data">
+<form method="POST" action="../guifile/senddata" enctype="multipart/form-data">
   <input type="file" name="file">
   <button type="submit" name="btnguifile">124</button>
 </form>
