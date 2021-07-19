@@ -5,7 +5,7 @@ function preload() {
 
     game.load.image('phaser', 'https://quanlychitieu2030.herokuapp.com/MVC/view/pages/img/khac/Untitled-3.png');
     game.load.image('bullet', 'https://quanlychitieu2030.herokuapp.com/MVC/view/pages/img/khac/Untitled-2.png');
-    game.load.spritesheet('veggies', 'Untitled-6.png', 100, 100);
+    game.load.spritesheet('veggies', 'https://quanlychitieu2030.herokuapp.com/MVC/view/pages/img/khac/Untitled-6.png', 100, 100);
 
 }
 
