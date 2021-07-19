@@ -6,7 +6,7 @@
 <meta name="keywords" content="LÊ THANH HIỆP">
 <link rel="stylesheet" type="text/css" href="Untitled-1.css">
 </head>
-<body style="width:70vw;">
+<body style="width:40vw;">
 <script src="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/phaser.min.js"  type="text/javascript"></script>
 <script src="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/game1.js" type="text/javascript"></script>
 </body>
