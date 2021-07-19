@@ -47,6 +47,14 @@
                 "dsnd"=>$this->modelcon->ds()
             ]);
         }
+        if(isset($_POST["a5"]))
+        {
+            $this->view("Admin",[
+                "Page"=>"HomeAdmin",
+                "Page1"=>"capnhatdv",
+                "dsnd"=>$this->modelcon->ds()
+            ]);
+        }
         if(isset($_POST["a7"]))
         {
             $this->view("Admin",[

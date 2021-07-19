@@ -38,9 +38,6 @@
               <li class="nav-item">
               <input  id="btnLogin"  name="a5"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Cập nhật thông tin dịch vụ"/>
               </li>
-              <li class="nav-item">
-              <input  id="btnLogin"  name="a6"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Xóa dịch vụ"/>
-              </li>
             </ul>
           </li>
           <li class="nav-item">
