@@ -4,7 +4,7 @@ var game = new Phaser.Game(1800, 1600, Phaser.CANVAS, 'phaser-example', { preloa
 function preload() {
 
     game.load.image('phaser', 'Untitled-3.png');
-    game.load.image('bullet', 'Untitled-2.png');
+    game.load.image('bullet', 'https://quanlychitieu2030.herokuapp.com/MVC/view/pages/img/khac/Untitled-2.png');
     game.load.spritesheet('veggies', 'Untitled-6.png', 100, 100);
 
 }
