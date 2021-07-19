@@ -43,7 +43,7 @@
         {
             $this->view("Admin",[
                 "Page"=>"HomeAdmin",
-                "Page1"=>"themdv",
+                "Page1"=>"nd",
                 "dsnd"=>$this->modelcon->ds()
             ]);
         }
