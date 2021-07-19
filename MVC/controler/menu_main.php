@@ -106,6 +106,12 @@
                     "Page"=>"tienich"
                 ]);
             }
+            if(isset($_POST['gt14']))
+            {
+                $this->view("tintuc",[
+                    "Page"=>"dsgame"
+                ]);
+            }
             if(isset($_POST['timkiem']))
             {
                 $this->view("tintuc",[

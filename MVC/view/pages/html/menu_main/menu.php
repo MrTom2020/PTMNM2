@@ -19,6 +19,7 @@
             <li><input class="dropdown-item" name="gt8" type="submit"  value="Thông báo chung"/></li>
             <li><input class="dropdown-item" name="gt11" type="submit"  value="Thông báo riêng"/></li>
             <li><input class="dropdown-item" name="gt3" type="submit" value="Amazing Deal"/></li>
+            <li><input class="dropdown-item" name="gt14" type="submit" value="Dịch vụ"/></li>
             <li><input class="dropdown-item" name="gt2"  type="submit" value="Thêm tài khoản quản lý"/></li>
             <li><input class="dropdown-item" name="gt4"  type="submit" value="Amazing update"/></li>
             <li><hr class="dropdown-divider"></li>
