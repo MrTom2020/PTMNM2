@@ -4,7 +4,7 @@
 <div class="row">
 <div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn" style="margin-bottom:5vh;">
 <div class="animated features-ml">
-<img src="https://img.icons8.com/ios-filled/50/26e07f/wallet.png"/>
+<img src="https://img.icons8.com/emoji/50/000000/video-game-emoji.png"/>
 <h3 class="fourthlabel">Amazing wallet</h3>
 <input type="submit" class="form-control"  name="vitien" id="vitien" value="Amazing wallet là công cụ tạo ví">
 </div>
