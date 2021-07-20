@@ -27,7 +27,8 @@
             // $loai = isset($_POST["loaidv"]) ? $_POST["loaidv"]:"";
             // $noidung = isset($_POST["noidungdv"]) ? $_POST["noidungdv"]:"";
            //echo $this->themdv->themdvu($tendv,$loai,$noidung, $tenfile);
-           echo $this->themdv->themdvu();
+           //echo $this->themdv->themdvu();
+           echo '123';
         }
        }
     }
