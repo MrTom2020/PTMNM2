@@ -4,7 +4,7 @@
        public $themdv;
        public function __construct()
        {
-          $this->$themdv = $this->model("themdichvu");
+          $this->themdv = $this->model("themdichvu");
        }
        function SayHi()
        {
