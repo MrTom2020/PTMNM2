@@ -3,7 +3,7 @@
     echo "<div class='row'>";
     if($ds)
     {
-        echo "<form  action='game/nsk' method='POST'>";
+        echo "<form  action='dsgamee/nsk' method='POST'>";
         while($row = mysqli_fetch_array($ds))
         {
            echo "<div class='col-md-4 col-lg-4 col-xs-6 animated fadeIn' style='margin-bottom:5vh;'>
@@ -14,6 +14,7 @@
            </div>
            </div>";
         }
+        echo "</form>";
     }
     echo "</div>";
  ?>
