@@ -1,5 +1,5 @@
 <?php
-     class Admin extends Controller
+     class Quanlydichvu extends Controller
    {
        public $modelcon;
        public function __construct()
