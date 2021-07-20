@@ -84,7 +84,7 @@
         <div class="row mb-2">
           <div class="col-sm-6">
             <h1 class="m-0">Dashboard v2</h1>
-            <form action="./../Quanlydichvu/themdv" method="POST">
+            <form action="../../Quanlydichvu/themdv" method="POST">
    <h1 class="text-center">Thêm dịch vụ</h1>
    <br/><br/><br/>
   <div class="row mb-4">
