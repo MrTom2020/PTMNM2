@@ -5,26 +5,10 @@
 <div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn" style="margin-bottom:5vh;">
 <div class="animated features-ml">
 <img src="https://img.icons8.com/emoji/50/000000/video-game-emoji.png"/>
-<h3 class="fourthlabel">Amazing wallet</h3>
+<h3 class="fourthlabel">Danh sách game</h3>
 <input type="submit" class="form-control"  name="vitien" id="vitien" value="Amazing wallet là công cụ tạo ví">
 </div>
 </div>
-<div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
-<div class="animated features-ml">
-<img src="https://img.icons8.com/ios-filled/50/26e07f/wallet.png"/>
-<h3 class="fourthlabel">Amazing list wallet</h3>
-<input type="submit" class="form-control"  name="danhsachvi" id="danhsachvi" value="Danh sách ví">
-</div>
-</div>
-<div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
-<div class="animated features-ml">
-<img src="https://img.icons8.com/ios-filled/50/26e07f/wallet.png"/>
-<h3 class="fourthlabel">Amazing member wallet</h3>
-<input type="submit" class="form-control"  name="cd" id="cd" value="Ví thành viên.">
-</div>
-</div>
-
-
 <div class="col-md-4 col-lg-4  col-xs-6 animated fadeIn" style="margin-bottom:5vh;">
 <div class="animated features-ml">
 <img src="https://img.icons8.com/fluent/50/000000/file.png"/>
