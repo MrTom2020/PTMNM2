@@ -3,13 +3,14 @@
     echo "<div class='row'>";
     if($ds)
     {
+        echo "<form  action='game/nsk' method='POST'>";
         while($row = mysqli_fetch_array($ds))
         {
            echo "<div class='col-md-4 col-lg-4 col-xs-6 animated fadeIn' style='margin-bottom:5vh;'>
            <div class='animated features-ml'>
            <img src='https://img.icons8.com/emoji/50/000000/video-game-emoji.png'/>
            <h3 class='fourthlabel'>$row[1]</h3>
-           <input type='submit' class='form-control'  name='dsgame' id='dsgame' value='$row[4]'>
+           <input type='submit' class='form-control'  name='game1' id='game1' value='$row[4]'>
            </div>
            </div>";
         }
