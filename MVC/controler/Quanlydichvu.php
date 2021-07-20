@@ -1,10 +1,10 @@
 <?php
      class Quanlydichvu extends Controller
    {
-       public $modelcon;
+       public $themdv;
        public function __construct()
        {
-         // $this->modelcon = $this->model("Qlnd");
+          $this->$themdv = $this->model("themdichvu");
        }
        function SayHi()
        {
@@ -26,7 +26,7 @@
             $tenfile = isset($_POST["tenfile"]) ? $_POST["tenfile"]:"";
             $loai = isset($_POST["loaidv"]) ? $_POST["loaidv"]:"";
             $noidung = isset($_POST["noidungdv"]) ? $_POST["noidungdv"]:"";
-            echo $tendv ."|". $tenfile ."|". $loai ."|". $noidung;
+            echo $this->themdv->themdv($tendv,$loai,$noidung, $tenfile);
         }
        }
     }
