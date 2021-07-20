@@ -1,10 +1,10 @@
 <?php
     class Dichvu extends Controller
     {
-        public $a;
+        public $dvv;
         public function __construct()
         {
-            $this->a = $this->model("modelcon");
+            $this->dvv = $this->model("dv");
         }
     public function SayHi()
     {
@@ -18,6 +18,7 @@
         {
             $this->view("tintuc",[
                 "Page"=>"Game",
+                "dsgame"=>$this->dvv->dsachgame()
             ]);
         }
     }
