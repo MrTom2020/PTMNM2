@@ -27,23 +27,23 @@
 
 <div class="col-md-4 col-lg-4  col-xs-6 animated fadeIn" style="margin-bottom:5vh;">
 <div class="animated features-ml">
-<img src="https://img.icons8.com/ios-filled/50/26e07f/wallet.png"/>
-<h3 class="fourthlabel">Amazing update wallet</h3>
+<img src="https://img.icons8.com/fluent/50/000000/file.png"/>
+<h3 class="fourthlabel">Xuất file csv</h3>
 <input type="submit" class="form-control"  name="capnhatvi" id="capnhatvi" value="Cập nhật ví.">
 </div>
 </div>
 <div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
 <div class="animated features-ml">
 <img src="https://img.icons8.com/ios-filled/50/26e07f/group-background-selected.png"/>
-<h3 class="fourthlabel">Amazing personal information</h3>
+<h3 class="fourthlabel">Nhập dữ liệu từ Excel</h3>
 <input type="submit" class="form-control"  name="capnhatthongtincn" id="capnhatthongtincn" value="Cập nhật thông tin.">
 </div>
 </div>
 <div class="col-md-4 col-lg-4 col-xs-6 animated fadeIn">
 <div class="animated features-ml">
 <img src="https://img.icons8.com/ios-filled/50/26e07f/group-background-selected.png"/>
-<h3 class="fourthlabel">Danh sách tài khoản thành viên</h3>
-<input type="submit" class="form-control"  name="danhsachtk" id="danhsachtk" value="Danh sách thành viên.">
+<h3 class="fourthlabel">Biểu đồ báo cáo</h3>
+<input type="submit" class="form-control"  name="danhsachtk" id="danhsachtk" value="Chọn biểu đồ báo cáo khoản thu chi.">
 </div>
 </div>
 </div>
