@@ -84,42 +84,32 @@
         <div class="row mb-2">
           <div class="col-sm-6">
             <h1 class="m-0">Dashboard v2</h1>
-            <form action="./../dangkytaikhoan/khachdangkytaikhoan" method="POST">
+            <form action="./../Quanlydichvu/themdv" method="POST">
    <h1 class="text-center">Thêm dịch vụ</h1>
    <br/><br/><br/>
   <div class="row mb-4">
     <div class="col">
       <div class="form-outline">
-        <input type="text" name="hoten" id="form6Example1" class="form-control" />
-        <label class="form-label" for="form6Example1" id="htkq1">Tên dịch vụ</label>
+        <input type="text" name="tendv" id="tendv" class="form-control" />
+        <label class="form-label" for="tendv" id="htkq1">Tên dịch vụ</label>
       </div>
     </div>
   </div>
   <div class="form-outline mb-4">
-    <input type="text" name="mk" id="form6Example3" class="form-control" />
-    <label class="form-label" for="form6Example3">Tên file</label>
+    <input type="text" name="tenfile" id="tenfile" class="form-control" />
+    <label class="form-label" for="tenfile">Tên file</label>
   </div>
   <div class="form-outline mb-4">
-    <label class="form-label" for="form6Example6">Loại</label>
-    <select name="cauhoibimat" class="form-select" aria-label="Default select example">
-    <option selected value="Bài hát yêu thích của bạn là gì">Game</option>
+    <label class="form-label" for="loaidv">Loại</label>
+    <select name="loaidv" class="form-select" aria-label="Default select example">
+    <option selected value="Game">Game</option>
 </select>
   </div>
   <div class="form-outline mb-4">
-    <textarea class="form-control" name="cautraloi" id="form6Example7" rows="4"></textarea>
-    <label class="form-label" for="form6Example7">Nội dung</label>
+    <textarea class="form-control" name="noidungdv" id="noidungdv" rows="4"></textarea>
+    <label class="form-label" for="noidungdv">Nội dung</label>
   </div>
-  <div class="form-check d-flex justify-content-center mb-4">
-    <input
-      class="form-check-input me-2"
-      type="checkbox"
-      value=""
-      id="form6Example8"
-      checked
-    />
-    <label class="form-check-label" for="form6Example8">Tạo một tài khoản?</label>
-  </div>
-  <button type="submit" name="dangky" class="btn btn-primary btn-block mb-4">Đồng ý</button>
+  <button type="submit" name="dongythem" class="btn btn-primary btn-block mb-4">Đồng ý</button>
 </form>
 </div>
           </div><!-- /.col -->
