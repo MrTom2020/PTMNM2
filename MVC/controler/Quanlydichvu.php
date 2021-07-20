@@ -13,7 +13,7 @@
             "Page1"=>"themdv"
         ]);
        }
-       function them()
+     public function them()
        {
         if(isset($_POST["dongythem"]))
         {
