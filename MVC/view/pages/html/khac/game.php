@@ -10,7 +10,7 @@
            <div class='animated features-ml'>
            <img src='https://img.icons8.com/emoji/50/000000/video-game-emoji.png'/>
            <h3 class='fourthlabel'>$row[1]</h3>
-           <input type='submit' class='form-control'  name='game1' id='game1' value='$row[4]'>
+           <input type='submit' class='form-control'  name='game1' id='$row[0]' value='$row[4]'>
            </div>
            </div>";
         }
