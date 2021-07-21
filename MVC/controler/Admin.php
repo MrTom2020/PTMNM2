@@ -2,9 +2,11 @@
      class Admin extends Controller
    {
        public $modelcon;
+       public $dsdv;
        public function __construct()
        {
           $this->modelcon = $this->model("Qlnd");
+          $this->dsdv = $this->model("danhsachdv");
        }
        function SayHi()
        {
@@ -52,7 +54,7 @@
             $this->view("Admin",[
                 "Page"=>"HomeAdmin",
                 "Page1"=>"capnhatdv",
-                "dsnd"=>$this->modelcon->ds()
+                "dsnd"=>$this->dsdv->dsdvu()
             ]);
         }
         if(isset($_POST["a7"]))
