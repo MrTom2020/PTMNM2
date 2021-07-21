@@ -16,7 +16,7 @@
     {
         if(isset($_POST["game1"]))
         {
-            $this->view("main",[
+            $this->view("tintuc",[
                 "Page"=>"main",
             ]);
         }
