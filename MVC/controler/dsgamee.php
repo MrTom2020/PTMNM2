@@ -16,8 +16,9 @@
     {
         if(isset($_POST["game1"]))
         {
-           // $k = isset($_POST["game1"]) ? $_POST["game1"]:"";
-            echo "00000";
+            $this->view("tintuc",[
+                "Page"=>"dsgamee",
+            ]);
         }
     }
 
