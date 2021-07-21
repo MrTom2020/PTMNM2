@@ -1,6 +1,6 @@
 <?php
     $ds = isset($data["dsgame"]) ? $data["dsgame"]:NULL;
-    echo "<form  action='dsgamee/nsk' method='POST'>";
+    echo "<form  action='./../dsgamee/nsk' method='POST'>";
     echo "<div class='row'>";
     if($ds)
     {
