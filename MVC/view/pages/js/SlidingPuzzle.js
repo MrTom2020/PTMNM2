@@ -11,6 +11,7 @@ var piecesGroup,
 
 function preload() {
     game.load.spritesheet("background", "https://quanlychitieu2030.herokuapp.com/MVC/view/pages/img/khac/bk1.jpg", PIECE_WIDTH, PIECE_HEIGHT);
+    document.body.style.backgroundRepeat = "no-repeat";
 }
 
 function create() {
