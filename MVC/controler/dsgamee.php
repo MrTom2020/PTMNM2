@@ -8,9 +8,9 @@
         }
     public function SayHi()
     {
-        $this->view("tintuc",[
-            "Page"=>"game",
-        ]);
+        // $this->view("tintuc",[
+        //     "Page"=>"game",
+        // ]);
     }
     public function nsk()
     {
