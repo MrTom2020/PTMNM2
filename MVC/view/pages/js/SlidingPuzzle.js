@@ -10,7 +10,7 @@ var piecesGroup,
     shuffledIndexArray = [];
 
 function preload() {
-    game.load.spritesheet("background", "img/khac/bk1.jpg", PIECE_WIDTH, PIECE_HEIGHT);
+    game.load.spritesheet("background", "bk1.jpg", PIECE_WIDTH, PIECE_HEIGHT);
 }
 
 function create() {
