@@ -9,8 +9,10 @@ var piecesGroup,
     piecesAmount,
     shuffledIndexArray = [];
 
-function preload() {
-    game.load.spritesheet("background", "https://quanlychitieu2030.herokuapp.com/MVC/view/pages/img/game/bk1.jpg", PIECE_WIDTH, PIECE_HEIGHT);
+function preload()
+ {
+     var d = Math.floor(Math.random() * 5 + 1);
+    game.load.spritesheet("background", "https://quanlychitieu2030.herokuapp.com/MVC/view/pages/img/game/"+d+".jpg", PIECE_WIDTH, PIECE_HEIGHT);
 }
 
 function create() {
