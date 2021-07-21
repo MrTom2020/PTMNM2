@@ -1,10 +1,9 @@
 <?php
     $ds = isset($data["dsgame"]) ? $data["dsgame"]:NULL;
     echo "<div class='row'>";
-    echo "<form  action='dsgamee/nsk' method='POST'>";
+   // echo "<form  action='dsgamee/nsk' method='POST'>";
     if($ds)
     {
-        echo "<form  action='dsgamee/nsk' method='POST'>";
         while($row = mysqli_fetch_array($ds))
         {
            echo "<div class='col-md-3 col-lg-4 col-xs-6 animated fadeIn' style='margin-bottom:5vh;'>
@@ -16,6 +15,6 @@
            </div>";
         }
     }
-    echo "</form>";
+   // echo "</form>";
     echo "</div>";
  ?>
