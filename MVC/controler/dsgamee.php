@@ -8,15 +8,17 @@
         }
     public function SayHi()
     {
-        // $this->view("tintuc",[
-        //     "Page"=>"game",
-        // ]);
+        $this->view("tintuc",[
+            "Page"=>"game",
+        ]);
     }
     public function nsk()
     {
         if(isset($_POST["game1"]))
         {
-            echo '123';
+            $this->view("main",[
+                "Page"=>"main",
+            ]);
         }
     }
 
