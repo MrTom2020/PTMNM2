@@ -18,7 +18,7 @@
         {
             $this->view("tintuc",[
                 "Page"=>"dsgamee",
-                "Page1"=>"Game1",
+                "Page1"=>"Game2",
             ]);
         }
     }
