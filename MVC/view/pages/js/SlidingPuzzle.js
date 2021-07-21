@@ -10,7 +10,7 @@ var piecesGroup,
     shuffledIndexArray = [];
 
 function preload() {
-    game.load.spritesheet("background", "https://quanlychitieu2030.herokuapp.com/MVC/view/pages/img/khac/bk1.jpg", PIECE_WIDTH, PIECE_HEIGHT);
+    game.load.spritesheet("background", "https://quanlychitieu2030.herokuapp.com/MVC/view/pages/img/game/bk1.jpg", PIECE_WIDTH, PIECE_HEIGHT);
 }
 
 function create() {
