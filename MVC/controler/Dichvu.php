@@ -21,6 +21,13 @@
                 "dsgame"=>$this->dvv->dsachgame()
             ]);
         }
+        if(isset($_POST["qlgame"]))
+        {
+            $this->view("tintuc",[
+                "Page"=>"Game",
+                "dsgame"=>$this->dvv->dsachgame()
+            ]);
+        }
     }
    
 }
