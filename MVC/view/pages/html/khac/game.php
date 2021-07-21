@@ -16,5 +16,6 @@
         }
     }
     echo "</div>";
+   echo " <input type='submit' class='form-control'  name='game1' id='0' value='$0'>";
     echo "</form>";
  ?>
