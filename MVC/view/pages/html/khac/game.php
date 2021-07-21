@@ -1,7 +1,7 @@
 <?php
     $ds = isset($data["dsgame"]) ? $data["dsgame"]:NULL;
+    echo "<form  action='dsgamee/nsk' method='POST'>";
     echo "<div class='row'>";
-   // echo "<form  action='dsgamee/nsk' method='POST'>";
     if($ds)
     {
         while($row = mysqli_fetch_array($ds))
@@ -15,6 +15,6 @@
            </div>";
         }
     }
-   // echo "</form>";
     echo "</div>";
+    echo "</form>";
  ?>
