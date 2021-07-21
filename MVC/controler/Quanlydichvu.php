@@ -26,8 +26,15 @@
             "Page"=>"HomeAdmin",
             "Page1"=>"themdv"
               ]);
-
         }
+       }
+       public function capnhatdv()
+       {
+          if(isset($_POST["dongycndv"]))
+          {
+            $ma = isset($_POST["iddv"]) ? $_POST["iddv"]:"";
+            echo $ma;
+          }
        }
     }
 ?>
