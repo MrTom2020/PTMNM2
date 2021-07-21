@@ -16,7 +16,9 @@
     {
         if(isset($_POST["game1"]))
         {
-            echo '123';
+            $this->view("tintuc",[
+                "Page"=>"dsgame",
+            ]);
         }
     }
 
