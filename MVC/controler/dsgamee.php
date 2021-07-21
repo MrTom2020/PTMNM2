@@ -1,5 +1,5 @@
 <?php
-    class dsgamee extends Controller
+    class dsgameee extends Controller
     {
         public $a;
         public function __construct()
