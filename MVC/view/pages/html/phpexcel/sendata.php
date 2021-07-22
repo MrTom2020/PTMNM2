@@ -49,13 +49,14 @@ function exportTableToExcel(tableID, filename = ''){
     {
         while($row = mysqli_fetch_array($dt))
         {
+         $kq = $row[5] < 0 ? $row[5] * - 1:$row[5];
         echo "<tr>
          <td>$row[6]</td>
          <td>$row[0]</td>
          <td>$row[2]</td>
          <td>$row[3]</td>
          <td>$row[1]</td>
-         <td>$row[5]</td>
+         <td>$kq</td>
          <td>$row[7]</td>
          </tr>";
         }
