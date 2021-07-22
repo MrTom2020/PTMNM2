@@ -4,7 +4,7 @@
   <div class="row mb-4">
     <div class="col">
       <div class="form-outline">
-        <input type="text" name="hotentv" id="tentvien" class="form-control" />
+        <input type="text" name="hotentv" id="hotentv" class="form-control" />
         <div id="thongbao"></div>
         <label class="form-label" for="form6Example1">Tên đăng nhập</label>
       </div>
