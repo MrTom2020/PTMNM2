@@ -56,7 +56,7 @@ function exportTableToExcel(tableID, filename = ''){
          <td>$row[2]</td>
          <td>$row[3]</td>
          <td>$row[1]</td>
-         <td>$kq</td>
+         <td>$kq %</td>
          <td>$row[7]</td>
          </tr>";
         }
