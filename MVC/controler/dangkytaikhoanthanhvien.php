@@ -2,15 +2,22 @@
     class dangkytaikhoanthanhvien extends Controller
     {
         public $a;
+        public $ktt;
         public function __construct()
         {
            $this->a = $this->model("dangkytaikhoanthanhvien1");
+           $this->ktt= $this->model("modeldktk");
         }
     public function SayHi()
     {
         $this->view("tienich",[
             "Page"=>"Themtaikhoanquanly"
         ]);
+    }
+    public function kiemtradn()
+    {
+        $un8 = isset($_POST["un8"]) ? $_POST["un8"]:"";
+        echo $kq = $this->a->kt($un8);
     }
     public function khachdangkytaikhoantv()
     {
