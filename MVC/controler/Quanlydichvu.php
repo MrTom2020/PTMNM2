@@ -30,13 +30,20 @@
               ]);
         }
        }
+       public function cn()
+       {
+         if(isset($_POST["dycn"]))
+         {
+          echo "123";
+         }
+       }
        public function capnhatdv()
        {
             $un5 = isset($_POST["un5"]) ? $_POST["un5"]:"";
             $row = $this->ttdv->ttdv($un5);
             if($row)
             {
-              echo "<form action='#' method='POST'>";
+              echo "<form action='Quanlydichvu/cn' method='POST'>";
               while ($row1 = $row -> fetch_row())
               {
                 $kq = $row1[3] == '1' ? "Đang hoạt động":"Không hoạt động";
@@ -57,6 +64,7 @@
               <label class='form-label' for='noidungdvcn'>Nội dung</label>
                </div>";
               }
+              echo "<input type='submit' class='form-control'  name='dycn' value='Đồng ý cập nhật'>";
               echo "</form>";
             }
        }
