@@ -34,7 +34,11 @@
        {
          if(isset($_POST["dycn"]))
          {
-          echo "123";
+           $tendvmoi = isset($_POST["tendvcn"]) ? $_POST["tendvcn"]:"";
+           $loaicn = isset($_POST["loaidvcn"]) ? $_POST["loaidvcn"]:"";
+           $tinhtrang = isset($_POST["tinhtranghd"]) ? $_POST["tinhtranghd"]:"";
+           $noidung = isset($_POST["noidungdvcn"]) ? $_POST["noidungdvcn"]:"";
+            echo   $tendvmoi . "|" .  $loaicn . "|" . $tinhtrang . "|" . $noidung;
          }
        }
        public function capnhatdv()
@@ -56,7 +60,10 @@
                 <label class='form-label' for='loaidvcn'>Loại</label>
                </div>";
                echo "<div class='form-outline'>
-              <input type='text' name='tinhtrangdvcn' id='tinhtrangdvcn' class='form-control' value='$kq' />
+               <select class='form-select' id='tinhtranghd' name='tinhtranghd' aria-label='Default select example'>
+               <option value='$row1[3]'>$kq</option>
+               <option value='0'>Không hoạt động</option>
+               </select>
               <label class='form-label' for='tinhtrangdvcn'>Tình trạng</label>
               </div>";
               echo "<div class='form-outline'>
