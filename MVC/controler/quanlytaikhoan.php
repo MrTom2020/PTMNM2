@@ -2,9 +2,11 @@
     class quanlytaikhoan extends Controller
     {
         public $a;
+        public $vithanhvien;
         public function __construct()
         {
             $this->a = $this->model("taovi");
+            $this->vithanhvien = $this->model("vicuathanhvien");
         }
     public function SayHi()
     {
@@ -46,6 +48,13 @@
             $this->view("tienich",[
                 "Page"=>"capnhatthongtincanhan",
                 "thongtin"=>$this->a->thongtinnguoidung()
+            ]);
+        }
+        if(isset($_POST["cd"]))
+        {
+            $this->view("tienich",[
+                "Page"=>"capnhatthongtincanhan",
+                "vtv"=>$this->vithanhvien->vithanhvien()
             ]);
         }
     }
