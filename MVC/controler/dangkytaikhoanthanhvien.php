@@ -22,9 +22,9 @@
     }
     public function kiemtraedn()
     {
-        $un = isset($_POST['un']) ? $_POST['un']:"";
+        $un2 = isset($_POST['un2']) ? $_POST['un2']:"";
         //$un8 = isset($_post['un8']) ? $_post['un8']:"";
-        echo  $this->ktt->kt2($un);
+        echo  $this->ktt->kt2($un2);
     }
     public function khachdangkytaikhoantv()
     {

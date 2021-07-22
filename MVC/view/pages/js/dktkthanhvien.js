@@ -7,6 +7,6 @@ $(document).ready(function(){
     $("#emailtv").keyup(function()
     {
         var user = $(this).val();
-        $.post("./../dangkytaikhoanthanhvien/kiemtraedn",{un:user},function(data){ $("#thongbao2").html(data); });
+        $.post("./../dangkytaikhoanthanhvien/kiemtraedn",{un2:user},function(data){ $("#thongbao2").html(data); });
     });
 });
