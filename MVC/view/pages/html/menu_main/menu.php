@@ -14,7 +14,6 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><input class="dropdown-item" name="gt" type="submit" value="Giới thiệu"/></li>
             <li><input class="dropdown-item" name="gt1" type="submit" value="Trang chủ"/></li>
-            <li><input class="dropdown-item" name="gt7" type="submit" value="Cộng đồng"/></li>
             <li><input class="dropdown-item" name="gt10" type="submit" value="Amazing Utilities"/></li>
             <li><input class="dropdown-item" name="gt8" type="submit"  value="Thông báo chung"/></li>
             <li><input class="dropdown-item" name="gt11" type="submit"  value="Thông báo riêng"/></li>

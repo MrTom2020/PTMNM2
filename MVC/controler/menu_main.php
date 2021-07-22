@@ -74,12 +74,6 @@
                     "Page"=>"Quanlytaikhoan"
                 ]);
             }
-            if(isset($_POST['gt7']))
-            {
-                $this->view("tintuc",[
-                    "Page"=>"congdong"
-                ]);
-            }
             if(isset($_POST['gt8']))
             {
                 $this->view("tintuc",[
@@ -92,12 +86,6 @@
                 $this->view("tintuc",[
                     "Page"=>"thongbaorieng",
                     "tbc"=>$this->modelcon->thongbaoriengus()
-                ]);
-            }
-            if(isset($_POST['gt9']))
-            {
-                $this->view("tintuc",[
-                    "Page"=>"tintuc"
                 ]);
             }
             if(isset($_POST['gt10']))
