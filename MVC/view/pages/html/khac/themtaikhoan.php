@@ -5,8 +5,7 @@
     <div class="col">
       <div class="form-outline">
         <input type="text" name="hotentv" id="hotentv" class="form-control" />
-        <div id="thongbao"></div>
-        <label class="form-label" id="form6Example1" for="form6Example1">Tên đăng nhập</label>
+        <label class="form-label" id="thongbao" for="form6Example1">Tên đăng nhập</label>
       </div>
     </div>
     <div class="col">
