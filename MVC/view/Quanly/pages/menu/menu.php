@@ -56,9 +56,6 @@
               <li class="nav-item">
                <input  id="a8"  name="a8"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Thông báo chung"/>
               </li>
-              <li class="nav-item">
-              <input  id="a9"  name="a9"  class="nav-link" type="submit" style="background-color:#343a40;color:#ffffff;" value="Thông báo nhóm"/>
-              </li>
             </ul>
           </li>
         </ul>
