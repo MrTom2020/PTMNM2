@@ -17,7 +17,7 @@
     public function kiemtradn()
     {
         $un8 = isset($_post['un8']) ? $_post['un8']:"";
-        echo  "123";
+        echo  $un8;
     }
     public function khachdangkytaikhoantv()
     {
