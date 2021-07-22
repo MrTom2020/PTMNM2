@@ -85,15 +85,14 @@
           <div class="col-sm-6">
             <h1 class="m-0">Dashboard v2</h1>
             <?php
-   echo "<form  action='../Quanlydichvu/capnhatdv' method='POST'>";
-    echo "<select class='form-select' name='iddv' aria-label='Default select example'>";
+    echo "<select class='form-select' id='iddv' name='iddv' aria-label='Default select example'>";
     $dt = isset($data["dsnd"]) ? $data["dsnd"]:NULL;
      while($row = mysqli_fetch_array($dt))
     {
         echo "<option value='$row[0]'>$row[1]</option>";
     }
     echo " <input type='submit' class='form-control'  name='dongycndv' id='dongycndv' value='Đồng ý'>";
-    echo "</form>";
+    echo "<div id='kqht'></div>";
  ?>
           </div><!-- /.col -->
           <div class="col-sm-6">
@@ -163,5 +162,6 @@
 <script src="https://quanlychitieu2030.herokuapp.com/MVC/view/Quanly/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="https://quanlychitieu2030.herokuapp.com/MVC/view/Quanly/dist/js/pages/dashboard.js"></script>
+<script src="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/capnhat.js"></script>
 </body>
 </html>

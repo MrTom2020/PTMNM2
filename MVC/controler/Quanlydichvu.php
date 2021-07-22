@@ -30,11 +30,8 @@
        }
        public function capnhatdv()
        {
-          if(isset($_POST["dongycndv"]))
-          {
-            $ma = isset($_POST["iddv"]) ? $_POST["iddv"]:"";
-            echo $ma;
-          }
+            $un5 = isset($_POST["un5"]) ? $_POST["un5"]:"";
+            echo $un5;
        }
     }
 ?>
