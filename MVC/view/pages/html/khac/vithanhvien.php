@@ -12,6 +12,8 @@
     </tr>
      </thead>";
      echo "<tbody>";
+     if($dt)
+     {
      while($row = mysqli_fetch_array($dt))
     {
         $tg = $row[4];
@@ -25,6 +27,7 @@
         <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
         </tr>";
     }
+}
     echo "</tbody>";
     echo "</table>";
  ?>
