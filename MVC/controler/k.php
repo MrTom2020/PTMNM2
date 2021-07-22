@@ -7,7 +7,7 @@
   <body>
     <!-- // -->
     <?php
-        $path = 'MVC/view/pages/js/sendata.js';
+        $path = 'MVC/view/pages/js/dktkthanhvien.js';
         //echo realpath($path);
        header("Location:".$path);
      ?>
