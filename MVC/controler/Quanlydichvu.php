@@ -3,10 +3,12 @@
    {
        public $themdv;
        public $ttdv;
+       public $cn;
        public function __construct()
        {
           $this->themdv = $this->model("themdichvu");
           $this->ttdv = $this->model("thongtinctdv");
+          $this->cn = $this->model("capnhatdvu");
        }
        function SayHi()
        {
@@ -34,11 +36,12 @@
        {
          if(isset($_POST["dycn"]))
          {
+           $id = isset($_POST["madvcn"]) ? $_POST["madvcn"]:"";
            $tendvmoi = isset($_POST["tendvcn"]) ? $_POST["tendvcn"]:"";
            $loaicn = isset($_POST["loaidvcn"]) ? $_POST["loaidvcn"]:"";
            $tinhtrang = isset($_POST["tinhtranghd"]) ? $_POST["tinhtranghd"]:"";
            $noidung = isset($_POST["noidungdvcn"]) ? $_POST["noidungdvcn"]:"";
-            echo   $tendvmoi . "|" .  $loaicn . "|" . $tinhtrang . "|" . $noidung;
+           echo $this->cn->cndv($id,$tendvmoi,$loaicn,$noidung,$tinhtrang);
          }
        }
        public function capnhatdv()
@@ -52,6 +55,10 @@
               {
                 $kq = $row1[3] == '1' ? "Đang hoạt động":"Không hoạt động";
                   echo "<div class='form-outline'>
+                  <select class='form-select' id='madvcn' name='madvcn' aria-label='Default select example'>
+               <option value='$row1[0]'>$row1[0]</option>
+               </select>
+                  <label class='form-label' for='madvcn'>Mã dịch vụ</label>
                   <input type='text' name='tendvcn' id='tendvcn' class='form-control' value='$row1[1]' />
                   <label class='form-label' for='tendvcn'>Tên dịch vụ</label>
                 </div>";
