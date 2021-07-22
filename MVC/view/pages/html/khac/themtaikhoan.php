@@ -28,7 +28,7 @@
     <label class="form-label" for="form6Example4">Địa chỉ</label>
   </div>
   <div class="form-outline mb-4">
-    <input type="email" name="emailtv" id="form6Example5" class="form-control" />
+    <input type="email" name="emailtv" id="emailtv" class="form-control" />
     <label class="form-label" id="thongbao2" for="form6Example5">Email</label>
   </div>
   <div class="form-outline mb-4">
