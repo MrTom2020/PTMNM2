@@ -53,7 +53,7 @@
               <label class='form-label' for='tinhtrangdvcn'>Tình trạng</label>
               </div>";
               echo "<div class='form-outline'>
-              <textarea class='form-control' name='noidungdvcn' id='noidungdvcn' value='$row1[4]' rows='4'></textarea>
+              <textarea class='form-control' name='noidungdvcn' id='noidungdvcn' rows='4'>$row1[4]</textarea>
               <label class='form-label' for='noidungdvcn'>Nội dung</label>
                </div>";
               }
