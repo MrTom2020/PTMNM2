@@ -53,7 +53,7 @@
         if(isset($_POST["cd"]))
         {
             $this->view("tienich",[
-                "Page"=>"capnhatthongtincanhan",
+                "Page"=>"vithanhvien",
                 "vtv"=>$this->vithanhvien->vithanhvien()
             ]);
         }

@@ -3,6 +3,5 @@
    </nav>
    <section style="height:100vh;">
      <?php 
-     echo "123";
      include_once('khac/vithanhvien.php') ?>
    </section>
