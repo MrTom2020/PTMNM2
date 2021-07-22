@@ -29,7 +29,7 @@
   </div>
   <div class="form-outline mb-4">
     <input type="email" name="emailtv" id="form6Example5" class="form-control" />
-    <label class="form-label" for="form6Example5">Email</label>
+    <label class="form-label" id="thongbao2" for="form6Example5">Email</label>
   </div>
   <div class="form-outline mb-4">
     <input type="text" name="sdttv" id="form6Example6" class="form-control" />

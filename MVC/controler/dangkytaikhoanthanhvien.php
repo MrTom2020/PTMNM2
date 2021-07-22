@@ -20,6 +20,12 @@
         //$un8 = isset($_post['un8']) ? $_post['un8']:"";
         echo  $this->ktt->kt($un);
     }
+    public function kiemtraedn()
+    {
+        $un = isset($_POST['un']) ? $_POST['un']:"";
+        //$un8 = isset($_post['un8']) ? $_post['un8']:"";
+        echo  $this->ktt->kt2($un);
+    }
     public function khachdangkytaikhoantv()
     {
         if(isset($_POST["dangkytv"]))
