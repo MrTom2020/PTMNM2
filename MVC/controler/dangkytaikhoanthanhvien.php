@@ -17,7 +17,7 @@
     public function kiemtradn()
     {
         $un8 = isset($_POST["un8"]) ? $_POST["un8"]:"";
-        echo $kq = $this->a->kt($un8);
+        echo  $this->$ktt->kt($un8);
     }
     public function khachdangkytaikhoantv()
     {
