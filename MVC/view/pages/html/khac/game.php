@@ -1,10 +1,10 @@
 <?php
     $ds = isset($data["dsgame"]) ? $data["dsgame"]:NULL;
+    $kqq = 1;
     echo "<form  action='./../dsgamee/nsk' method='POST'>";
     echo "<div class='row'>";
     if($ds)
     {
-        $kqq = 1;
         while($row = mysqli_fetch_array($ds))
         {
            echo "<div class='col-md-3 col-lg-4 col-xs-6 animated fadeIn' style='margin-bottom:5vh;'>

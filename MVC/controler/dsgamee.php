@@ -18,14 +18,14 @@
         {
             $this->view("tintuc",[
                 "Page"=>"dsgamee",
-                "Page1"=>"Game1",
+                "Page1"=>"Game2",
             ]);
         }
-        if(isset($_POST["game1"]))
+        if(isset($_POST["game2"]))
         {
             $this->view("tintuc",[
                 "Page"=>"dsgamee",
-                "Page1"=>"Game2",
+                "Page1"=>"Game1",
             ]);
         }
     }
