@@ -98,7 +98,8 @@
         chart.render();
         }
         </script>
-        <div id='chartContainer1' style='height: 370px; width: 45%;margin-top:6vh;'>123</div>";
+        <div id='chartContainer1' style='height: 370px; width: 45%;margin-top:6vh;'>123</div>
+        <script src='https://canvasjs.com/assets/script/canvasjs.min.js'></script>";
     }
 }
     
