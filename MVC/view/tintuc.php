@@ -23,5 +23,6 @@
 <script src="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/signup.js"></script>
 <script src="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/dktkthanhvien.js"></script>
 <script src="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/baocao.js"></script>
+<script src="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/baocaochitiet.js"></script>
 </body>
 </html>
