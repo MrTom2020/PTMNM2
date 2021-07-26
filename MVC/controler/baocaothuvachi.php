@@ -72,34 +72,7 @@
         $tongtien = $this->modelcon->tongtien($ID);
         $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
-        $dataPoints = array( );
-        for($k = 0; $k < 100;$k++)
-        {
-          array_push($dataPoints,array("label"=>"Chrome", "y"=>$k));
-        }
-        echo "<script>
-        window.onload = function() 
-        {
-        var chart = new CanvasJS.Chart('chartContainer1', {
-            animationEnabled: true,
-            title: {
-                text: 'Báo cáo ...... tháng ....'
-            },
-            subtitles: [{
-                text: 'November 2017'
-            }],
-            data: [{
-                type: 'pie',
-                yValueFormatString: '#,##0.00\"%\"',
-                indexLabel: '{label} ({y})',
-                dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
-            }]
-        });
-        chart.render();
-        }
-        </script>
-        <div id='chartContainer1' style='height: 370px; width: 45%;margin-top:6vh;'>123</div>
-        <script src='https://canvasjs.com/assets/script/canvasjs.min.js'></script>";
+        echo "<script src='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.js'></script>";
     }
 }
     
