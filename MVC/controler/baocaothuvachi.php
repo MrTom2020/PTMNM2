@@ -73,7 +73,7 @@
         $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
 
-        echo "<script>
+       /* echo "<script>
         window.onload = function() 
         {
         var chart = new CanvasJS.Chart('chartContainer1', {
@@ -94,8 +94,9 @@
         chart.render();
         }
         </script>
-        <div id='chartContainer1' style='height: 370px; width: 45%;margin-top:6vh;'>123</div>";
-        }
+        <div id='chartContainer1' style='height: 370px; width: 45%;margin-top:6vh;'>123</div>";*/
+        echo $this->e->testt();
+    }
 }
     
 ?>
