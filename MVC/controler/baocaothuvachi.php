@@ -95,7 +95,7 @@
         }
         </script>
         <div id='chartContainer1' style='height: 370px; width: 45%;margin-top:6vh;'>123</div>";*/
-        echo $this->e->testt();
+        echo $this->e->testt().sizeof();
     }
 }
     
