@@ -77,9 +77,13 @@
             echo "<div>
             <canvas id='pieChart' style='max-width: 500px;'></canvas>
           </div>";
-          echo tess(1000);
+          echo t(1000);
             echo "<script src='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.js'></script>";
         }
+    }
+    public function t($kk)
+    {
+        echo $kk;
     }
 }
     

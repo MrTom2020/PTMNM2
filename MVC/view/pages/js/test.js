@@ -1,5 +1,3 @@
-function tess($kk)
-{
 var ctxP = document.getElementById("pieChart").getContext('2d');
     const c = [];
     for($i = 0;$i < $kk; $i++)
@@ -20,4 +18,3 @@ var ctxP = document.getElementById("pieChart").getContext('2d');
         responsive: true
       }
     });
-  }
