@@ -1,3 +1,4 @@
+$(window).load(function(){
 var ctxP = document.getElementById("pieChart").getContext('2d');
     const c = [10,20,30,40,50];
    
@@ -15,3 +16,4 @@ var ctxP = document.getElementById("pieChart").getContext('2d');
         responsive: true
       }
     });
+  });
