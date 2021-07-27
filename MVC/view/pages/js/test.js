@@ -1,6 +1,6 @@
 var ctxP = document.getElementById("pieChart").getContext('2d');
 var kkkk;
-    $.post("../baocaothuvachi/baocaoct",{hi : $('#hi').val()},function(data){ kkkk = data; });
+    kkkk = $.post("hi").val();
     var d = [];
     //d = [10,20,30,40,50];
     for($i = 0;$i < 10;$i+=1)
