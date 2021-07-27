@@ -6,7 +6,7 @@
     }
     for($ii = 0;$ii < 10;$ii++)
     {
-        alert(c[$i]);
+        alert(c[$ii]);
     }
     var myPieChart = new Chart(ctxP, {
       type: 'pie',
