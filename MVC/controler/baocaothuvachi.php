@@ -74,15 +74,19 @@
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         $row =  $this->a->bc($un3);
         $array = [];
+        $array2 = [];
         while ($row2 = $row -> fetch_row())
         {
             $kq = $row2[1] < 0 ? $row2[1] * -1: $row2[1];
             array_push($array,$kq);
+            array_push($array2,$row2[0]);
         }
         $kkk = json_encode($array);
+        $kkk2 = json_encode($array2);
         $kt = sizeof($array);
         echo "<input type='text'id='txtJob' name='txtJob' value='$kkk'>";
         echo "<input type='text'id='txtJob2' name='txtJob2' value='$kt'>";
+        echo "<input type='text'id='txtJob3' name='txtJob3' value='$kkk2'>";
             echo "<div>
             <canvas id='pieChart' style='max-width: 500px;'>123</canvas>
             </div>";
