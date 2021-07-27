@@ -72,10 +72,10 @@
         $tongtien = $this->modelcon->tongtien($ID);
         $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
-        echo t(rand());
+        echo t();
         
     }
-    function t($kk)
+    function t()
     {
         echo "<div>
           <canvas id='pieChart' style='max-width: 500px;'></canvas>
