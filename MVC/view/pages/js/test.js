@@ -9,10 +9,11 @@ var kkkk2;
     //d = [10,20,30,40,50];
     var a;
     a = JSON.parse(kkkk);
-    for(var ii = 0;ii < kkkk2;++ii)
-    {
-      alert(a[ii]);
-    }
+    alert(a[1]);
+    // for(var ii = 0;ii < kkkk2;++ii)
+    // {
+    //   alert(a[ii]);
+    // }
     for($i = 0;$i < 10;$i+=1)
     {
       d.push($i);
