@@ -74,6 +74,7 @@
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         for($i = 0;$i < 1;$i++)
         {
+            echo $i;
             echo "<div>
             <canvas id='pieChart' style='max-width: 500px;'></canvas>
             </div>";
