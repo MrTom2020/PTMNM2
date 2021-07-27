@@ -73,7 +73,7 @@
         $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         $kkk = ran();
-       echo $this->t($kkk);
+       echo t($kkk);
         if($un3)
         {
             echo "<div>
