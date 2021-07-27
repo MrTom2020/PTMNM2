@@ -74,7 +74,9 @@
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         $array = [100,200,3000];
         $kkk = json_encode($array);
+        $kt = sizeof($kkk);
         echo "<input type='text'id='txtJob' name='txtJob' value='$kkk'>";
+        echo "<input type='text'id='txtJob2' name='txtJob2' value='$kt'>";
             echo "<div>
             <canvas id='pieChart' style='max-width: 500px;'>123</canvas>
             </div>";

@@ -1,14 +1,18 @@
     var ctxP = document.getElementById("pieChart").getContext('2d');
 var kkkk;
+var kkkk2;
     kkkk = document.getElementById('txtJob').value;
+    kkkk2 = document.getElementById('txtJob2').value;
     // json_encode(kkkk);
-    alert(kkkk);
     //kkkk = $.post("hi").value;
     var d = [];
     //d = [10,20,30,40,50];
-    for (var i = 0; i < kkkk.length; i++){
-      alert(kkkk[i]);
-  }
+    var a;
+    a = JSON.parse(kkkk);
+    for(var ii = 0;ii < kkkk2;++ii)
+    {
+      alert(a[ii]);
+    }
     for($i = 0;$i < 10;$i+=1)
     {
       d.push($i);
