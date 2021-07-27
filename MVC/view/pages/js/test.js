@@ -21,7 +21,7 @@ var kkkk3;
       //alert(a[ii]);
       d.push(a[ii]);
       d1.push(a2[ii]);
-      COLORS.push("rgb(${rand(0, 255)}, ${rand(0, 255)}, ${rand(0, 255)})");
+      COLORS.push("rgb(${rand(ii, 255)}, ${rand(ii, 255)}, ${rand(ii, 255)})");
     }
     
     for($i = 0;$i < 10;$i+=1)
