@@ -72,33 +72,13 @@
         $tongtien = $this->modelcon->tongtien($ID);
         $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
-        echo "<div>
-        <canvas id='pieChart' style='max-width: 500px;'></canvas>
-        </div>";
-        echo "<script>
-        var ctxP = document.getElementById('pieChart').getContext('2d');
-    const c = [];
-    for($i = 0;$i < 10; $i++)
-    {
-        c.push($i);
-    }
-    var myPieChart = new Chart(ctxP, {
-      type: 'pie',
-      data: {
-        labels: ['Red', 'Green', 'Yellow', 'Grey', 'Dark Grey'],
-        datasets: [{
-          data: c,
-          backgroundColor: ['#F7464A', '#46BFBD','#FDB45C', '#949FB1', '#4D5360'],
-          hoverBackgroundColor: ['#FF5A5E', '#5AD3D1', '#FFC870', '#A8B3C5', '#616774']
-        }]
-      },
-      options: {
-        responsive: true
-      }
-    });
-        </script>";
+         echo "<div>
+          <canvas id='pieChart' style='max-width: 500px;'></canvas>
+          </div>";
+        echo "<script src='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.js'></script>";
         
     }
+    
 }
     
 ?>
