@@ -1,3 +1,6 @@
+function kk($k)
+{
+
 var ctxP = document.getElementById("pieChart").getContext('2d');
     var d = [];
     //d = [10,20,30,40,50];
@@ -19,3 +22,4 @@ var ctxP = document.getElementById("pieChart").getContext('2d');
         responsive: true
       }
     });
+  }
