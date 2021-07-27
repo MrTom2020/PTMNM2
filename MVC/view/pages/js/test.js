@@ -21,7 +21,7 @@ var kkkk3;
       //alert(a[ii]);
       d.push(a[ii]);
       d1.push(a2[ii]);
-     // COLORS.push(`rgb(${rand(0, 255)}, ${rand(0, 255)}, ${rand(0, 255)})`);
+      COLORS.push("rgb(${rand(0, 255)}, ${rand(0, 255)}, ${rand(0, 255)})");
     }
     
     for($i = 0;$i < 10;$i+=1)
@@ -35,8 +35,8 @@ var kkkk3;
         labels: d1,
         datasets: [{
           data: d,
-          backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
-          hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
+          backgroundColor: COLORS,
+          hoverBackgroundColor: COLORS
         }]
       },
       options: {
