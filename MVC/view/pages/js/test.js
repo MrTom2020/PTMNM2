@@ -2,7 +2,7 @@
 var kkkk;
 var kkkk2;
     kkkk = document.getElementById('txtJob').value;
-    //kkkk2 = document.getElementById('txtJob2').value;
+    kkkk2 = document.getElementById('txtJob2').value;
     // json_encode(kkkk);
     //kkkk = $.post("hi").value;
     var d = [];
