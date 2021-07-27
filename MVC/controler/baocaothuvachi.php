@@ -72,7 +72,7 @@
         $tongtien = $this->modelcon->tongtien($ID);
         $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
-        echo "<canvas id='buyers' width='600' height='400'></canvas>";
+        echo "<canvas id='pieChart' width='600' height='400'></canvas>";
         echo "<script src='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.js'></script>";
     }
 }
