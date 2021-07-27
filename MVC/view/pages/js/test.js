@@ -1,7 +1,8 @@
     var ctxP = document.getElementById("pieChart").getContext('2d');
 var kkkk;
     kkkk = document.getElementById('txtJob').value;
-     json_encode(kkkk);
+    // json_encode(kkkk);
+    alert(kkkk);
     //kkkk = $.post("hi").value;
     var d = [];
     //d = [10,20,30,40,50];
