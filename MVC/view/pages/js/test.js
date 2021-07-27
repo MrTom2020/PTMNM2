@@ -1,5 +1,5 @@
     var ctxP = document.getElementById("pieChart").getContext('2d');
-    var c = Array( );
+    const c = Array( );
     for($i = 0;$i < 10; $i++)
     {
         c.push($i);
