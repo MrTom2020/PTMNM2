@@ -73,7 +73,9 @@
         $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         echo "1111111111";
-        echo "<canvas id='pieChart' width='600' height='400'></canvas>";
+        echo "<div>
+        <canvas id='pieChart' style='max-width: 500px;'></canvas>
+      </div>";
         echo "<script src='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.js'></script>";
     }
 }
