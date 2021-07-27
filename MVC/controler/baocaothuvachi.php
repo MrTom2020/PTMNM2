@@ -72,7 +72,7 @@
         $tongtien = $this->modelcon->tongtien($ID);
         $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
-        echo "<input type='text'id='txtJob' name='txtJob' value='12345'>";
+        echo "<input type='text'id='txtJob' name='txtJob' value='$un3'>";
             echo "<div>
             <canvas id='pieChart' style='max-width: 500px;'>123</canvas>
             </div>";
