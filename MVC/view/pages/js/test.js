@@ -9,7 +9,7 @@ var kkkk;
     {
       d.push($i);
     }
-    d.push(kkkk[1]);
+    d.push(kkkk[0]);
     var myPieChart = new Chart(ctxP, {
       type: 'pie',
       data: {
