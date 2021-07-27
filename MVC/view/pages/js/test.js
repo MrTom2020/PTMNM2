@@ -1,6 +1,6 @@
 var ctxP = document.getElementById("pieChart").getContext('2d');
     const c = [];
-    for($i = 0;$i < $kk; $i++)
+    for($i = 0;$i < 1000; $i++)
     {
         c.push($i);
     }
