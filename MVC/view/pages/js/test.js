@@ -2,7 +2,11 @@
     var c = Array( );
     for($i = 0;$i < 10; $i++)
     {
-        alert($i);
+        c.push($i);
+    }
+    for($ii = 0;$ii < 10;$ii++)
+    {
+        alert(c[$i]);
     }
     var myPieChart = new Chart(ctxP, {
       type: 'pie',
