@@ -12,7 +12,8 @@ var kkkk2;
     //alert(a);
     for(var ii = 0;ii < kkkk2;++ii)
     {
-      alert(a[ii]);
+      //alert(a[ii]);
+      d.push(a[ii]);
     }
     for($i = 0;$i < 10;$i+=1)
     {
