@@ -1,7 +1,8 @@
-
-  var ctxP = document.getElementById("pieChart").getContext('2d');
+function tess($kk)
+{
+var ctxP = document.getElementById("pieChart").getContext('2d');
     const c = [];
-    for($i = 0;$i < 10; $i++)
+    for($i = 0;$i < $kk; $i++)
     {
         c.push($i);
     }
@@ -19,3 +20,4 @@
         responsive: true
       }
     });
+  }

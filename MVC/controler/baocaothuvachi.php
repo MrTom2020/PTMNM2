@@ -74,6 +74,7 @@
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         if($un3)
         {
+            echo tess(1000);
             echo "<div>
             <canvas id='pieChart' style='max-width: 500px;'></canvas>
           </div>";
