@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <script>
     var ctxP = document.getElementById("pieChart").getContext('2d');
     const c = [];
     for($i = 0;$i < 10; $i++)
@@ -18,3 +26,7 @@
         responsive: true
       }
     });
+  </script>
+</body>
+</html>
+  
