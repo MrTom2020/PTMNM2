@@ -1,9 +1,6 @@
 var ctxP = document.getElementById("pieChart").getContext('2d');
-    const c = [];
-    for($i = 0;$i < 1000; $i++)
-    {
-        c.push($i);
-    }
+    const c = [10,20,30,40,50];
+   
     var myPieChart = new Chart(ctxP, {
       type: 'pie',
       data: {
