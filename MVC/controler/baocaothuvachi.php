@@ -77,6 +77,7 @@
             echo "<div>
             <canvas id='pieChart' style='max-width: 500px;'></canvas>
             </div>";
+          echo "<script src='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.js'></script>";
         }
         
     }
