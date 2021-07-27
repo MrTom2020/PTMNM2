@@ -1,6 +1,7 @@
     var ctxP = document.getElementById("pieChart").getContext('2d');
 var kkkk;
-    kkkk = $.post("hi").value;
+    kkkk = $("#teest").val();
+    //kkkk = $.post("hi").value;
     var d = [];
     //d = [10,20,30,40,50];
     for($i = 0;$i < 10;$i+=1)
