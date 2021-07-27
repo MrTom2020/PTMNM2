@@ -6,11 +6,14 @@ var kkkk;
     //kkkk = $.post("hi").value;
     var d = [];
     //d = [10,20,30,40,50];
+    for (var i = 0; i < kkkk.length; i++){
+      alert(kkkk[i]);
+  }
     for($i = 0;$i < 10;$i+=1)
     {
       d.push($i);
     }
-    d.push(kkkk[0]);
+    d.push(kkkk);
     var myPieChart = new Chart(ctxP, {
       type: 'pie',
       data: {
