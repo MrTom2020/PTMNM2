@@ -9,7 +9,7 @@
 // 	array("label"=>"Others", "y"=>4.59)
 // );
 $dataPoints = array( );
- for($k = 0; $k < 100;$k++)
+ for($k = 0; $k < 10000;$k++)
  {
     array_push($dataPoints,array("label"=>"Chrome", "y"=>$k));
  }
