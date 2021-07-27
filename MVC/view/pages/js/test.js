@@ -1,7 +1,7 @@
 var ctxP = document.getElementById("pieChart").getContext('2d');
     var d = [];
     //d = [10,20,30,40,50];
-    for($i = 0;$i < 100;$i+=1)
+    for($i = 0;$i < 10000000;$i+=1)
     {
       d.push($i);
     }
