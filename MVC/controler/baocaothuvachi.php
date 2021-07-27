@@ -73,7 +73,8 @@
         $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         $array = [100,200,3000];
-        echo "<input type='text'id='txtJob' name='txtJob' value='$array'>";
+        $kkk = json_encode($array);
+        echo "<input type='text'id='txtJob' name='txtJob' value='$kkk'>";
             echo "<div>
             <canvas id='pieChart' style='max-width: 500px;'>123</canvas>
             </div>";
