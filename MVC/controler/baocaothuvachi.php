@@ -73,11 +73,10 @@
         $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         $_POST["hi"] = 123;
-        include("https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.php");
-            // echo "<div>
-            // <canvas id='pieChart' style='max-width: 500px;'>123</canvas>
-            // </div>";
-         // echo "<script src='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.js'></script>";
+            echo "<div>
+            <canvas id='pieChart' style='max-width: 500px;'>123</canvas>
+            </div>";
+          echo "<script src='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.js'></script>";
         
     }
     
