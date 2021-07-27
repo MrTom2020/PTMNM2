@@ -76,7 +76,7 @@
         echo "<div>
         <canvas id='pieChart' style='max-width: 500px;'></canvas>
       </div>";
-        echo include_once("https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.php");//"<script src='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.js'></script>";
+        echo "<script src='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.js'></script>";
     }
 }
     
