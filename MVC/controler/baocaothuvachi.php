@@ -76,7 +76,8 @@
         $array = [];
         while ($row2 = $row -> fetch_row())
         {
-            array_push($array,$row2[1]);
+            $kq = $row2[1] < 0 ? $row2[1] * -1: $row2[1];
+            array_push($array,$kq);
         }
         $kkk = json_encode($array);
         $kt = sizeof($array);
