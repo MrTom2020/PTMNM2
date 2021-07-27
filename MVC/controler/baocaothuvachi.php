@@ -72,18 +72,15 @@
         $tongtien = $this->modelcon->tongtien($ID);
         $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
-        echo(rand(10,100));
-        if($un3)
-        {
-            echo "<div>
-            <canvas id='pieChart' style='max-width: 500px;'></canvas>
-          </div>";
-            echo "<script src='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.js'></script>";
-        }
+        echo t(rand());
+        
     }
     function t($kk)
     {
-       return $kk;
+        echo "<div>
+          <canvas id='pieChart' style='max-width: 500px;'></canvas>
+          </div>";
+            echo "<script src='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.js'></script>";
     }
 }
     
