@@ -1,6 +1,6 @@
     var ctxP = document.getElementById("pieChart").getContext('2d');
 var kkkk;
-    kkkk = document.getElementById('txtJob').value;
+    kkkk = document.getElementById('txtJob').value
     //kkkk = $.post("hi").value;
     var d = [];
     //d = [10,20,30,40,50];
@@ -8,7 +8,7 @@ var kkkk;
     {
       d.push($i);
     }
-    d.push(kkkk[1]);
+    d.push(kkkk);
     var myPieChart = new Chart(ctxP, {
       type: 'pie',
       data: {
