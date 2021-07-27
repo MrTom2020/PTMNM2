@@ -8,8 +8,8 @@ var kkkk2;
     var d = [];
     //d = [10,20,30,40,50];
     var a;
-    a = JSON.parse(kkkk);
-    alert(a[1]);
+    a = 123;//JSON.parse(kkkk);
+    alert(a);
     // for(var ii = 0;ii < kkkk2;++ii)
     // {
     //   alert(a[ii]);
