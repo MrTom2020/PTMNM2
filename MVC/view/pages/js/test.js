@@ -21,7 +21,6 @@ var kkkk3;
       d.push(a[ii]);
       d1.push(a2[ii]);
     }
-    d.push(kkkk);
     var myPieChart = new Chart(ctxP, {
       type: 'pie',
       data: {
