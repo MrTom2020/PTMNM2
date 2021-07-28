@@ -18,7 +18,8 @@ var kkkk4;
     {
       d.push(a[ii]);
       d1.push(a2[ii]);
-      tinhtong+=a[ii];
+      tinhtong =a[ii];
+      alert(tinhtong);
     }
     alert(tinhtong);
     a3 = 100 - tinhtong;
