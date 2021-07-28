@@ -88,7 +88,7 @@
         echo "<input type='text'id='txtJob2' name='txtJob2' value='$kt'>";
         echo "<input type='text'id='txtJob3' name='txtJob3' value='$kkk2'>";
             echo "<div>
-            <canvas id='pieChart' style='max-width: 500px;'>123</canvas>
+            <canvas id='pieChart' style='max-width: 500px;float:left;'></canvas>
             </div>";
           echo "<script src='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.js'></script>";
         
