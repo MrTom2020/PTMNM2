@@ -96,6 +96,15 @@
         $kkk = json_encode($array);
         $kkk2 = json_encode($array2);
         $kt = sizeof($array);
+        $kkkkkk = isset($_POST['chontheo']) ? $_POST['chontheo']:"123";
+        echo $kkkkkk;
+        echo "<from method='POST'><select name='chontheo' id='chontheo' class='form-select' aria-label='Default select example'>
+        <option value='All'>Tất cả</option>
+        <option value='Khoản thu'>Tiền thu</option>
+        <option value='Khoản chi'>Tiền chi</option>
+        </select>
+        <input type='submit' value='đồng ý'/>
+        </from>";
         echo "<input type='text'id='txtJob' name='txtJob' value='$kkk' style='visibility: hidden;'>";
         echo "<input type='text'id='txtJob2' name='txtJob2' value='$kt' style='visibility: hidden;'>";
         echo "<input type='text'id='txtJob3' name='txtJob3' value='$kkk2' style='visibility: hidden;'>";
