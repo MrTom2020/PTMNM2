@@ -75,28 +75,24 @@
         $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         $un4 = isset($_POST['un4']) ? $_POST['un4']:"";
-        $row =  $this->a->bc($un3);
-        $row3 = $this->dsc->dschi($un3);
+        $row;
+        $row3;
         $array = [];
         $array2 = [];
         if($un4 == "Khoản chi")
         {
-            while ($row2 = $row3 -> fetch_row())
-            {
-            $kq = $row2[1] < 0 ? $row2[6] * -1: $row2[6];
-            array_push($array,$kq);
-            array_push($array2,$row2[0]);
-             }
+            $row =  $this->a->bc($un3);
         }
         else
         {
-         while ($row2 = $row -> fetch_row())
+            $row = $this->dsc->dschi($un3);
+        }
+        while ($row2 = $row -> fetch_row())
             {
             $kq = $row2[1] < 0 ? $row2[6] * -1: $row2[6];
             array_push($array,$kq);
             array_push($array2,$row2[0]);
              }
-        }
         $kkk = json_encode($array);
         $kkk2 = json_encode($array2);
         $kt = sizeof($array);
