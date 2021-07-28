@@ -4,12 +4,14 @@
         public $a;
        public $modelcon ;
        public $tongtienchi;
+       public $dsc;
        public $c;
        public $d;
        public $e;
         public function __construct()
         {
            $this->a = $this->model("bctvc");
+           $this->dsc = $this->model("danhsachchius");
            $this->modelcon = $this->model("modelcon");
            $this->tongtienchi = $this->model("tongtienchiu");
            $this->e = $this->model("testbc");
@@ -74,18 +76,30 @@
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         $un4 = isset($_POST['un4']) ? $_POST['un4']:"";
         $row =  $this->a->bc($un3);
+        $row3 = $this->dsc->dschi($un3);
         $array = [];
         $array2 = [];
-        while ($row2 = $row -> fetch_row())
+        if($un4 == "Khoản chi")
         {
+            while ($row2 = $row3 -> fetch_row())
+            {
             $kq = $row2[1] < 0 ? $row2[6] * -1: $row2[6];
             array_push($array,$kq);
             array_push($array2,$row2[0]);
+             }
+        }
+        else
+        {
+         while ($row2 = $row -> fetch_row())
+            {
+            $kq = $row2[1] < 0 ? $row2[6] * -1: $row2[6];
+            array_push($array,$kq);
+            array_push($array2,$row2[0]);
+             }
         }
         $kkk = json_encode($array);
         $kkk2 = json_encode($array2);
         $kt = sizeof($array);
-        echo $un4;
         echo "<input type='text'id='txtJob' name='txtJob' value='$kkk' style='visibility: hidden;'>";
         echo "<input type='text'id='txtJob2' name='txtJob2' value='$kt' style='visibility: hidden;'>";
         echo "<input type='text'id='txtJob3' name='txtJob3' value='$kkk2' style='visibility: hidden;'>";
