@@ -11,15 +11,18 @@ var kkkk4;
     var a;
     var tinhtong = 0;
     var a2;
-    //var a3;
+    var a3;
     a = JSON.parse(kkkk);
     a2 = JSON.parse(kkkk3);
     for(var ii = 0;ii < kkkk2;++ii)
     {
       d.push(a[ii]);
       d1.push(a2[ii]);
-     // tinhtong+=a[ii];
+      tinhtong+=a[ii];
     }
+    a3 = 100 - tinhtong;
+    d.push(a3);
+    d1.push("Còn lại");
     var myPieChart = new Chart(ctxP, {
       type: 'pie',
       data: {
