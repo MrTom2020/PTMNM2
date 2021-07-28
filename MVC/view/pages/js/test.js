@@ -17,7 +17,7 @@ var kkkk3;
     //alert(a);
     for(var ii = 0;ii < kkkk2;++ii)
     {
-      //alert(a[ii]);
+      alert(a[ii]);
       d.push(a[ii]);
       d1.push(a2[ii]);
     }
