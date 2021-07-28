@@ -75,18 +75,10 @@
         $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
         $un4 = isset($_POST['un4']) ? $_POST['un4']:"";
-        $row;
+        $row =  $this->a->bc($un3);
         $row3;
         $array = [];
         $array2 = [];
-        if($un4 == "Khoản chi")
-        {
-            $row =  $this->a->bc($un3);
-        }
-        else
-        {
-            $row = $this->dsc->dschi($un3);
-        }
         while ($row2 = $row -> fetch_row())
             {
             $kq = $row2[1] < 0 ? $row2[6] * -1: $row2[6];
@@ -97,13 +89,16 @@
         $kkk2 = json_encode($array2);
         $kt = sizeof($array);
         $kkkkkk = isset($_POST['chontheo']) ? $_POST['chontheo']:"123";
-        echo $kkkkkk;
+        if(isset($_POST["chontheo"]))
+        {
+            echo $kkkkkk;
+        }
         echo "<from method='POST'><select name='chontheo' id='chontheo' class='form-select' aria-label='Default select example'>
         <option value='All'>Tất cả</option>
         <option value='Khoản thu'>Tiền thu</option>
         <option value='Khoản chi'>Tiền chi</option>
         </select>
-        <input type='submit' value='đồng ý'/>
+        <input type='submit' name='chontheo2' value='đồng ý'/>
         </from>";
         echo "<input type='text'id='txtJob' name='txtJob' value='$kkk' style='visibility: hidden;'>";
         echo "<input type='text'id='txtJob2' name='txtJob2' value='$kt' style='visibility: hidden;'>";
