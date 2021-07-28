@@ -87,7 +87,7 @@
         echo "<input type='text'id='txtJob' name='txtJob' value='$kkk'>";
         echo "<input type='text'id='txtJob2' name='txtJob2' value='$kt'>";
         echo "<input type='text'id='txtJob3' name='txtJob3' value='$kkk2'>";
-            echo "<div>
+            echo "<div class='container my-4'>
             <canvas id='pieChart' style='max-width: 500px;margin-left:-40vw;margin-top:-35vh;'></canvas>
             </div>";
           echo "<script src='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.js'></script>";
