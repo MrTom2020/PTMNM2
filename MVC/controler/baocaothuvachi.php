@@ -84,9 +84,9 @@
         $kkk = json_encode($array);
         $kkk2 = json_encode($array2);
         $kt = sizeof($array);
-        echo "<input type='text'id='txtJob' name='txtJob' value='$kkk' disabled='false'>";
-        echo "<input type='text'id='txtJob2' name='txtJob2' value='$kt' disabled='false'>";
-        echo "<input type='text'id='txtJob3' name='txtJob3' value='$kkk2' disabled='false'>";
+        echo "<input type='text'id='txtJob' name='txtJob' value='$kkk' style='visibility: hidden;'>";
+        echo "<input type='text'id='txtJob2' name='txtJob2' value='$kt' style='visibility: hidden;'>";
+        echo "<input type='text'id='txtJob3' name='txtJob3' value='$kkk2' style='visibility: hidden;'>";
             echo "<div>
             <canvas id='pieChart' style='max-width: 500px;margin-left:-40vw;margin-top:-75vh;'></canvas>
             </div>
