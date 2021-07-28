@@ -71,7 +71,7 @@
             if(isset($_POST['gt15']))
             {
                 $this->view("tintuc",[
-                    "Page"=>"Baocaokhoanchi",
+                    "Page"=>"baocaochitiet",
                     "Page1"=>"baocaochitiet",
                     "Page2"=>"test",
                     "listvi"=>$this->a->danhsachvi(),
