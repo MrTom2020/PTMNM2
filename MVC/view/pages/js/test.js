@@ -21,11 +21,6 @@ var kkkk3;
       d.push(a[ii]);
       d1.push(a2[ii]);
     }
-    
-    for($i = 0;$i < 10;$i+=1)
-    {
-      d.push($i);
-    }
     d.push(kkkk);
     var myPieChart = new Chart(ctxP, {
       type: 'pie',
