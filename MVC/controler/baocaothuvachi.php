@@ -89,7 +89,7 @@
         $kkk2 = json_encode($array2);
         $kt = sizeof($array);
         $kkkkkk = isset($_POST['chontheo']) ? $_POST['chontheo']:"123";
-        if(isset($_POST["chontheo"]))
+        if(isset($_POST["chontheo2"]))
         {
             echo $kkkkkk;
         }
