@@ -98,7 +98,7 @@
         <option value='Khoản thu'>Tiền thu</option>
         <option value='Khoản chi'>Tiền chi</option>
         </select>
-        <input type='submit' name='chontheo2' value='đồng ý'/>
+        <input type='submit' name='chontheo2' value='đồng ý'>
         </from>";
         echo "<input type='text'id='txtJob' name='txtJob' value='$kkk' style='visibility: hidden;'>";
         echo "<input type='text'id='txtJob2' name='txtJob2' value='$kt' style='visibility: hidden;'>";
