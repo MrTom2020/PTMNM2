@@ -77,7 +77,7 @@
         $array2 = [];
         while ($row2 = $row -> fetch_row())
         {
-            $kq = $row2[1] < 0 ? $row2[1] * -1: $row2[1];
+            $kq = $row2[1] < 0 ? $row2[6] * -1: $row2[6];
             array_push($array,$kq);
             array_push($array2,$row2[0]);
         }
