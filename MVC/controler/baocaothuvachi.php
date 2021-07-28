@@ -90,7 +90,7 @@
             echo "<div>
             <canvas id='pieChart' style='max-width: 500px;margin-left:-40vw;margin-top:-75vh;'></canvas>
             </div>
-            <h3 style='margin-left:-40vw;margin-top:-60vh;'>Báo cáo chi tiết của ví $un3</h3>";
+            <h3 style='margin-left:-40vw;margin-top:-55vh;'>Báo cáo chi tiết của ví $un3</h3>";
           echo "<script src='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.js'></script>";
         
     }
