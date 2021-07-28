@@ -72,6 +72,7 @@
         $tongtien = $this->modelcon->tongtien($ID);
         $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
+        $un4 = isset($_POST['un4']) ? $_POST['un4']:"";
         $row =  $this->a->bc($un3);
         $array = [];
         $array2 = [];
@@ -84,6 +85,7 @@
         $kkk = json_encode($array);
         $kkk2 = json_encode($array2);
         $kt = sizeof($array);
+        echo $un4;
         echo "<input type='text'id='txtJob' name='txtJob' value='$kkk' style='visibility: hidden;'>";
         echo "<input type='text'id='txtJob2' name='txtJob2' value='$kt' style='visibility: hidden;'>";
         echo "<input type='text'id='txtJob3' name='txtJob3' value='$kkk2' style='visibility: hidden;'>";

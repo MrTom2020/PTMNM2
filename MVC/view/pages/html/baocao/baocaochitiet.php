@@ -11,7 +11,12 @@ $dt = isset($data["listvi"]) ? $data["listvi"]:NULL;
      echo "<option value='$row[0]'>$row[1]</option>";
      $dem +=1;
    }
-  echo "</select>
+  echo "</select>";
+  echo "<select name='chontheo' id='chontheo' class='form-select' aria-label='Default select example'>
+  <option value='All'>Tất cả</option>
+  <option value='Khoản thu'>Tiền thu</option>
+  <option value='Khoản chi'>Tiền chi</option>
+  </select>
   <button  name='xembcct' id='xembcct' class='btn btn-primary btn-block mb-4'>Đồng ý</button>";
    }
     ?>
