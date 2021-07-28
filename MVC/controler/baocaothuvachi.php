@@ -89,10 +89,6 @@
         $kkk2 = json_encode($array2);
         $kt = sizeof($array);
         $kkkkkk = isset($_POST['chontheo']) ? $_POST['chontheo']:"123";
-        if(isset($_POST["chontheo2"]))
-        {
-            echo $kkkkkk;
-        }
         echo "<from method='POST'><select name='chontheo' id='chontheo' class='form-select' aria-label='Default select example'>
         <option value='All'>Tất cả</option>
         <option value='Khoản thu'>Tiền thu</option>
@@ -108,7 +104,10 @@
             </div>
             <h3 style='margin-left:-40vw;margin-top:-55vh;'>Báo cáo chi tiết của ví $un3</h3>";
           echo "<script src='https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/test.js'></script>";
-        
+          if(isset($_POST["chontheo2"]))
+          {
+              echo "123333";
+          }
     }
     
 }
