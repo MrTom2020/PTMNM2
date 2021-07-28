@@ -21,7 +21,7 @@ var kkkk4;
       tinhtong =a[ii];
       alert(tinhtong);
     }
-    alert(tinhtong);
+    //alert(tinhtong);
     a3 = 100 - tinhtong;
     d.push(a3);
     d1.push("Còn lại");
