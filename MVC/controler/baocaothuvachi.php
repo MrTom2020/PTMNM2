@@ -5,6 +5,7 @@
        public $modelcon ;
        public $tongtienchi;
        public $dsc;
+       public $dst;
        public $c;
        public $d;
        public $e;
@@ -12,6 +13,7 @@
         {
            $this->a = $this->model("bctvc");
            $this->dsc = $this->model("danhsachchius");
+           $this->dst= $this->model("danhsachtthu");
            $this->modelcon = $this->model("modelcon");
            $this->tongtienchi = $this->model("tongtienchiu");
            $this->e = $this->model("testbc");
@@ -74,9 +76,9 @@
         $tongtien = $this->modelcon->tongtien($ID);
         $tienchi = $this->tongtienchi->tongtienc($ID) * -1;
         $un3 = isset($_POST['un3']) ? $_POST['un3']:"";
-        $un4 = isset($_POST['un4']) ? $_POST['un4']:"";
         $row =  $this->a->bc($un3);
         $row3 =  $this->dsc->dschi($un3);
+        $row6 = $this->dst->dsthu($un3);
         $array = [];
         $array2 = [];
         while ($row2 = $row -> fetch_row())
@@ -91,6 +93,7 @@
         echo "<input type='text'id='txtJob' name='txtJob' value='$kkk' style='visibility: hidden;'>";
         echo "<input type='text'id='txtJob2' name='txtJob2' value='$kt' style='visibility: hidden;'>";
         echo "<input type='text'id='txtJob3' name='txtJob3' value='$kkk2' style='visibility: hidden;'>";
+        echo "Danh sách chi";
         echo "<table class='table'>";
         echo "<thead>
         <tr>
@@ -112,6 +115,35 @@
           <th scope='row'>$row4[0]</th>
           <td>$row4[1]</td>
           <td>$row4[4]</td>
+          <td>$chiem</td>
+          <td>$k</td>
+          <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
+          </tr>";
+        }
+        echo "</tbody>";
+        echo "</table>";
+        echo "Danh sách thu";
+        echo "<table class='table'>";
+        echo "<thead>
+        <tr>
+           <th scope='col'>Tên khoản chi</th>
+           <th scope='col'>Tiền giao dịch</th>
+           <th scope='col'>Loại</th>
+           <th scope='col'>Chiếm</th>
+           <th scope='col'>Ngày tạo</th>
+           <th scope='col'>Xóa</th>
+       </tr>
+        </thead>";
+      echo "<tbody>";
+        while ($row7 = $row6 -> fetch_row())
+        {
+         $tg = $row7[2];
+         $chiem = $row7[6] < 0 ? $row7[6] * -1:$row7[6];
+         $k = date("d/m/Y",strtotime($tg));
+          echo "<tr>
+          <th scope='row'>$row7[0]</th>
+          <td>$row7[1]</td>
+          <td>$row7[4]</td>
           <td>$chiem</td>
           <td>$k</td>
           <td><img src='https://img.icons8.com/ios/50/000000/delete--v3.png'/></td>
