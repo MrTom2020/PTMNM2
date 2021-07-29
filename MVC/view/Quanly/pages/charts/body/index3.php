@@ -85,7 +85,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Dashboard v3</h1>
+            <h1 class="m-0">Khôi phục tài khoản người dùng</h1>
             <?php
     echo "<form class='login-container' action='../Quanlynguoidung/kpdlnd' method='POST'>";
     echo "<table class='table' style='width:80vw;'>";

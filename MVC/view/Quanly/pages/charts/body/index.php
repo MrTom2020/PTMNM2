@@ -83,7 +83,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Dashboard v2</h1>
+            <h1 class="m-0">Danh sách người dùng</h1>
             <?php
     echo "<table class='table' style='width:80vw;'>";
     $dt = isset($data["dsnd"]) ? $data["dsnd"]:NULL;

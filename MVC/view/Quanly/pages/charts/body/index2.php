@@ -82,7 +82,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Dashboard v2</h1>
+            <h1 class="m-0">Vô hiệu người dùng</h1>
             <?php
     echo "<form class='login-container' action='../Quanlynguoidung/vohieund' method='POST'>";
     echo "<table class='table' style='width:80vw;'>";
