@@ -93,7 +93,7 @@
         echo "<input type='text'id='txtJob' name='txtJob' value='$kkk' style='visibility: hidden;'>";
         echo "<input type='text'id='txtJob2' name='txtJob2' value='$kt' style='visibility: hidden;'>";
         echo "<input type='text'id='txtJob3' name='txtJob3' value='$kkk2' style='visibility: hidden;'>";
-        echo "Danh sách chi";
+        echo "<h4>Danh sách chi</h4>";
         echo "<table class='table'>";
         echo "<thead>
         <tr>
@@ -121,8 +121,8 @@
           </tr>";
         }
         echo "</tbody>";
-        echo "</table>";
-        echo "Danh sách thu";
+        echo "</table><br/><br/>";
+        echo "<h4>Danh sách thu</h4>";
         echo "<table class='table'>";
         echo "<thead>
         <tr>
