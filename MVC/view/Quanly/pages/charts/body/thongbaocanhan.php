@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <base href="https://quanlychitieu2030.herokuapp.com/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Dashboard 2</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://quanlychitieu2030.herokuapp.com/MVC/view/Quanly/plugins/fontawesome-free/css/all.min.css">
@@ -83,7 +82,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Dashboard v2</h1>
+            <h1 class="m-0">Thông báo cá nhân</h1>
             <?php
             echo "<form class='login-container' action='../thongbao/guicanhan' method='POST'>
             <div class='mb-3'>
