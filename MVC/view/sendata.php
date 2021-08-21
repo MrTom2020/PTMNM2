@@ -18,6 +18,6 @@
 </folder>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"/>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-<script src="https://quanlychitieu2030.herokuapp.com/MVC/view/pages/js/sendata.js" crossorigin="anonymous"/>
+<script src="http://localhost:8080/PTMNM/MVC/view/pages/js/sendata.js" crossorigin="anonymous"/>
 </body>
 </html>

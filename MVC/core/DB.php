@@ -1,10 +1,14 @@
 <?php
 class DB
 {
-    public $servername = "us-cdbr-east-04.cleardb.com";
-    public $username = "b3b5c4ce68fd3f";
+    // public $servername = "us-cdbr-east-04.cleardb.com";
+    // public $username = "b3b5c4ce68fd3f";
+    // public $databasename = "heroku_59161a489581119";
+    // public $password = "00a554cf";
+    public $servername = "localhost";
+    public $username = "root";
     public $databasename = "heroku_59161a489581119";
-    public $password = "00a554cf";
+    public $password = "";
     public $con;
     //mysql://b3b5c4ce68fd3f:00a554cf@us-cdbr-east-04.cleardb.com/heroku_59161a489581119?reconnect=true
     function __construct()
